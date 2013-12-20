@@ -18,6 +18,7 @@ class Calc
         double primary();
         double statement();
         double declaration();
+        double assign();
         void clean_up_mess();
         bool is_declared( string );
         double define_name( string, double );
@@ -30,6 +31,7 @@ class Calc
         static const char name = 'n';
         static const char let = 'l';
         static const char square_root = 's';
+        static const char set = 'S';
         map< string, double > var_table;
 };
 

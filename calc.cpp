@@ -16,9 +16,9 @@ void Calc::run()
         {
             cout << ">";
             Token t = ts.get();
-            while (t.get_kind() == print )
+            while ( t.get_kind() == print )
                 t = ts.get();
-            if (t.get_kind() == quit )
+            if ( t.get_kind() == quit )
                 return;
             ts.putback( t );
             cout << "=" << statement() << '\n';
@@ -177,6 +177,8 @@ double Calc::statement()
     {
         case let:
             return declaration();
+        case set:
+            return assign();
         default:
             ts.putback( t );
             return expression();
@@ -196,6 +198,25 @@ double Calc::declaration()
 
     double d = expression();
     define_name( var_name, d );
+    return d;
+}
+
+double Calc::assign()
+{
+    Token t = ts.get();
+    if ( t.get_kind() != name )
+        throw runtime_error( "Oczekiwano nazwy" );
+    string var_name = t.get_name();
+
+    if ( ! is_declared( var_name ) )
+        throw runtime_error( "Nie można przypisać wartości niezadeklarowanej zmiennej" );
+
+    Token t2 = ts.get();
+    if ( t2.get_kind() != '=' )
+        throw runtime_error( "Brak znaku '=' w przypisaniu wartości zmiennej" );
+
+    double d = expression();
+    set_value( var_name, d );
     return d;
 }
 

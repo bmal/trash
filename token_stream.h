@@ -22,6 +22,7 @@ class Token_stream
         static const char let = 'l';
         static const char name = 'n';
         static const char square_root = 's';
+        static const char set = 'S';
 };
 
 #endif

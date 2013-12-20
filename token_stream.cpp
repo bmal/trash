@@ -9,10 +9,14 @@
  *
  * Statement:
  *      Declaration
+ *      Assign
  *      Expression
  *
  * Declaration:
  *      "let" Name "=" Expression
+ *
+ * Assign:
+ *      "set" Name "=" Expression
  *
  * Print:
  *      ;
@@ -108,6 +112,8 @@ Token Token_stream::get()
                     return Token( let );
                 else if ( s == "sqrt" )
                     return Token ( square_root );
+                else if ( s == "set" )
+                    return Token( set );
                 else
                     return Token( name, s );
             }
