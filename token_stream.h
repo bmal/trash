@@ -21,6 +21,7 @@ class Token_stream
         static const char number = '8';
         static const char let = 'l';
         static const char name = 'n';
+        static const char square_root = 's';
 };
 
 #endif

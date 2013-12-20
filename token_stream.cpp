@@ -1,10 +1,18 @@
 /*
  * *** Gramatyka ***
  *
- * Statement:
- *      Expression
+ * Calculation:
+ *      Statement
  *      Print
  *      Quit
+ *      Calculation Statement
+ *
+ * Statement:
+ *      Declaration
+ *      Expression
+ *
+ * Declaration:
+ *      "let" Name "=" Expression
  *
  * Print:
  *      ;
@@ -31,6 +39,8 @@
  * Primary:
  *      Number
  *      ( Expression )
+ *      { Expression }
+ *      "sqrt" Primary
  *      - Primary
  *      + Primary
  *
@@ -96,6 +106,8 @@ Token Token_stream::get()
                 cin.putback( ch );
                 if ( s == "let" )
                     return Token( let );
+                else if ( s == "sqrt" )
+                    return Token ( square_root );
                 else
                     return Token( name, s );
             }

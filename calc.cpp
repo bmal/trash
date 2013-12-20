@@ -149,6 +149,13 @@ double Calc::primary()
                     throw runtime_error( "Oczekiwano '}'\n" );
                 return d;
             }
+        case square_root:
+            {
+                double d = primary();
+                if ( d < 0 )
+                    throw runtime_error( "Pierwiastek z liczyb ujemnej" );
+                return sqrt( d );
+            }
         case number:
             return t.get_value();
         case '-':

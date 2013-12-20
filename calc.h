@@ -29,6 +29,7 @@ class Calc
         static const char number = '8';
         static const char name = 'n';
         static const char let = 'l';
+        static const char square_root = 's';
         map< string, double > var_table;
 };
 
