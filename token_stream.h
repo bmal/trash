@@ -19,6 +19,8 @@ class Token_stream
         static const char quit = 'q';
         static const char print = ';';
         static const char number = '8';
+        static const char let = 'l';
+        static const char name = 'n';
 };
 
 #endif

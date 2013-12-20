@@ -21,7 +21,7 @@ void Calc::run()
             if (t.get_kind() == quit )
                 return;
             ts.putback( t );
-            cout << "=" << expression() << '\n';
+            cout << "=" << statement() << '\n';
         }
     catch ( runtime_error & e )
     {
@@ -156,11 +156,70 @@ double Calc::primary()
         case '+':
             return primary();
         default:
+            if ( var_table.count( t.get_name() ) > 0 )
+                return get_value( t.get_name() );
+            else
             throw runtime_error( "Oczekiwano czynnika\n" );
     }
+}
+
+double Calc::statement()
+{
+    Token t = ts.get();
+    switch ( t.get_kind() )
+    {
+        case let:
+            return declaration();
+        default:
+            ts.putback( t );
+            return expression();
+    }
+}
+
+double Calc::declaration()
+{
+    Token t = ts.get();
+    if ( t.get_kind() != name )
+        throw runtime_error( "Oczekiwano nazwy w deklaracji" );
+    string var_name  = t.get_name();
+
+    Token t2 = ts.get();
+    if ( t2.get_kind() != '=' )
+        throw runtime_error( "Brak znaku '=' w deklaracji zmiennej " );
+
+    double d = expression();
+    define_name( var_name, d );
+    return d;
 }
 
 void Calc::clean_up_mess()
 {
     ts.ignore( print );
+}
+
+bool Calc::is_declared( string s )
+{
+    if ( var_table.count( s ) > 0 )
+        return true;
+    else
+        return false;
+}
+
+double Calc::define_name( string s, double d )
+{
+    if ( is_declared( s ) )
+        throw runtime_error( "Podwójna deklaracja" );
+    set_value( s, d );
+    return d;
+}
+
+double Calc::get_value( string s )
+{
+    map< string, double >::iterator iter = var_table.find( s );
+    return iter->second;
+}
+
+void Calc::set_value( string s, double d )
+{
+    var_table[ s ] = d;
 }

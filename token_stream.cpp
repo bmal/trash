@@ -67,6 +67,7 @@ Token Token_stream::get()
         case ')':
         case '{':
         case '}':
+        case '=':
         case '!':
         case '^':
         case '+':
@@ -78,14 +79,29 @@ Token Token_stream::get()
         case '.':
         case '0': case '1': case '2': case '3': case '4':
         case '5': case '6': case '7': case '8': case '9':
-            {
+        {
                 cin.putback( ch );
                 double val;
                 cin >> val;
                 return Token( number, val );
-            }
+        }
         default:
-            throw runtime_error( "Nieprawidłowy token" );
+        {
+            if ( isalpha( ch ) )
+            {
+                string s;
+                s += ch;
+                while ( cin.get( ch ) && ( isalpha( ch ) || isdigit( ch ) ) )
+                    s += ch;
+                cin.putback( ch );
+                if ( s == "let" )
+                    return Token( let );
+                else
+                    return Token( name, s );
+            }
+            else
+                throw runtime_error( "Nieprawidłowy token" );
+        }
     }
 }
 
