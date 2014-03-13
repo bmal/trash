@@ -1,12 +1,13 @@
-#include <stdlib.h>
-#include "calc.h"
-#include "calc.cpp"
+#include <vector>
+#include <iostream>
+#include <algorithm>
+#include <iterator>
+#include "test_alloc.h"
 
 using namespace std;
 
 int main()
 {
-    Calc kalkulator;
-    kalkulator.run();
-    return 0;
+    vector< int, My_allocator< int > > v;
+    v.push_back( 10 );
 }
