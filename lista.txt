@@ -1,0 +1,5605 @@
+
+PPS
+
+    Strona główna
+    ●
+    Pobierz
+    ●
+    Katedra Teorii Sygnałów
+    ●
+    Forum
+
+ 
+System Testów
+[id:2] Zaznacz tylko warunek konieczny, który pozwala okreslić dany zbiór wektorów jako bazę przestrzeni.[POPRAWNE]
+
+    a. Wszystkie wektory są linowo niezależne względem siebie i stanowią zbiór maksymalny w tej przestrzeni.
+    b. Wszystkie wektory są linowo niezależne względem siebie, są do siebie ortogonalne i stanowią zbiór maksymalny w tej przestrzeni.
+    c. Wszystkie wektory są linowo zależne względem siebie, są do siebie prostopadłe i stanowią zbiór maksymalny w tej przestrzeni.
+    d. Wszystkie wektory muszą być ortonormalne i linowo niezależne względem siebie.
+    e. Wszystkie wektory muszą być ortogonalne i linowo niezależne względem siebie.
+
+[id:50] Niech H0 oznacza hipotezę "szum" a H1 hipotezę "szum+sygnal". Niech D0 oznacza decyzje "H0 jest prawdziwa" a  D1 niech oznacza decyzje "H1 jest prawdziwa". Prawdopodobienstwo detekcji sygnalu to:[POPRAWNE]
+
+    a. P(D0|H0)
+    b. P(D1)
+    c. P(D1|H1)
+
+[id:52] Na wyjściu filtru innowacyjnego pojawia się sygnał, który jest tzw.[POPRAWNE]
+
+    a. bialym szumem
+    b. różowym szumem
+    c. nadfioletowym szumem
+
+[id:79] Na poniższym rysunku przedstawiono wynik wyznaczania średniej metodą adaptacyjną dla dwóch różnych współczynników . Który wykres przedstawia chwilową wartość średnią wyznaczoną przy najmniejszym współczynniku ? średnia adaptacyjna [POPRAWNE]
+
+    niebieski
+    czerwony
+    zielony
+
+[id:83] Biegunów nie posiadają[POPRAWNE]
+
+    a. filtry typu FIR
+    b. filtry typu IIR
+    c. filtry eliptyczne
+    d. filtry Butterwoth'a
+
+[id:86] Filtr cyfrowy jest stabilny, jeśli[POPRAWNE]
+
+    bieguny transmitancji leżą wewnątrz okręgu jednostkowego
+    zera transmitancji leżą wewnątrz okręgu jednostkowego
+    zera i bieguny transmitancji leżą wewnątrz okręgu jednostkowego
+    bieguny transmitancji leżą w lewej półpłaszczyźnie
+    zera transmitancji leżą w lewej półpłaszczyżnie
+
+[id:87] Która z zależności jest wzorem definicyjnym dyskretnej transformaty Fouriera (DFT):[POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:99] Poziomą osią wykresu modułu transmitancji jest oś:[POPRAWNE]
+
+    a. czasu
+    b. przesunięcia
+    c. częstotliwości
+    d. wartości chwilowej
+    e. amplitudy
+
+[id:101] Wskaz prawdziwe własności sygnału okresowego o okresie , gdzie \mathbb{R}, \mathbb{Z} oznaczają odpowiednio zbiór licz rzeczywistych i zbiór liczb całkowitych. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:102] Filtry typu FIR (o skończonej długości odpowiedzi impulsowej)[POPRAWNE]
+
+    są zawsze stabilne
+    mogą mieć liniową fazę
+    nie posiadają biegunów
+    nie posiadają zer
+    mogą być niestabilne
+    zawsze posiadają liniową fazę
+
+[id:103] Zmienną niezależną histogramu jest:[POPRAWNE]
+
+    a. czas
+    b. przesunięcie
+    c. częstotliwość
+    d. wartość chwilowa
+    e. amplituda
+
+[id:106] Zależność definiuje: [POPRAWNE]
+
+    funkcję autokorelacji dowolnego procesu
+    funkcję autokorelacji procesu stacjonarnego
+    funkcję autokowariancji procesu stacjonarnego
+    funkcję autokowariancji dowolnego procesu
+
+[id:107] Wartościowość modulacji jest to[POPRAWNE]
+
+    a. liczba wartości jaka może przyjąć każdy z symboli
+    b. liczba bitów zajmowanych przez pojedynczy symbol
+    c. liczba opisująca efektywność modulacji
+    d. liczba nośnych użytych w modulacji
+
+[id:110] Metoda Burg'a estymacji widmowej gęstości mocy jest metodą[POPRAWNE]
+
+    a. parametryczną
+    b. nieparametryczną
+    c. podprzestrzeni
+    d. efektywną
+
+[id:111] W poleceniu matlab/octave postaci [b a] = butter(N, [0.2 0.3], 'stop') N oznacza:[POPRAWNE]
+
+    a. liczbę par biegunów
+    b. liczbę biegunów
+    c. liczbę par zer
+    d. liczbę zer
+    e. długość odpowiedzi impulsowej w próbkach
+    f. liczbę pasm częstotliwości
+
+[id:116] Zmienną niezależną modułu transmitancji jest:[POPRAWNE]
+
+    a. czas
+    b. przesunięcie
+    c. częstotliwość
+    d. wartość chwilowa
+    e. amplituda
+
+[id:117] Widmo sygnału dyskretnego okresowego jest widmem[POPRAWNE]
+
+    a. dyskretnym okresowym
+    b. dyskretnym nieokresowym
+    c. ciągłym okresowym
+    d. ciągłym nieokresowym
+
+[id:119] We wzorze wielkość w jest [POPRAWNE]
+
+    a. szerokością przedziału estymacji
+    b. chwilową wartością sygnału
+    c. chwilową wartością próbki
+    d. oknem czasowym
+
+[id:123] Zaznacz prawdziwe zależności dotyczące dystrybuanty 2-go rzędu:[POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:125] Wartość funkcji autokowariancji w zerze określa jednocześnie:[POPRAWNE]
+
+    a. wariancję procesu
+    b. energię procesu
+    c. moc procesu
+    d. wartość średniokwadratową procesu
+
+[id:126] Zależność definiuje: [POPRAWNE]
+
+    funkcję autokowariancji dowolnego procesu
+    funkcję autokowariancji procesu stacjonarnego
+    funkcję autokorelacji dowolnego procesu
+    funkcję autokorelacji procesu stacjonarnego
+
+[id:128] Widmo sygnału ciągłego nieokresowego jest widmem[POPRAWNE]
+
+    a. ciągłym nieokresowym
+    b. ciągłym okresowym
+    c. dyskretnym nieokresowym
+    d. dyskretnym okresowym
+
+[id:130] Na poniższym rysunku przedstawiono wynik wyznaczania średniej metodą adaptacyjną dla dwóch różnych współczynników . Który wykres przedstawia chwilową wartość średnią wyznaczoną przy największym współczynniku ? średnia adaptacyjna [POPRAWNE]
+
+    niebieski
+    czerwony
+    zielony
+
+[id:133] Warunek odnośnie maksymalnego tłumienia filtru cyfrowego dotyczy pasma[POPRAWNE]
+
+    a. przepustowego
+    b. zaporowego
+    c. przejściowego
+    d. minimalnego
+
+[id:136] Interpolacja to proces[POPRAWNE]
+
+    zmniejszania częstotliwości próbkowania
+    zwiększania częstotliwości próbkowania
+    zmniejszania wartości próbek
+    zwiększania wartości próbek
+
+[id:140] Współczynniki filtru, którego moduł transmitancji prezentowany jest na wykresie, zostały w matlab/octave obliczone poleceniem:c[POPRAWNE]
+
+    a. [b a] = cheby1 (8, 2, 0.4, 'high')
+    b. [b a] = cheby1 (8, 2, [0.3 0.5], 'bandpass')
+    c. [b a] = cheby1 (8, 2, 0.3, 'high')
+    d. [b a] = cheby1 (8, 2, [0.2 0.4], 'stop')
+    e. [b a] = cheby1 (8, 2, 0.4, 'low')
+    f. [b a] = cheby1 (8, 2, 0.2, 'low')
+    g. [b a] = cheby1 (8, 2, [0.3 0.6], 'high')
+
+[id:142] Funkcja, ktorej znajomosc jest niezbedna do wyznaczenia optymalnych parametrow kwantowania (tj. granic przedzialow i wartosci reprezentujacych dany przedzial) to:[POPRAWNE]
+
+    a. funkcja gęstości pradopodobienstwa sygnalu
+    b. charakterystyka widmowa sygnalu
+
+[id:147] Jeżeli wiemy, że transformata Fouriera sygnału jest "przesunięta" o częstotliwość k_0, \, k_0 \in (-1,1) czyli X ( k ) = Y ( k+k_0 ) to możemy łatwo wyznaczyć postać czasową sygnału w nastepujący sposób: [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:149] Dwa wektory : [POPRAWNE]
+
+    a. należą do innych przestrzeni
+    b. są ortogonalne
+    c. są ortonormalne
+    d. są ortogonalne i ortonormalne
+    e. są dwoma wektorami bazy przestrzeni 
+
+[id:151] Estymator[POPRAWNE]
+
+    a. jest wielkością losową
+    b. jest wielkością deterministyczną
+    c. posiada rozkład prawdopodobieństwa
+    d. jest statystycznie niezależny
+    e. jest nieskorelowany
+
+[id:152] Prawdziwe jest stwierdzenie:[POPRAWNE]
+
+    odpowiedź impulsowa jest odwrotną transformatą Fouriera funkcji transmitancji
+    funkcja transmitancji jest transformata Fouriera z odpowiedzi impulsowej
+    odpowiedź impulsowa jest transformatą Fouriera z funkcji transmitancji
+    funkcja transmitancji jest odwrotną transformatą Fouriera z odpowiedzi impulsowej
+
+[id:154] W wyniku -punktowej DFT powstaje ciąg -elementowy. W ciągu tym liczba niezależnych wyrazów wynosi [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:158] W poleceniu matlab/octave postaci [b a] = butter(N, [0.2 0.3], 'stop') N oznacza:[POPRAWNE]
+
+    a. liczbę par biegunów
+    b. liczbę biegunów
+    c. liczbę par zer
+    d. liczbę zer
+    e. długość odpowiedzi impulsowej w próbkach
+    f. liczbę pasm częstotliwości
+
+[id:159] Wskaz prawdziwe własności sygnału okresowego o okresie , gdzie \mathbb{R}, \mathbb{Z} oznaczają odpowiednio zbiór licz rzeczywistych i zbiór liczb całkowitych. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:160] Szybkość symbolowa modulacji (transmisji) zdefiniowana jest wzorem[POPRAWNE]
+
+    a. gdzie T jest czasem trwania symbolu
+    b. gdzie T jest czasem trwania symbolu a m jest liczbą bitów przypadających na symbol
+    c. gdzie jest czasem trwania symbolu
+    d. gdzie T jest czasem trwania symbolu a m jest liczbą bitów zajmowanych przez symbol 
+
+[id:161] Wrażliwość struktury filtru cyfrowego opisuje[POPRAWNE]
+
+    wpływ błędów zaokrągleń na jakość filtracji
+    wrażliwość struktury na przeprojektowywanie filtru
+    wrażliwość struktury na błędy popełnione na etapie projektowania
+    wrażliwość struktury na błędy kwantowania przetwarzanych sygnałów
+
+[id:162] Jeżeli ciągi czasowe i x_{2}[n] mają transformaty Fouriera (DFT), odpowiednio, X_1(m) i X_2(m), to dla x_{sum}[n]=x_1[n]+x_2[n] właściwość liniowości DTF można zapisać jako [POPRAWNE]
+
+    a. (splot)
+    b. (iloraz)
+    c. (iloczyn)
+    d. (suma) 
+
+[id:164] Transformacja dwuliniowa wykorzystywana jest do projektowania filtrów cyfrowych[POPRAWNE]
+
+    a. o nieskończonej długości impulsowej
+    b. na podstawie filtrów analogowych
+    c. Butterworth'a
+    d. eliptycznych
+    e. o skończonej długości odpowiedzi impulsowej
+    f. kratowych
+    g. minimalnofazowych
+
+[id:165] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem częstotliwości
+    b. z kluczowaniem fazy
+    c. z kluczowaniem amplitudy
+    d. fazy
+    e. amplitudy
+
+[id:166] Aby możliwe było przeprowadzenie estymacji, proces musi być procesem[POPRAWNE]
+
+    a. stacjonarnym i ergodycznym
+    b. dobrze uwarunkowanym
+    c. ergodycznym
+    d. stacjonarnym
+    e. niezmiennym w czasie
+
+[id:168] Na podanym niżej rysunku zaprezentowana widmową gęstość mocy sygnału - widmo. Znana jest częstotliwość próbkowania sygnału Fs=1000[Hz]. widmo Zaznacz wszystkie prawidłowe obserwacje/wnioski wynikające z tego rysunku.[POPRAWNE]
+
+    Na sygnał składają się dwa sygnały o częstotliwościach 200[Hz], 400[Hz] i szum
+    Na sygnał składają się cztery sygnały o częstotliwościach 200[Hz], 400[Hz], 600[Hz], 800[Hz] i szum
+    W świecie realnym nie wystepują częstotliwości ujemne, więc nie obserwujemy ich w widmie
+    W świecie realnym nie wystepują częstotliwości ujemne a mimo to na tym wykresie częstotliwości powyżej 500[Hz] są częstotliwościami ujemnymi, gdyż widmo jest okresowe i symetryczne.
+    Próbki prezentowanego sygnału w dziedzinie czasu miały wartości rzeczywiste i dlatego prezentowane widmo jest symetryczne.
+    Próbki prezentowanego sygnału w dziedzinie czasu miały wartości zespolone i dlatego prezentowane widmo jest symetryczne.
+
+[id:170] Do zbudowania grafu przepływu filtra cyfrowego potrzebne są elementy[POPRAWNE]
+
+    mnożące próbkę przez liczbę
+    sumujące 2 próbki
+    sumujące kilka próbek
+    opóźniające
+    rotujące
+    mnożące próbki
+
+[id:171] Zaznacz prawdziwe stwierdzenia:[POPRAWNE]
+
+    a. Każdy wektor w danej przestrzeni można otrzymać przez kombinację liniową wektorów bazy.
+    b. Dowolny wektor w danej przestrzeni można otrzymać przez kombinację ortogonalną wektorów bazy.
+    c. Każdy wektor w danej przestrzeni można otrzymać przez kombinację ortogonalną wektorów ortogonalnych.
+    d. Każdy wektor w danej przestrzeni można otrzymać przez kombinację ortogonalną wektorów ortonormalnych.
+    e. Każdy wektor w danej przestrzeni można otrzymać przez ortonormalizację tego wektora.
+
+[id:172] Estymator wariancji procesu dany jest zależnością[POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e. 
+
+[id:173] Zwielokrotnienie TDMA (time division multiple access) oznacza[POPRAWNE]
+
+    a. jednoczesną pracę wielu użytkowników na tej samej częstotliwości
+    b. jednoczesna pracę wielu użytkowników na tej samej częstotliwości i w tym samym czasie
+    c. jednoczesną pracę wielu użytkowników w tym samym czasie na zmieniających się częstotliwościach
+    d. jednoczesną pracę wielu użytkowników z wykorzystaniem różnych kodów dostępu
+
+[id:175] Równanie różnicowe ma postać[POPRAWNE]
+
+[id:178] Systemu zmienne w czasie różnią się od systemów niezmiennych w czasie tym, że[POPRAWNE]
+
+    odpowiedź impulsowa jest zależna od czasu pobudzenia systemu
+    funkcja transmitancji jest funkcją zarówno częstotliwości jak i czasu
+    sygnał na jego wyjściu zmienia się niezależnie od sygnału wejściowego
+    odpowiedż systemu w danej chwili czasu zależy jedynie od sygnału na wejściu w tej samej chwili czasu
+
+[id:179] Pojęcie cyklostacjonarności dotyczy:[POPRAWNE]
+
+    a. sygnałów telekomunikacji cyfrowej
+    b. dowolnych sygnałów telekomunikacyjnych
+    c. dowolnych sygnałów wolnozmiennych
+    d. sygnałów ergodycznych
+    e. sygnałów akustycznych
+    f. sygnałów medycznych
+
+[id:180] Zależność jest słuszna dla procesu: [POPRAWNE]
+
+    stacjonarnego całkowicie
+    słabo stacjonarnego
+    lokalnie stacjonarnego
+    cyklostacjonarnego
+    - alfa stacjonarnego
+    - em stacjonarnego 
+
+[id:181] Obciążenie estymatora opisuje[POPRAWNE]
+
+    a. na ile średnio wynik estymacji różnił się będzie od dokładnej wartości
+    b. rozrzut wyników wokół wartości średniej wyników estymacji
+    c. na ile dany wynik będzie się różnił od poprzedniego wyniku
+    d. na ile dany wynik będzie się różnił od wartości dokładnej
+
+[id:182] Poziom ufności opisuje[POPRAWNE]
+
+    a. prawdopodobieństwo, że wynik estymacji znajdzie się w przedziale ufności
+    b. pewność, że wynik estymacji znajdzie się w przedziale ufności
+    c. ryzyko, że wynik estymacji znajdzie się w przedziale ufności
+    d. prawdopodobieństwo, że wynik estymacji znajdzie się poza przedziałem ufności
+    e. pewność, że wynik estymacji znajdzie się poza przedziałem ufności
+
+[id:183] We wzorze wielkość w jest [POPRAWNE]
+
+    a. szerokością przedziału estymacji
+    b. chwilową wartością sygnału
+    c. chwilową wartością próbki
+    d. oknem czasowym
+
+[id:184] W zależność opisującej sygnał telekomunikacyjny, T jest [POPRAWNE]
+
+    a. czasem trwania symbolu
+    b. czasem trwania bitu informacji
+    c. czasem trwania próbki
+    d. okresem drgań nośnej
+    e. odstępem pomiędzy próbkami
+
+[id:185] Niech y(t) oznacza sygnal oryginalny, a v(t) niech oznacza sygnal estymujacy y(t). Blad estymacji definiujemy jako:[POPRAWNE]
+
+    e(t) = y(t) - v(t)
+    e(t) = y(t)+v(t)
+    e(t) = [y(t)+v(t)]/2
+    e(t) = [y(t)-v(t)]/[y(t)+v(t)]
+    E{e(t)*e(t)}
+    E{ [y(t)-v(t)]*[y(t)-v(t)]}
+
+[id:186] Zależność definiuje: [POPRAWNE]
+
+    dystrubuantę 1-go rzędu
+    gęstość prawdopodobieństwa 1-go rzędu
+    histogram
+    prawdopodobieństwo wystąpienia wartości sygnału 
+
+[id:187] Szerokość pasma przejściowego filtru cyfrowego nie może być zerowa, ponieważ[POPRAWNE]
+
+    a. liczba zer lub biegunów musiałaby być nieskończona
+    b. przejście pomiędzy pasmem przepustowym a zaporowym nie może się odbywać w nieskończenie krótkim czasie
+    c. taki filtr byłby filtrem nieprzyczynowym
+    d. wzmocnienie takiego filtru byłoby nieskończenie wielkie
+
+[id:188] Zaznacz poprawne formuły opisujące splot w dziedzinie dzęstotliwości. oznaczają odpowiednio dyskretny czas i dyskretną częstotliwość. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g. 
+
+[id:189] Estymator zgodny, to taki[POPRAWNE]
+
+    a. dla którego odległość wyników estymacji w sensie statystycznym, maleje ze wzrostem liczby próbek N
+    b. którego obciążenie jest zerowe jeśli liczba próbek jest coraz wieksza
+    c. dla którego wyniki są najlepsze z możliwych do uzyskania przy danej liczbie próbek
+    d. błąd średniokwadratowy jest na zadawalającym poziomie i osiąga wartość minimalną
+
+[id:192] Poziomą osią wykresu odpowiedzi impulsowej jest oś:[POPRAWNE]
+
+    a. czasu
+    b. przesunięcia
+    c. częstotliwości
+    d. wartości chwilowej
+    e. amplitudy
+
+[id:193] Aliasing to[POPRAWNE]
+
+    a. rozmycie prążka DFT
+    b. przesunięcie fazy prążka DFT
+    c. to samo co przeciek widma
+    d. nakładanie się na siebie widma oryginalnego i widma powtarzanego w otoczeniu połowy częstotliwości próbkowania
+
+[id:194] Która z poniżej prezentowanych definicji łącznej dystrybuantu 2-go rzędu jest poprawna:[POPRAWNE]
+
+[id:195] Współczynniki filtru, którego moduł transmitancji prezentowany jest na wykresie, zostały w matlab/octave obliczone poleceniem: filtrPP[POPRAWNE]
+
+    a. [b a] = butter (12, [0.3 0.6], 'bandpass')
+    b. [b a] = butter (12, [0.2 0.4], 'bandpass')
+    c. [b a] = butter (12, [0.3 0.6], 'stop')
+    d. [b a] = butter (12, [0.2 0.4], 'stop')
+    e. [b a] = butter (12, 0.3, 'low')
+    f. [b a] = butter (12, 0.3, 'high')
+    g. [b a] = butter (12, [0.3 0.6], 'high')
+
+[id:198] Który z poniższych wzorów, określa prosta adaptacyjną formułę wyznaczania wartości średniej sygnału ? [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g. 
+
+[id:201] Zaznacz pradziwe stwierdzenia dla przestrzeni . [POPRAWNE]
+
+    a. Liczba wektorów bazy równa się 5 a liczba wektorów pozostałych jest nieskończona
+    b. Rozmiar (ilość współrzędnych) wektorów bazy równa się 5 a rozmiar wektorów pozostałych jest nieskończony
+    c. Liczba wektorów bazy jest nieskończona a liczba wektorów pozostałych jest równa 5
+    d. Rozmiar (ilość współrzędnych) wektorów bazy jest nieskończony a liczba wektorów bazy wynosi 5
+
+[id:202] Na poniższym rysunku przedstawiono wynik wyznaczania średniej metodą adaptacyjną dla dwóch różnych współczynników . Który wykres przedstawia chwilową wartość średnią wyznaczoną przy największym współczynniku ? średnia adaptacyjna [POPRAWNE]
+
+    niebieski
+    czerwony
+    zielony
+
+[id:205] Wartość estymatora zwykle różni się od wartości dokładnej estymowanej wielkości, ponieważ[POPRAWNE]
+
+    a. skończony zbiór próbek nie jest reprezentatywny dla całej realizacji
+    b. operuje na próbkach a błędy próbkowania są nieuniknione
+    c. estymacja realizowana jest w oparciu o jedną realizację
+    d. nie dysponujemy wszystkimi realizacjami
+
+[id:206] Niech H0 oznacza hipotezę "szum" a H1 hipotezę "szum+sygnal". Niech D0 oznacza decyzje "H0 jest prawdziwa" a  D1 niech oznacza decyzje "H1 jest prawdziwa". Prawdopodobienstwo P(D1|H1) to prawdopodobienstwo:[POPRAWNE]
+
+    a. detekcji sygnału
+    b. fałszywego alarmu
+
+[id:207] Czy prawdziwa jest zależnosc P(D, H) = P(D|H)P(H)?[POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:208] Zmienną niezależną widma amplitudowego jest:[POPRAWNE]
+
+    a. czas
+    b. przesunięcie
+    c. częstotliwość
+    d. wartość chwilowa
+    e. amplituda
+
+[id:209] Cyklostacjonarność definiowana jest dla:[POPRAWNE]
+
+    a. sygnałów telekomunikacyjnych
+    b. sygnałów telekomunikacji cyfrowej
+    c. sygnałów okresowych
+    d. dowolnych sygnałów stacjonarnych
+
+[id:211] Realizacją procesu nazywamy:[POPRAWNE]
+
+    a. pojedynczą funkcję będącą wynikiem losowania
+    b. przekrój procesu dla ustalonego wyniku losowania
+    c. zbiorem wszystkich funkcji, które składają się na proces
+    d. opisanie procesu za pomocą statystyk
+
+[id:212] Poziomą osią wykresu widma amplitudowego jest oś:[POPRAWNE]
+
+    a. czasu
+    b. przesunięcia
+    c. częstotliwości
+    d. wartości chwilowej
+    e. amplitudy
+
+[id:213] Jedyna ortonormalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:214] Operator liniowy, to taki [POPRAWNE]
+
+    a. którego współczynniki leżą na linii prostej
+    b. który spełnia zasadę superpozycji
+    c. który linearyzuje próbki wejściowe
+
+[id:217] Niech H0 oznacza hipotezę "szum" a H1 hipotezę "szum+sygnal". Niech D0 oznacza decyzje "H0 jest prawdziwa" a  D1 niech oznacza decyzje "H1 jest prawdziwa". Prawdopodobienstwo P(D1|H0) to prawdopodobienstwo:[POPRAWNE]
+
+    a. falszywego alarmu
+    b. detekcji sygnalu
+
+[id:221] Estymator widmowej gęstości mocy procesu można uzyskać z zależności ( oznacza transformację Fouriera) [POPRAWNE]
+
+[id:223] Współczynniki filtru, którego moduł transmitancji prezentowany jest na wykresie, zostały w matlab/octave obliczone poleceniem:a[POPRAWNE]
+
+    a. [b a] = cheby1 (8, 2, [0.4 0.6], 'high')
+    b. [b a] = cheby1 (8, 2, [0.4 0.6], 'bandpass')
+    c. [b a] = cheby1 (8, 2, 0.3, 'high')
+    d. [b a] = cheby1 (8, 2, [0.2 0.3], 'stop')
+    e. [b a] = cheby1 (8, 2, [0.2 0.3], 'bandpass')
+    f. [b a] = cheby1 (8, 2, 0.2, 'low')
+    g. [b a] = cheby1 (8, 2, [0.3 0.6], 'high')
+
+[id:224] Wzór określa: [POPRAWNE]
+
+    a. całkowitą energię sygnału.
+    b. całkowita moc sygnału
+    c. całkowitą wariancję sygnału
+    d. chwilową wartość średnią sygnału
+
+[id:226] Zaznacz znane Ci własności Delty Diracka.[POPRAWNE]
+
+[id:227] Transformacja dwuliniowa pozwala na przeliczenie[POPRAWNE]
+
+    a. położenia zer i biegunów z płaszczyzny "s" na płaszczyznę "z"
+    b. położenia zer i biegunów z płaszczyzny "z" na płaszczyznę "s"
+    c. położenia zer i biegunów filtru dolnoprzepustowego na dowolny inny
+    d. położenia zer i biegunów filtru pasmowoprzepustowego na filtr pasmowozaporowy
+
+[id:228] W przestrzeni można stworzyć tylko 5 losowo wybranych wektorów, które są permutacją wektorów bazy. [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:230] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem fazy
+    b. z kluczowaniem amplitudy
+    c. z kluczowaniem częstotliwości
+    d. amplitudy
+    e. częstotliwości
+
+[id:231] Iloczyn skalarny dwóch wektorów prawidłowo określają wyrażenia: [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:234] Równomierne (okresowe) próbkowanie sygnału analogowego w dziedzinie czasu może być przedstawione jako wymnożenie tego sygnału przez sumę impulsów Diraca (funkcja grzebieniowa), czyli[POPRAWNE]
+
+[id:237] W ogólnym przypadku, zmienną niezależną dystrybuanty I-rzędu procesu stochastycznego jest:[POPRAWNE]
+
+    a. wynik losowania
+    b. czas
+    c. sygnał
+    d. prawdopodobieństwo
+    e. wartość chwilowa sygnału
+
+[id:239] Jeśli oznacza czas dyskretny, to definicja transformaty Z ma postać [POPRAWNE]
+
+[id:240] We wzorze wielkość w jest [POPRAWNE]
+
+    a. szerokością przedziału estymacji
+    b. chwilową wartością sygnału
+    c. chwilową wartością próbki
+    d. oknem czasowym
+
+[id:241] Jak objawia się przesunięcie sygnału w czasie w transformacie Fouriera ? [POPRAWNE]
+
+[id:243] Zaznacz poprawne formuły opisujące splot w dziedzinie czasu. oznaczają odpowiednio dyskretny czas i dyskretną częstotliwość. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:244] Iloczyn skalarny dwóch wektorów prawidłowo określają wyrażenia: [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:245] Filtry cyfrowe eliptyczne charakteryzują się[POPRAWNE]
+
+    a. zafalowaniami w pasmach przepustowym i zaporowym
+    b. zafalowaniami tylko w paśmie zaporowym
+    c. zafalowaniami tylko w paśmie przepustowym
+    d. maksymalnie płaskim modułem funkcji transmitancji
+
+[id:247] Dyskretna odwrotna transformata Fouriera zdefiniowana jest zależnością[POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:248] Proces normalny (gaussowski) to taki proces, którego:[POPRAWNE]
+
+    a. rozkład prawdopodobieństwa jest krzywą Gaussa
+    b. dystrybuanta jest krzywą Gaussa
+    c. widmowa gęstość mocy jest krzywą Gaussa
+    d. autokorelacja jest krzywą Gaussa
+
+[id:250] Jedyna ortogonalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:253] Wzór określa: [POPRAWNE]
+
+    a. całkowitą energię sygnału.
+    b. całkowita moc sygnału
+    c. całkowitą wariancję sygnału
+    d. chwilową wartość średnią sygnału
+
+[id:264] W przestrzeni można stworzyć tylko 5 losowo wybranych wektorów, które są permutacją wektorów bazy. [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:269] Minimalizacje bledu kwantowania mozna zapewnic poprzez odpowiedni dobor poziomow kawntowania (granic przedzialow) oraz wartosci reprezentujacych dany przedzial. Dzieje sie tak:[POPRAWNE]
+
+    a. zawsze
+    b. czasami
+    c. nigdy
+
+[id:276] W definicji , P oznacza: [POPRAWNE]
+
+    prawdopodobieństwo
+    pochodną
+    gęstość prawdopodobieństwa
+    funkcję
+
+[id:286] Filtry typu IIR (o nieskończonej długości odpowiedzi impulsowej)[POPRAWNE]
+
+    posiadają bieguny
+    nie posiadają biegunów
+    mogą być niestabilne
+    są zawsze stabilne
+    nie posiadają zer
+
+[id:295] Lokalna stacjonarność oznacza:[POPRAWNE]
+
+    a. niewielkie zmiany w sygnale na krótkim odcinku czasu
+    b. podobieństwo grup realizacji procesu
+    c. słabą stacjonarność w połączeniu ze skończonym czasem trwania procesu
+    d. cykliczność zmian gęstości prawdopodobieństwa
+
+[id:297] Do przeprowadzenia estymacji statystyki lub parametru procesu konieczne jest co najmniej[POPRAWNE]
+
+    a. N próbek jednej z realizacji
+    b. N próbek kilku realizacji
+    c. próbki jednej z realizacji
+    d. przekrój procesu po czasie
+    e. przekrój procesu po zbiorze
+
+[id:333] W wyniku -punktowej DFT powstaje ciąg -elementowy. W ciągu tym liczba niezależnych wyrazów wynosi [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:335] Jedną z metod projektowania filtrów o skończonej długości odpowiedzi impulsowej jest metoda[POPRAWNE]
+
+    a. okna
+    b. transformacji dwuliniowej
+    c. projekcji ortogonalnej
+    d. linearyzacji charakterystyki
+    e. skończonych iteracji
+
+[id:339] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - \sum_{n=2}^{N-1} \sigma ( n - 2 ) e^{-j \frac{2 \pi}{N} k n} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:341] Estymator gęstości prawdopodobieństwa dany jest zależnością[POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e. 
+
+[id:342] Uklad Youle'a-Walkera nazywamy inaczej ukladem[POPRAWNE]
+
+    a. normalnym równań
+    b. pełnym równań
+    c. uzupełnionym równań
+    d. nieodwracalnym równań
+
+[id:343] Równoległe połączenie dwóch liniowych układów niezmiennych w czasie, o odpowiedziach impulsowych i h_2 (n ), ma łączną odpowiedź impulsową [POPRAWNE]
+
+[id:345] Twierdzenie ergodyczne dla wartości średniej procesu z czasem ciągłym ma postać:[POPRAWNE]
+
+[id:346] Wariancja estymatora zdefiniowana jest zależnością:[POPRAWNE]
+
+[id:347] Proces jest słabo stacjonarny, jeśli spełniony jest warunek/warunki:[POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e. 
+
+[id:348] Przestrzeń Hilberta:[POPRAWNE]
+
+    a. jest zupełna
+    b. ma metrykę
+    c. jest liniowa
+    d. jest unitarna
+    e. nie jest unormowana
+    f. jest nieliniowa
+
+[id:350] Zmienną niezależną funkcji autokorelacji jest:[POPRAWNE]
+
+    a. czas
+    b. przesunięcie
+    c. częstotliwość
+    d. wartość chwilowa
+    e. amplituda
+
+[id:352] Wynikiem transformacja Fouriera sygnału rzeczywistego w ogólnym przypadku jest[POPRAWNE]
+
+    a. funkcja zespolona
+    b. funkcja rzeczywista
+    c. liczba zespolona
+    d. liczba rzeczywista
+
+[id:353] Wzór określa: [POPRAWNE]
+
+    a. całkowitą energię sygnału.
+    b. całkowita moc sygnału
+    c. całkowitą wariancję sygnału
+    d. chwilową wartość średnią sygnału
+
+[id:355] Procesy stochastyczne stacjonarne, dla których funkcja korelacji wzajemnej jest równa zero dla dowolnego opóźnienia nazywamy procesami:[POPRAWNE]
+
+    a. ortogonalnymi
+    b. statystycznie niezależnymi
+    c. zerowymi
+    d. liniowo-niezależnymi
+    e. niepowiązanymi
+    f. lokalnie stacjonarnymi
+
+[id:356] Estymator wartości średniej procesu dany jest zależnością[POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e. 
+
+[id:357] Dla filtrów o skończonej długości odpowiedzi impulsowej[POPRAWNE]
+
+    stopień wielomianu w mianowniku wynosi zero
+    stopień wielomianu w liczniku wynosi zero
+    stopień wielomianu w liczniku wynosi jeden
+    stopień wielomianu w mianowniku wynosi jeden
+
+[id:358] W odbiorniku realizowane jest[POPRAWNE]
+
+    a. dekompresja
+    b. odtwarzanie nośnej
+    c. rozpakowanie bloków i segmentów
+    d. filtracja odszumiająca
+
+[id:360] Jaka jest rozdzielczość widma (odległość pomiędzy dwoma sąsiednimi prążkami widma) ( -- liczba próbek sygnału poddawanego DFT, f_s -- częstotliwość próbkowania) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:361] Oznaczenia: - sygnał wejściowy, h ( n ) - odpowiedź impulsowa układu, y ( n ) - sygnał wyjściowy. Dla układu dyskretnego niezmiennego w czasie prawdziwy jest/są poniższe formuły: [POPRAWNE]
+
+    (splot)
+    (splot)
+
+[id:362] Przekrój procesu stochastycznego po czasie jest:[POPRAWNE]
+
+    a. realizacją
+    b. zmienną losową
+    c. rozkładem prawdopodobieństwa
+    d. dystrybuantą
+
+[id:363] Na poniższym rysunku przedstawiono wynik wyznaczania średniej metodą adaptacyjną dla dwóch różnych współczynników . Który wykres przedstawia chwilową wartość średnią wyznaczoną przy najmniejszym współczynniku ? średnia adaptacyjna [POPRAWNE]
+
+    niebieski
+    czerwony
+    zielony
+
+[id:364] We wzorze wielkość w jest [POPRAWNE]
+
+    a. szerokością przedziału estymacji
+    b. chwilową wartością sygnału
+    c. chwilową wartością próbki
+    d. oknem czasowym
+
+[id:365] Błąd średniokwadratowy estymacji zdefiniowany jest zależnością [POPRAWNE]
+
+[id:370] Na poniższym rysunku przedstawiono wynik wyznaczania średniej metodą adaptacyjną dla dwóch różnych współczynników . Który wykres przedstawia chwilową wartość średnią wyznaczoną przy największym współczynniku ? średnia adaptacyjna [POPRAWNE]
+
+    niebieski
+    czerwony
+    zielony
+
+[id:371] Jeśli oznacza czas dyskretny, to definicja transformaty Z ma postać [POPRAWNE]
+
+[id:372] Jaką przestrzeń rozpinają wektory v ( n ) = e^{-j \frac{2 \pi}{N} n k} ? Gdzie N \in \mathbb{N}, \,\, k,n = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b. przestrzeń wektorów o rozmiarze o wartościach zespolonych
+    c. przestrzeń wektorów o rozmiarze o wartościach rzeczywistych
+    d.
+    e.
+    f.
+    g.
+    h.
+    i.
+    j.
+    k. nie rozpinają żadnej przestrzeni
+    l. nie spełniają warunków na bazę przestrzeni
+
+[id:374] Prawdopodobienstwa P(H0) i P(H1) to tzw. prawdopodobienstwa:[POPRAWNE]
+
+    a. apriori
+    b. aposteriori
+
+[id:375] Okno w metodach estymacji widma stosowane jest w celu [POPRAWNE]
+
+    a. zmniejszenia wariancji estymatora wgm
+    b. wycięcia fragmentu sygnału
+    c. wygładzenia sygnału
+    d. zmniejszenia przecieku widma
+    e. zmniejszenia szerokości pasma przejściowego
+
+[id:376] Poziomą osią wykresu funkcji autokorelacji jest oś:[POPRAWNE]
+
+    a. czasu
+    b. przesunięcia
+    c. częstotliwości
+    d. wartości chwilowej
+    e. amplitudy
+
+[id:378] Zależność jest słuszna dla procesu: [POPRAWNE]
+
+    stacjonarnego całkowicie
+    słabo stacjonarnego
+    lokalnie stacjonarnego
+    cyklostacjonarnego
+    - alfa stacjonarnego
+    - em stacjonarnego 
+
+[id:379] Zmienną niezależną odpowiedzi impulsowej jest:[POPRAWNE]
+
+    a. czas
+    b. przesunięcie
+    c. częstotliwość
+    d. wartość chwilowa
+    e. amplituda
+
+[id:381] Jeżeli w próbkowanym sygnale maksymalna częstotliwość ma wartość , to twierdzenie o próbkowaniu mówi, że minimalna częstotliwość poprawnego próbkowania musi być: [POPRAWNE]
+
+[id:382] Zależność definiuje: [POPRAWNE]
+
+    funkcję autokowariancji dowolnego procesu
+    funkcję autokowariancji procesu stacjonarnego
+    funkcję autokorelacji dowolnego procesu
+    funkcję autokorelacji procesu stacjonarnego
+
+[id:383] Obciążenie estymatora zdefiniowane jest zależnością[POPRAWNE]
+
+[id:386] Warunek odnośnie minimalnego tłumienia filtru cyfrowego dotyczy pasma[POPRAWNE]
+
+    a. zaporowego
+    b. przejściowego
+    c. przepustowego
+    d. minimalnego
+
+[id:387] Relacje między wyjściem a wejściem systemu liniowego inercyjnego niezmiennego w czasie dla czasu dyskretnego opisuje zależność[POPRAWNE]
+
+[id:388] Które z poniższych warunków spełnia poziom ufności estymatora [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:389] Widmo sygnału ciągłego okresowego jest widmem[POPRAWNE]
+
+    a. dyskretnym nieokresowym
+    b. dyskretnym okresowym
+    c. ciągłym nieokresowym
+    d. ciągłym okresowym
+
+[id:392] Zaznacz pradziwe stwierdzenia dla przestrzeni . [POPRAWNE]
+
+    a. Liczba wektorów bazy równa się 5 a liczba wektorów pozostałych jest nieskończona
+    b. Rozmiar (ilość współrzędnych) wektorów bazy równa się 5 a rozmiar wektorów pozostałych jest nieskończony
+    c. Liczba wektorów bazy jest nieskończona a liczba wektorów pozostałych jest równa 5
+    d. Rozmiar (ilość współrzędnych) wektorów bazy jest nieskończony a liczba wektorów bazy wynosi 5
+
+[id:393] W definicji transformaty Z  wielkość z oznacza [POPRAWNE]
+
+    liczbę zespoloną
+    liczbę rzeczywistą
+    liczbę urojoną
+    funkcje zespoloną
+    funkcję rzeczywistą
+    funkcję urojoną
+
+[id:394] Struktury filtrów cyfrowych różnią się[POPRAWNE]
+
+    liczba elementów opóźniających
+    liczba elementów mnożących
+    liczbą elementów sumujących
+    wrażliwością na błędy zaokrągleń współczynników filtru
+    wrażliwością na błędy kwantowania
+    liczbą zer i biegunów
+
+[id:396] Wzór określa: [POPRAWNE]
+
+    a. całkowitą energię sygnału.
+    b. całkowita moc sygnału
+    c. całkowitą wariancję sygnału
+    d. chwilową wartość średnią sygnału
+
+[id:397] Niech E oznacza wartość oczekiwanę a V wariancję zmiennej losowej. Niech e(t) oznacza zmienną losowa określającą błąd estymacji. Kryterium średniokwadratowe, to[POPRAWNE]
+
+    E[e(t)*e(t)]
+    E[e(t)/e(t)]
+    V[e(t)]
+    E[e(t)]*E[e(t)]
+
+[id:399] Estymacja to [POPRAWNE]
+
+    a. oszacowanie statystyki bądź parametru procesu stochastycznego na podstawie skończonego zbioru próbek jednej z realizacji
+    b. oszacowanie statystyki bądź parametru procesu stochastycznego na podstawie jednej realizacji
+    c. oszacowanie statystyki lub parametru procesu stochastycznego na podstawie skończonego zbioru próbek kilku realizacji
+    d. oszacowanie przyszłej wartości procesu stochastycznego na podstawie zbioru próbek
+    e. odtworzenie sygnału analogowego na podstawie próbek sygnału cyfrowego
+    f. oszacowanie wartości sygnału analogowego na podstawie próbek sygnału
+
+[id:401] Szybkość bitowa modulacji (transmisji) zdefiniowana jest zależnością[POPRAWNE]
+
+    a. gdzie T jest czasem trwania symbolu a m jest liczbą bitów zajmowanych przez symbol
+    b. gdzie T jest czasem trwania symbolu a m jest liczbą bitów zajmowanych przez symbol
+    c. gdzie T jest czasem trwania symbolu
+    d. gdzie jest czasem trwania symbolu 
+
+[id:405] Liczba próbek w algorytmie radix-2 obliczania szybkiej transformacji Fouriera musi być potęgą liczby 2 ponieważ[POPRAWNE]
+
+    a. próbki dzielone są na parzyste i nieparzyste aż do uzyskania podzbiorów 2-punktowych
+    b. próbki dzielone są na nieparzyste i parzyste i liczone są transformaty z 2 podzbiorów próbek
+    c. za część próbek odpowiada funkcja sinus a za drugą część funkcja cosinus
+    d. jest to jedyna możliwość obliczenia transformacji
+
+[id:408] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem fazy
+    b. z kluczowaniem amplitudy
+    c. z kluczowaniem częstotliwości
+    d. amplitudy
+    e. częstotliwości
+
+[id:409] W poleceniu MATLAB postaci b = fir1 (N, [0.2 0.3], 'stop') N oznacza:[POPRAWNE]
+
+    a. liczbę par biegunów
+    b. liczbę biegunów
+    c. liczbę par zer
+    d. liczbę zer
+    e. długość odpowiedzi impulsowej w próbkach
+    f. liczbę pasm częstotliwości
+
+[id:413] Dla systemu inercyjnego przyczynowego[POPRAWNE]
+
+    jego odpowiedź zależy od aktualnej i poprzednich w czasie wartości pobudzenia
+    jego odpowiedź zależy od poprzednich w czasie wartości pobudzenia
+    jego odpowiedź zależy od aktualnej wartości pobudzenia
+    jego odpowiedź jest minimalnofazowa
+
+[id:415] Które z poniższych właściwości są prawdziwe dla funkcji korelacji wzajemnej procesów stacjonarnych:[POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:416] Okno w metodach estymacji widma stosowane jest w celu [POPRAWNE]
+
+    a. zmniejszenia wariancji estymatora wgm
+    b. wycięcia fragmentu sygnału
+    c. wygładzenia sygnału
+    d. zmniejszenia przecieku widma
+    e. zmniejszenia szerokości pasma przejściowego
+
+[id:419] Proces stochastyczny musi:[POPRAWNE]
+
+    a. zawierać co najmniej jedną realizację
+    b. zawiarać nieskończenie wiele realizacji
+    c. zawiarać conajmniej 2 realizacje
+    d. musi zawierać więcej niż jedną realizację
+
+[id:422] Zależność definiuje [POPRAWNE]
+
+    wariancję procesu stochastycznego
+    wartość średnią procesu stochastycznego
+    rozkład prawdopodobieństwa procesu stochastycznego
+    funkcje autokowariancji procesu stochastycznego
+    wartość średniokwadratową procesu stochastycznego
+
+[id:424] Estymator widmowej gęstości mocy procesu można uzyskać z zależności ( oznacza transformację Fouriera) [POPRAWNE]
+
+[id:425] Twierdzenie ergodyczne dla wartości średniej procesu z czasem dyskretnym ma postać:[POPRAWNE]
+
+[id:426] Jeśli jest poziomem ufności a [a,b] jest przedziałem ufności estymatora \hat A o rozkładzie f(\hat A) , to prawdziwa jest zależność [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:427] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem amplitudy
+    b. z kluczowaniem cząstotliwości
+    c. z kluczowaniem fazy
+    d. częstotliwości
+    e. fazy
+
+[id:428] We wzorze wielkość w jest [POPRAWNE]
+
+    a. szerokością przedziału estymacji
+    b. chwilową wartością sygnału
+    c. chwilową wartością próbki
+    d. oknem czasowym
+
+[id:457] Współczesne komputery nie są w stanie zapamiętać w pamięci wszystkich wartości sygnału ciągłego.[POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:489] Filtr IIR (o nieskończonej odpowiedzi impulsowej) ma 2 zera sprzężone: . Dla jakiej pary sprzężonych biegunów taki filtr będzie stabilny? [POPRAWNE]
+
+[id:495] Jaka jest częstotliwość -tego prążka widma obliczonego przy pomocy $N$-punktowej DFT (f_s -- częstotliwość próbkowania) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:528] W wyniku -punktowej DFT powstaje ciąg -elementowy. W ciągu tym liczba niezależnych wyrazów wynosi [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:530] Widmo sygnału dyskretnego nieokresowego jest widmem[POPRAWNE]
+
+    a. ciągłym nieokresowym
+    b. ciągłym okresowym
+    c. dyskretnym nieokresowym
+    d. dyskretnym okresowym
+
+[id:531] Iloczyn skalarny dwóch wektorów prawidłowo określają wyrażenia: [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:534] Zaznacz poprawne formuły opisujące splot w dziedzinie czasu. oznaczają odpowiednio dyskretny czas i dyskretną częstotliwość. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:536] Przeciek widma w wyniku transformacji Fouriera występuje ponieważ[POPRAWNE]
+
+    a. występuje efekt obcięcia
+    b. dokonano uzupełnienia sygnału zerowymi próbkami
+    c. występują błędy próbkowania
+    d. występują błędy kwantowania
+    e. sygnał nie jest symetryczny
+
+[id:539] Jedyna ortonormalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:541] W definicji , P oznacza: [POPRAWNE]
+
+    prawdopodobieństwo
+    pochodną
+    gęstość prawdopodobieństwa
+    funkcję
+
+[id:545] Zależność pomiędzy autokorelacją na wyjściu i na wyjściu systemu liniowego niezmiennego w czasie ma postać:[POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:551] Modulacje cyfrowe różnią się od modulacji analogowych tym, że[POPRAWNE]
+
+    a. sygnał modulujący jest sygnałem cyfrowym
+    b. sygnał modulowany jest sygnałem cyfrowym
+    c. przez kanał telekomunikacyjny przesyłany jest sygnał cyfrowy
+    d. przez kanał telekomunikacyjny przesyłany jest sygnał dyskretny
+    e. sygnał przesyłany jest przez kanał cyfrowy
+
+[id:560] Metody optymalizacyjne projektowania filtrów cyfrowych polegają na[POPRAWNE]
+
+    a. poszukiwaniu takich wartości współczynników aby osiągnąć minimum funkcji kosztów
+    b. znalezieniu takiej konfiguracji zer i biegunów, aby ich wzajemna odległość była jak najmniejsza
+    c. poszukiwaniu takich wartości wpółczynników filtru aby szerokość pasma przejściowego była jak najmniejsza
+    d. wybraniu takiej struktury filtracji, aby koszt obliczeń był jak najmniejszy
+
+[id:563] Relacje między wyjściem a wejściem systemu liniowego inercyjnego niezmiennego w czasie dla czasu ciągłego opisuje zależność[POPRAWNE]
+
+[id:566] Niech H0 oznacza hipotezę "szum" a H1 hipotezę "szum+sygnal". Niech D0 oznacza decyzje "H0 jest prawdziwa" a  D1 niech oznacza decyzje "H1 jest prawdziwa". Prawdopodobienstwo falszywego alarmu to:[POPRAWNE]
+
+    a. P(D0|H1)
+    b. P(D1|H1)
+    c. P(D1, H0)/P(H0)
+    d. P(D1)
+
+[id:567] Poziomą osią wykresu histogramu jest oś:[POPRAWNE]
+
+    a. czasu
+    b. przesunięcia
+    c. częstotliwości
+    d. wartości chwilowej
+    e. amplitudy
+
+[id:575] Estymator funkcji autokorelacji procesu zdefiniowany jest zależnością[POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:577] Filtracja innowacyjna nazywana jest czasem liniową predykcją, gdyż:[POPRAWNE]
+
+    a. przeszłe próbki sygnału przekształcane są operatorem liniowym
+    b. estymator bieżącej próbki wyznaczany jest przez liniową kombinację próbek przeszłych sygnału
+    c. przeszłe próbki sygnału przekształcane są na liniowy sygnał wyjściowy
+    d. jest to proces przewidywania (predykcji) sygnału błędu
+    e. jest to proces przewidywania (predykcji) liniowego sygnału błędu
+
+[id:578] Niech H0 oznacza hipotezę "szum" a H1 hipotezę "szum+sygnal". Niech D0 oznacza decyzje "H0 jest prawdziwa" a  D1 niech oznacza decyzje "H1 jest prawdziwa". Wyrazenie   P(D0|H0)+P(D1|H0) jest:[POPRAWNE]
+
+    a. zawsze < 1
+    b. zawsze =1
+    c. zawsze >1
+    d. zawsze = 0
+
+[id:581] Jeśli na odpowiednie wejścia filtru modelujacego podamy sygnaly z odpowiednich wyjść filtru innowacyjnego, to na wyjściu filtru modelujacego pojawi sie sygnał, ktory jest zgodny z sygnałem na wejściu filtru innowacyjnego[POPRAWNE]
+
+    "próbka w próbkę" - czyli identyczny
+    tylko pod względem statystyk drugiego rzędu
+
+[id:583] Filtry cyfrowe Butterworth'a charakteryzują się[POPRAWNE]
+
+    a. maksymalnie płaskim modułem funkcji transmitancji
+    b. minimalną szerokością pasma przejściowego
+    c. maksymalnym tłumieniem w paśmie zaporowym
+    d. minimalnym tłumieniem w paśmie przepustowym
+
+[id:587] Filtr wybielający, to filtr[POPRAWNE]
+
+    innowacyjny
+    modelujący
+
+[id:591] Jaka jest rozdzielczość widma (odległość pomiędzy dwoma sąsiednimi prążkami widma) ( -- liczba próbek sygnału poddawanego DFT, f_s -- częstotliwość próbkowania) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:592] Wariancja estymatora opisuje[POPRAWNE]
+
+    a. rozrzut wyników wokół wartości średniej estymatora
+    b. rozrzut wyników wokół wartości dokładnej estymowanej wielkości
+    c. systematyczną niezgodność uzyskiwanych wyników z dokładną estymowaną wartością
+    d. rozrzut wyników wokół wariancji
+
+[id:603] W definicji , P oznacza: [POPRAWNE]
+
+    prawdopodobieństwo
+    pochodną
+    gęstość prawdopodobieństwa
+    funkcję
+
+[id:606] We wzorze wielkość w jest [POPRAWNE]
+
+    a. szerokością przedziału estymacji
+    b. chwilową wartością sygnału
+    c. chwilową wartością próbki
+    d. oknem czasowym
+
+[id:607] Który z poniższych wzorów określa wartość średnią sygnału:[POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e. 
+
+[id:614] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - \sum_{n=2}^{N-1} \sigma ( n - 2 ) e^{-j \frac{2 \pi}{N} k n} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:615] W definicji procesu stochastycznego wynikowi losowania przypisuje się:[POPRAWNE]
+
+    a. rzeczywistą lub zespoloną funkcję czasu
+    b. liczbę rzeczywistą lub zespoloną
+    c. rozkład prawdopodobieństwa
+    d. prawdopodobieństwo
+
+[id:616] Odpowiedź impulsowa opisuje:[POPRAWNE]
+
+    odpowiedź systemu na impuls Dirac'a
+    odpowiedź systemu na impuls Kronecker'a
+    odpowiedź systemu na skok jednostkowy
+    odpowiedź systemu na sygnał sinusoidalny o zadanej częstotliwości
+    odpowiedź systemu na funkcję grzebieniową
+    odpowiedź systemu na impuls Gibs'a
+
+[id:617] Jaka jest częstotliwość -tego prążka widma obliczonego przy pomocy $N$-punktowej DFT (f_s -- częstotliwość próbkowania) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:620] Jedyna ortonormalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:621] Niech H0 oznacza hipotezę "szum" a H1 hipotezę "szum+sygnal". Niech D0 oznacza decyzje "H0 jest prawdziwa" a  D1 niech oznacza decyzje "H1 jest prawdziwa". Prawdopodobienstwo P(D0|H0) to prawdopodobienstwo:[POPRAWNE]
+
+    a. podjęcia właściwej decyzji o braku sygnału
+    b. podjęcia właściwej decyzji o wykryciu sygnału
+    c. podjęcia błędnej decyzji o istnieniu sygnału
+    d. podjęcia błędnej decyzji o istnieniu sygnału
+
+[id:624] W definicji transformaty Z  wielkość z oznacza [POPRAWNE]
+
+    liczbę zespoloną
+    liczbę rzeczywistą
+    liczbę urojoną
+    funkcje zespoloną
+    funkcję rzeczywistą
+    funkcję urojoną
+
+[id:625] Okienkowanie sygnału (nakładanie funkcji okna) przed poddaniem go transformacji Fouriera stosuje się, aby[POPRAWNE]
+
+    a. zmniejszyć przeciek widma
+    b. usunąć szum zakłócający
+    c. zwiększyć częstotliwość próbkowania
+    d. usunąć składową stałą
+
+[id:626] Jaką przestrzeń rozpinają wektory v ( n ) = e^{-j \frac{2 \pi}{N} n k} ? Gdzie N \in \mathbb{N}, \,\, k,n = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b. przestrzeń wektorów o rozmiarze o wartościach zespolonych
+    c. przestrzeń wektorów o rozmiarze o wartościach rzeczywistych
+    d.
+    e.
+    f.
+    g.
+    h.
+    i.
+    j.
+    k. nie rozpinają żadnej przestrzeni
+    l. nie spełniają warunków na bazę przestrzeni
+
+[id:629] Na poniższym rysunku przedstawiono wynik wyznaczania średniej metodą adaptacyjną dla dwóch różnych współczynników . Który wykres przedstawia chwilową wartość średnią wyznaczoną przy największym współczynniku ? średnia adaptacyjna [POPRAWNE]
+
+    niebieski
+    czerwony
+    zielony
+
+[id:634] Zależność definiuje: [POPRAWNE]
+
+    dystrubuantę 1-go rzędu
+    gęstość prawdopodobieństwa 1-go rzędu
+    histogram
+    prawdopodobieństwo wystąpienia wartości sygnału 
+
+[id:636] Zależność jest definicją: [POPRAWNE]
+
+    dystrybuanty 2. rzędu
+    rozkładu prawdopodobieństwa 2. rzędu
+    gęstości prawdopodobieństwa 1. rzędu
+    rozkładu prawdopodobieństwa 1. rzędu
+    gęstości prawdopodobieństwa 2. rzędu
+    dystrybuanty 1. rzędu
+
+[id:637] Niech y(t) bedzie sygnalem stacjonarnym, drugiego rzedu. Niech E oznacza operator usredniania probabilistycznego. Niech c oznacza funkcje kowariancji. Ktora z ponizszych zaleznosci jest prawdziwa?[POPRAWNE]
+
+    E[y(t-i)y(t-k)]=c(i-k)
+    E[y(t-i)y(t-k)]=c(i+k)
+    E[y(t-i)y(t-k)]=c(i,k)
+    E[y(t-i)y(t-k)]=c(-i,-k)
+
+[id:642] Proces stochastyczny od zmiennej losowej różni się:[POPRAWNE]
+
+    a. dwoma zmiennymi niezależnymi
+    b. posiadanie jeszcze jednej zmiennej losowej jaka zwykle jest czas
+    c. posiadaniem jeszcze jednej zmiennej niezależnej jaką zwykle jest czas
+    d. kształtem rozkładu prawdopodobieństwa
+
+[id:644] Wskaz prawdziwe własności sygnału okresowego o okresie , gdzie \mathbb{R}, \mathbb{Z} oznaczają odpowiednio zbiór licz rzeczywistych i zbiór liczb całkowitych. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:650] Aby w przestrzeni , o bazie zapisanej w macierzy B (gdzie każda kolumna to wektor bazy od b_1 do b_n ) wpółczynniki reprezentacji wektora (oznaczone jako wektor \alpha ) były takie same jak współczynniki danego wektora w muszą zachodzi warunki (zaznacz wszystkie prawidłowe): [POPRAWNE]
+
+    a. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    b. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    c. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    d. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    e. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    f. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    g. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    h. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N 
+
+[id:651] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - \sum_{n=2}^{N-1} \sigma ( n - 2 ) e^{-j \frac{2 \pi}{N} k n} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:652] Przestrzeń probabilistyczna zawiera:[POPRAWNE]
+
+    a. wyniki losowania
+    b. prawdopodobieństwa zdarzeń
+    c. dystrybuanty
+    d. realizacje
+
+[id:656] Filtr IIR (o nieskończonej odpowiedzi impulsowej) ma 2 zera sprzężone: . Dla jakiej pary sprzężonych biegunów taki filtr będzie stabilny? [POPRAWNE]
+
+[id:659] Wybierz poprawną definicję autokorelacji procesu niestacjonarnego:[POPRAWNE]
+
+[id:663] Probkowanie idealne (i z zachowaniem warunkow tw. Shanona) jest procesem:[POPRAWNE]
+
+    generalnie odwracalnym
+    zawsze odwracalnym
+    generalnie nieodwracalnym
+    zawsze nieodwracalnym
+
+[id:666] Które z poniższych warunków spełnia poziom ufności estymatora [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:667] Jeżeli ciągi czasowe i x_{2}[n] mają transformaty Fouriera (DFT), odpowiednio, X_1(m) i X_2(m), to dla x_{sum}[n]=x_1[n]+x_2[n] właściwość liniowości DTF można zapisać jako [POPRAWNE]
+
+    a. (splot)
+    b. (iloraz)
+    c. (iloczyn)
+    d. (suma) 
+
+[id:668] W przestrzeni można stworzyć tylko 5 losowo wybranych wektorów, które są permutacją wektorów bazy. [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:685] Estymator jest wielkością losową, ponieważ zależy od[POPRAWNE]
+
+    a. wyboru fragmentu realizacji
+    b. realizacji próbkowania i kwantowania sygnału
+    c. wyboru fragmentów realizacji
+    d. liczby próbek
+
+[id:689] Oznaczenia: - sygnał wejściowy, h ( n ) - odpowiedź impulsowa układu, y ( n ) - sygnał wyjściowy. Dla układu dyskretnego niezmiennego w czasie prawdziwy jest/są poniższe formuły: [POPRAWNE]
+
+    (splot)
+    (splot)
+
+[id:702] Okno w metodach estymacji widma stosowane jest w celu [POPRAWNE]
+
+    a. zmniejszenia wariancji estymatora wgm
+    b. wycięcia fragmentu sygnału
+    c. wygładzenia sygnału
+    d. zmniejszenia przecieku widma
+    e. zmniejszenia szerokości pasma przejściowego
+
+[id:725] Modulacja QAM charakteryzuje się wykorzystaniem[POPRAWNE]
+
+    a. dwóch nośnych o tej samej częstotliwości przesuniętych o 90st
+    b. dwóch nośnych o tej samej częstotliwości przesuniętych o 180st
+    c. dwóch nośnych o zbliżonych częstotliwościach przesuniętych o 90st
+    d. dwóch nośnych o zbliżonych częstotliwościach przesuniętych o 180st
+
+[id:727] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - \sum_{n=2}^{N-1} \sigma ( n - 2 ) e^{-j \frac{2 \pi}{N} k N} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:733] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem amplitudy
+    b. z kluczowaniem cząstotliwości
+    c. z kluczowaniem fazy
+    d. częstotliwości
+    e. fazy
+
+[id:740] Jedyna ortogonalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:745] W jakiej metodzie identyfikacji systemu moduł funkcji transmitancji wyznaczany jest z zależności , gdzie S oznacza widmową gęstość mocy [POPRAWNE]
+
+    korelacyjnej
+    widmowej
+    sinusoidalnej
+    impulsowej
+
+[id:749] Jeśli oznacza czas dyskretny, to definicja transformaty Z ma postać [POPRAWNE]
+
+[id:755] W wyniku -punktowej DFT powstaje ciąg -elementowy. W ciągu tym liczba niezależnych wyrazów wynosi [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:756] Jaka jest rozdzielczość widma (odległość pomiędzy dwoma sąsiednimi prążkami widma) ( -- liczba próbek sygnału poddawanego DFT, f_s -- częstotliwość próbkowania) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:757] Jeżeli ciągi czasowe i x_{2}[n] mają transformaty Fouriera (DFT), odpowiednio, X_1(m) i X_2(m), to dla x_{sum}[n]=x_1[n]+x_2[n] właściwość liniowości DTF można zapisać jako [POPRAWNE]
+
+    a. (splot)
+    b. (iloraz)
+    c. (iloczyn)
+    d. (suma) 
+
+[id:761] Jeżeli w próbkowanym sygnale maksymalna częstotliwość ma wartość , to twierdzenie o próbkowaniu mówi, że minimalna częstotliwość poprawnego próbkowania musi być: [POPRAWNE]
+
+[id:807] Jaka metryka wyniknie z przyjętej normy ?: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:827] Definicja jest: [POPRAWNE]
+
+    definicją dystrybuanty I-go rzędu
+    definicją rozkładu prawdopodobieństwa I-go rzędu
+    definicją dystrybuanty II-go rzędu
+    definicję rozkładu prawdopodobieństwa II-go rzędu
+
+[id:838] Współczynniki filtru, którego moduł transmitancji prezentowany jest na wykresie, zostały w matlab/octave obliczone poleceniem: filtrPP[POPRAWNE]
+
+    a. [b a] = butter (12, [0.3 0.6], 'bandpass')
+    b. [b a] = butter (12, [0.2 0.4], 'bandpass')
+    c. [b a] = butter (12, [0.3 0.6], 'stop')
+    d. [b a] = butter (12, [0.2 0.4], 'stop')
+    e. [b a] = butter (12, 0.3, 'low')
+    f. [b a] = butter (12, 0.3, 'high')
+    g. [b a] = butter (12, [0.3 0.6], 'high')
+
+[id:850] Kwantowanie idealne (tj. bez bledow numerycznych) jest procesem:[POPRAWNE]
+
+    a. generalnie odwracalnym
+    b. zawsze odwracalnym
+    c. zawsze nieodwracalnym
+    d. generalnie nieodwracalnym
+
+[id:854] Decymacja to proces[POPRAWNE]
+
+    zmniejszania częstotliwości próbkowania
+    zwiększania częstotliwości próbkowania
+    zmniejszania wartości próbek
+    zwiększania wartości próbek
+
+[id:858] W definicji symbol \mathcal FT oznacza: [POPRAWNE]
+
+    dwuwymiarową transformację Fouriera
+    dystrybuantę 1-go rzędu
+    dystrybuantę 2-go rzędu
+    transformację falkową
+
+[id:866] Zaznacz zależności, które świadczą o okresowości transformaty Fouriera sygnału . [POPRAWNE]
+
+    a. gdzie k to dyskretne częstotliwości.
+    b. gdzie k to dyskretne częstotliwości.
+    c. gdzie k to dyskretne częstotliwości.
+    d. gdzie k to dyskretne częstotliwości. 
+
+[id:871] Definicja jest: [POPRAWNE]
+
+    definicją dystrybuanty I-go rzędu
+    definicją rozkładu prawdopodobieństwa I-go rzędu
+    definicją dystrybuanty II-go rzędu
+    definicję rozkładu prawdopodobieństwa II-go rzędu
+
+[id:873] W celu uzyskania częstotliwości unormowanej (przy projektowaniu filtrów cyfrowych)[POPRAWNE]
+
+    a. rzeczywistą częstotliwość dzielimy przez częstotliwości próbkowania
+    b. rzeczywistą częstotliwość dzielimy przez podwójną częstotliwości próbkowania
+    c. częstotliwości próbkowania dzielimy przez rzeczywistą częstotliwość
+    d. częstotliwość próbkowania dzielimy przez podwójna rzeczywistą częstotliwość
+
+[id:874] Jeśli oznacza czas dyskretny, to definicja transformaty Z ma postać [POPRAWNE]
+
+[id:877] Są dane cztery przebiegi sinusoidalne. Częstotliwość próbkowania jest Hz, liczba próbek N=1000, n=0, 1, 2, \ldots , N-1. Wskaż te przebiegi, dla których w wyniku DFT pojawi się przeciek widma [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:883] W jakiej metodzie identyfikacji systemu odpowiedź impulsowa wyznaczana jest z zależności [POPRAWNE]
+
+    korelacyjnej
+    widmowej
+    impulsowej
+    sinusoidalnej
+
+[id:887] Gęstość prawdopodobieństwa jest definiowana jako: [POPRAWNE]
+
+    a. druga pochodna cząstkowa dystrybuanty 2-go rzędu
+    b. pochodna cząstkowa dystrybuanty 2-go rzędu
+    c. pochodna dystrybuanty 1-go rzędu
+    d. druga pochodna cząstkowa dystrybuanty 1-go rzędu
+
+[id:888] Równoległe połączenie dwóch liniowych układów niezmiennych w czasie, o odpowiedziach impulsowych i h_2 (n ), ma łączną odpowiedź impulsową [POPRAWNE]
+
+[id:893] Na poniższym rysunku przedstawiono wynik wyznaczania średniej metodą adaptacyjną dla dwóch różnych współczynników . Który wykres przedstawia chwilową wartość średnią wyznaczoną przy najmniejszym współczynniku ? średnia adaptacyjna [POPRAWNE]
+
+    niebieski
+    czerwony
+    zielony
+
+[id:895] Zależność definiuje: [POPRAWNE]
+
+    widmową gęstość mocy procesu niestacjonarnego
+    funkcję autokorelacji procesu niestacjonarnego
+    funkcję autokowariancji procesu niestacjonarnego
+    dystrybuantę 2-go rzędu procesu niestacjonarnego
+
+[id:897] W pewnej przestrzeni pyrzjęto następującą definicję normy . Jaka odległość || A - B || wyniknie z przyjętej normy? [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e. 
+
+[id:911] W przestrzeni można stworzyć tylko 5 losowo wybranych wektorów, które są permutacją wektorów bazy. [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:918] We wzorze wielkość w jest [POPRAWNE]
+
+    a. szerokością przedziału estymacji
+    b. chwilową wartością sygnału
+    c. chwilową wartością próbki
+    d. oknem czasowym
+
+[id:930] Który z poniższych wzorów jest wzorem na obliczanie wartości średniej procesu z rozkładu prawdopodobieństwa:[POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:945] Zaznacz pradziwe stwierdzenia dla przestrzeni . [POPRAWNE]
+
+    a. Liczba wektorów bazy równa się 5 a liczba wektorów pozostałych jest nieskończona
+    b. Rozmiar (ilość współrzędnych) wektorów bazy równa się 5 a rozmiar wektorów pozostałych jest nieskończony
+    c. Liczba wektorów bazy jest nieskończona a liczba wektorów pozostałych jest równa 5
+    d. Rozmiar (ilość współrzędnych) wektorów bazy jest nieskończony a liczba wektorów bazy wynosi 5
+
+[id:955] Filtr IIR (o nieskończonej odpowiedzi impulsowej) ma 2 zera sprzężone: . Dla jakiej pary sprzężonych biegunów taki filtr będzie stabilny? [POPRAWNE]
+
+[id:981] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem częstotliwości
+    b. z kluczowaniem fazy
+    c. z kluczowaniem amplitudy
+    d. fazy
+    e. amplitudy
+
+[id:985] Z faktu są liniowo niezależne wynika, że oba wektory: [POPRAWNE]
+
+    a.
+    b. są liniowo ortonormalne
+    c. są liniową kombinacją
+    d. stanowią bazę przestrzeni
+    e. mogą być elemntami bazy 
+
+[id:990] W wyniku -punktowej DFT powstaje ciąg -elementowy. W ciągu tym liczba niezależnych wyrazów wynosi [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:998] W definicji symbol \mathcal FT oznacza: [POPRAWNE]
+
+    dwuwymiarową transformację Fouriera
+    dystrybuantę 1-go rzędu
+    dystrybuantę 2-go rzędu
+    transformację falkową
+
+[id:1041] Jedyna ortogonalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:1046] W jakiej metodzie identyfikacji systemu odpowiedź impulsowa wyznaczana jest z zależności [POPRAWNE]
+
+    korelacyjnej
+    widmowej
+    impulsowej
+    sinusoidalnej
+
+[id:1047] Okno w metodach estymacji widma stosowane jest w celu [POPRAWNE]
+
+    a. zmniejszenia wariancji estymatora wgm
+    b. wycięcia fragmentu sygnału
+    c. wygładzenia sygnału
+    d. zmniejszenia przecieku widma
+    e. zmniejszenia szerokości pasma przejściowego
+
+[id:1049] Są dane cztery przebiegi sinusoidalne. Częstotliwość próbkowania jest Hz, liczba próbek N=1000, n=0, 1, 2, \ldots , N-1. Wskaż te przebiegi, dla których w wyniku DFT pojawi się przeciek widma [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:1050] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem fazy
+    b. z kluczowaniem amplitudy
+    c. z kluczowaniem częstotliwości
+    d. amplitudy
+    e. częstotliwości
+
+[id:1059] Modulacja QAM charakteryzuje się[POPRAWNE]
+
+    a. jednoczesnym kluczowaniem amplitudy i fazy
+    b. jednoczesnym kluczowaniem amplitudy i częstotliwości
+    c. jednoczesnym kluczowaniem cząstotliwości i fazy
+    d. kluczowaniem amplitudy
+    e. kluczowaniem fazy
+    f. kluczowaniem cząstotliwości
+
+[id:1068] W pewnej przestrzeni pyrzjęto następującą definicję normy . Jaka odległość || A - B || wyniknie z przyjętej normy? [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e. 
+
+[id:1077] Zależność definiuje: [POPRAWNE]
+
+    funkcję autokorelacji dowolnego procesu
+    funkcję autokorelacji procesu stacjonarnego
+    funkcję autokowariancji procesu stacjonarnego
+    funkcję autokowariancji dowolnego procesu
+
+[id:1083] Transformata Z jest równa transformacie Fouriera, jeśli[POPRAWNE]
+
+[id:1085] Jeśli oznacza czas dyskretny, to definicja transformaty Z ma postać [POPRAWNE]
+
+[id:1088] Jaka metryka wyniknie z przyjętej normy ?: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:1089] Gęstość prawdopodobieństwa jest definiowana jako: [POPRAWNE]
+
+    a. druga pochodna cząstkowa dystrybuanty 2-go rzędu
+    b. pochodna cząstkowa dystrybuanty 2-go rzędu
+    c. pochodna dystrybuanty 1-go rzędu
+    d. druga pochodna cząstkowa dystrybuanty 1-go rzędu
+
+[id:1095] Zależność definiuje: [POPRAWNE]
+
+    moment n-tego rzędu dowolnego procesu
+    autokowariancję n-tego rzędu dowolnego procesu
+    dystrybuantę n-tego rzędu dowolnego procesu
+    kumulant n-tego rzędu dowolnego procesu
+
+[id:1099] W jakiej metodzie identyfikacji systemu moduł funkcji transmitancji wyznaczany jest z zależności , gdzie S oznacza widmową gęstość mocy [POPRAWNE]
+
+    korelacyjnej
+    widmowej
+    sinusoidalnej
+    impulsowej
+
+[id:1111] Oznaczenia: - sygnał wejściowy, h ( n ) - odpowiedź impulsowa układu, y ( n ) - sygnał wyjściowy. Dla układu dyskretnego niezmiennego w czasie prawdziwy jest/są poniższe formuły: [POPRAWNE]
+
+    (splot)
+    (splot)
+
+[id:1115] W jakiej metodzie identyfikacji systemu moduł funkcji transmitancji wyznaczany jest z zależności , gdzie A_x i A_y są amplitudami sygnałów wejściowego i wyjściowego [POPRAWNE]
+
+    sinusoidalnej
+    korelacyjnej
+    widmowej
+    impulsowej
+
+[id:1116] Jeśli oznacza czas dyskretny, to definicja transformaty Z ma postać [POPRAWNE]
+
+[id:1117] Jeżeli w próbkowanym sygnale maksymalna częstotliwość ma wartość , to twierdzenie o próbkowaniu mówi, że minimalna częstotliwość poprawnego próbkowania musi być: [POPRAWNE]
+
+[id:1120] Szum kwantyzacji ma rozkład[POPRAWNE]
+
+    normalny
+    Poissona
+    równomierny
+    wykładniczy
+
+[id:1122] Jedyna ortonormalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:1130] To, że odpowiedź impulsowa systemu posiada niezerowe wartości tylko dla czasu większego lub równego zeru jest warunkiem:[POPRAWNE]
+
+    przyczynowości systemu
+    stabilności systemu
+    wszechprzepustowości systemu
+    nie wprowadzania przez system opóźnienia
+
+[id:1138] Wskaz prawdziwe własności sygnału okresowego o okresie , gdzie \mathbb{R}, \mathbb{Z} oznaczają odpowiednio zbiór licz rzeczywistych i zbiór liczb całkowitych. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:1192] Iloczyn skalarny dwóch wektorów prawidłowo określają wyrażenia: [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:1202] W przestrzeni można stworzyć tylko 5 losowo wybranych wektorów, które są permutacją wektorów bazy. [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:1207] Wskaz prawdziwe własności sygnału okresowego o okresie , gdzie \mathbb{R}, \mathbb{Z} oznaczają odpowiednio zbiór licz rzeczywistych i zbiór liczb całkowitych. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:1210] Gęstość prawdopodobieństwa jest definiowana jako: [POPRAWNE]
+
+    a. druga pochodna cząstkowa dystrybuanty 2-go rzędu
+    b. pochodna cząstkowa dystrybuanty 2-go rzędu
+    c. pochodna dystrybuanty 1-go rzędu
+    d. druga pochodna cząstkowa dystrybuanty 1-go rzędu
+
+[id:1213] Definicja jest: [POPRAWNE]
+
+    definicją dystrybuanty I-go rzędu
+    definicją rozkładu prawdopodobieństwa I-go rzędu
+    definicją dystrybuanty II-go rzędu
+    definicję rozkładu prawdopodobieństwa II-go rzędu
+
+[id:1215] Jeżeli wiemy, że i wiemy, że z ( n ) = a x ( n ) + b y ( n ) , to: [POPRAWNE]
+
+[id:1222] Jaka jest rozdzielczość widma (odległość pomiędzy dwoma sąsiednimi prążkami widma) ( -- liczba próbek sygnału poddawanego DFT, f_s -- częstotliwość próbkowania) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:1225] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - \sum_{n=2}^{N-1} \sigma ( n - 2 ) e^{-j \frac{2 \pi}{N} k N} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:1229] Jeżeli ciągi czasowe i x_{2}[n] mają transformaty Fouriera (DFT), odpowiednio, X_1(m) i X_2(m), to dla x_{sum}[n]=x_1[n]+x_2[n] właściwość liniowości DTF można zapisać jako [POPRAWNE]
+
+    a. (splot)
+    b. (iloraz)
+    c. (iloczyn)
+    d. (suma) 
+
+[id:1232] Zaznacz zależności, które świadczą o okresowości transformaty Fouriera sygnału . [POPRAWNE]
+
+    a. gdzie k to dyskretne częstotliwości.
+    b. gdzie k to dyskretne częstotliwości.
+    c. gdzie k to dyskretne częstotliwości.
+    d. gdzie k to dyskretne częstotliwości. 
+
+[id:1240] Filtracja innowacyjna bierze swoją nazwę od tego, że (zaznacz wszystkie prawidłowe odpowiedzi):[POPRAWNE]
+
+    a. każda kolejna wartość sygnału błędu wnosi nowa informację
+    b. jest nowoczesna
+    c. powstała w czasach wielu innych innowacji
+    d. każda kolejna wartość sygnału błędu jest nieskorelowana z poprzednimi wartościami
+
+[id:1257] Zależność definiuje: [POPRAWNE]
+
+    moment n-tego rzędu dowolnego procesu
+    autokowariancję n-tego rzędu dowolnego procesu
+    dystrybuantę n-tego rzędu dowolnego procesu
+    kumulant n-tego rzędu dowolnego procesu
+
+[id:1264] Współczynniki filtru, którego moduł transmitancji prezentowany jest na wykresie, zostały wmatlab/octave obliczone poleceniem: a[POPRAWNE]
+
+    a. [b a] = cheby1 (8, 2, 0.4, 'high')
+    b. [b a] = cheby1 (8, 2, [0.3 0.5], 'bandpass')
+    c. [b a] = cheby1 (8, 2, 0.3, 'high')
+    d. [b a] = cheby1 (8, 2, [0.2 0.4], 'stop')
+    e. [b a] = cheby1 (8, 2, 0.4, 'low')
+    f. [b a] = cheby1 (8, 2, 0.2, 'low')
+    g. [b a] = cheby1 (8, 2, [0.3 0.6], 'high')
+
+[id:1269] Gęstość prawdopodobieństwa jest definiowana jako: [POPRAWNE]
+
+    a. druga pochodna cząstkowa dystrybuanty 2-go rzędu
+    b. pochodna cząstkowa dystrybuanty 2-go rzędu
+    c. pochodna dystrybuanty 1-go rzędu
+    d. druga pochodna cząstkowa dystrybuanty 1-go rzędu
+
+[id:1289] W wyniku -punktowej DFT powstaje ciąg -elementowy. W ciągu tym liczba niezależnych wyrazów wynosi [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:1290] Od czego zależy liczba poziomów kwantyzacji przy przetwarzaniu analogowo-cyfrowym ?[POPRAWNE]
+
+    od liczby próbek sygnału
+    od częstotliwości próbkowania
+    od długości słowa binarnego przetwornika
+    od szumu kwantyzacji
+
+[id:1296] W jakiej metodzie identyfikacji systemu moduł funkcji transmitancji wyznaczany jest z zależności , gdzie S oznacza widmową gęstość mocy [POPRAWNE]
+
+    korelacyjnej
+    widmowej
+    sinusoidalnej
+    impulsowej
+
+[id:1301] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem fazy
+    b. z kluczowaniem amplitudy
+    c. z kluczowaniem częstotliwości
+    d. amplitudy
+    e. częstotliwości
+
+[id:1304] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - \sum_{n=2}^{N-1} \sigma ( n - 2 ) e^{-j \frac{2 \pi}{N} k n} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:1313] Oznaczenia: - sygnał wejściowy, h ( n ) - odpowiedź impulsowa układu, y ( n ) - sygnał wyjściowy. Dla układu dyskretnego niezmiennego w czasie prawdziwy jest/są poniższe formuły: [POPRAWNE]
+
+    (splot)
+    (splot)
+
+[id:1338] Zależność : [POPRAWNE]
+
+    definiuje kowariancję wzajemna procesów stacjonarnych
+    definiuje korelację wzajemna procesów stacjonarnych
+    definiuje kowariancję wzajemna dowolnych procesów
+    definiuje korelację wzajemna dowolnych procesów
+
+[id:1342] Zaznacz znane Ci własności Delty Kroneckera.[POPRAWNE]
+
+[id:1347] Zależność definiuje: [POPRAWNE]
+
+    widmową gęstość mocy procesu niestacjonarnego
+    funkcję autokorelacji procesu niestacjonarnego
+    funkcję autokowariancji procesu niestacjonarnego
+    dystrybuantę 2-go rzędu procesu niestacjonarnego
+
+[id:1350] Są dane cztery przebiegi sinusoidalne. Częstotliwość próbkowania jest Hz, liczba próbek N=1000, n=0, 1, 2, \ldots , N-1. Wskaż te przebiegi, dla których w wyniku DFT pojawi się przeciek widma [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:1353] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem częstotliwości
+    b. z kluczowaniem fazy
+    c. z kluczowaniem amplitudy
+    d. fazy
+    e. amplitudy
+
+[id:1357] W pewnej przestrzeni pyrzjęto następującą definicję normy . Jaka odległość || A - B || wyniknie z przyjętej normy? [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e. 
+
+[id:1362] Zaznacz poprawne formuły opisujące splot w dziedzinie czasu. oznaczają odpowiednio dyskretny czas i dyskretną częstotliwość. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:1363] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem amplitudy
+    b. z kluczowaniem cząstotliwości
+    c. z kluczowaniem fazy
+    d. częstotliwości
+    e. fazy
+
+[id:1367] Zaznacz pradziwe stwierdzenia dla przestrzeni . [POPRAWNE]
+
+    a. Liczba wektorów bazy równa się 5 a liczba wektorów pozostałych jest nieskończona
+    b. Rozmiar (ilość współrzędnych) wektorów bazy równa się 5 a rozmiar wektorów pozostałych jest nieskończony
+    c. Liczba wektorów bazy jest nieskończona a liczba wektorów pozostałych jest równa 5
+    d. Rozmiar (ilość współrzędnych) wektorów bazy jest nieskończony a liczba wektorów bazy wynosi 5
+
+[id:1372] Jeżeli w próbkowanym sygnale maksymalna częstotliwość ma wartość , to twierdzenie o próbkowaniu mówi, że minimalna częstotliwość poprawnego próbkowania musi być: [POPRAWNE]
+
+[id:1374] W definicji symbol \mathcal FT oznacza: [POPRAWNE]
+
+    dwuwymiarową transformację Fouriera
+    dystrybuantę 1-go rzędu
+    dystrybuantę 2-go rzędu
+    transformację falkową
+
+[id:1377] W zależność opisującej sygnał telekomunikacyjny, a_n jest [POPRAWNE]
+
+    a. ciągiem symboli zawierających informację
+    b. ciągiem bitów zawierających informację
+    c. sygnałem dyskretnym przed modulacją
+    d. ciągiem wartości odpowiadających symbolom
+    e. ciągiem wartości odpowiadających bitom
+
+[id:1382] Zależność definiuje: [POPRAWNE]
+
+    moment n-tego rzędu dowolnego procesu
+    autokowariancję n-tego rzędu dowolnego procesu
+    dystrybuantę n-tego rzędu dowolnego procesu
+    kumulant n-tego rzędu dowolnego procesu
+
+[id:1383] W zależność opisującej sygnał telekomunikacyjny, T jest [POPRAWNE]
+
+    a. czasem trwania symbolu
+    b. czasem trwania bitu informacji
+    c. czasem trwania próbki
+    d. okresem drgań nośnej
+    e. odstępem pomiędzy próbkami
+
+[id:1391] Niech H0 oznacza hipotezę "szum" a H1 hipotezę "szum+sygnal". Niech D0 oznacza decyzje "H0 jest prawdziwa" a  D1 niech oznacza decyzje "H1 jest prawdziwa". Prawdopodobienstwo P(D0|H1) to prawdopodobienstwo:[POPRAWNE]
+
+    a. podjęcia właściwej decyzji o braku sygnału
+    b. "przeoczenia" sygnału
+    c. detekcji sygnału
+
+[id:1398] Jeżeli ciągi czasowe i x_{2}[n] mają transformaty Fouriera (DFT), odpowiednio, X_1(m) i X_2(m), to dla x_{sum}[n]=x_1[n]+x_2[n] właściwość liniowości DTF można zapisać jako [POPRAWNE]
+
+    a. (splot)
+    b. (iloraz)
+    c. (iloczyn)
+    d. (suma) 
+
+[id:1402] Zależność jest definicją: [POPRAWNE]
+
+    dystrybuanty 2. rzędu
+    rozkładu prawdopodobieństwa 2. rzędu
+    gęstości prawdopodobieństwa 1. rzędu
+    rozkładu prawdopodobieństwa 1. rzędu
+    gęstości prawdopodobieństwa 2. rzędu
+    dystrybuanty 1. rzędu
+
+[id:1403] Jaka metryka wyniknie z przyjętej normy ?: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:1410] Jeśli jest poziomem ufności a [a,b] jest przedziałem ufności estymatora \hat A o rozkładzie f(\hat A) , to prawdziwa jest zależność [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:1413] Jeżeli wiemy, że transformata Fouriera sygnału jest "przesunięta" o częstotliwość k_0, \, k_0 \in (-1,1) czyli X ( k ) = Y ( k+k_0 ) to możemy łatwo wyznaczyć postać czasową sygnału w nastepujący sposób: [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:1414] W przestrzeni można stworzyć tylko 5 losowo wybranych wektorów, które są permutacją wektorów bazy. [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:1417] Jeżeli wiemy, że i wiemy, że z ( n ) = a x ( n ) + b y ( n ) , to: [POPRAWNE]
+
+[id:1422] Filtr IIR (o nieskończonej odpowiedzi impulsowej) ma 2 zera sprzężone: . Dla jakiej pary sprzężonych biegunów taki filtr będzie stabilny? [POPRAWNE]
+
+[id:1426] Oznaczenia: - sygnał wejściowy, h ( n ) - odpowiedź impulsowa układu, y ( n ) - sygnał wyjściowy. Dla układu dyskretnego niezmiennego w czasie prawdziwy jest/są poniższe formuły: [POPRAWNE]
+
+    (splot)
+    (splot)
+
+[id:1427] W jakiej metodzie identyfikacji systemu moduł funkcji transmitancji wyznaczany jest z zależności , gdzie S oznacza widmową gęstość mocy [POPRAWNE]
+
+    korelacyjnej
+    widmowej
+    sinusoidalnej
+    impulsowej
+
+[id:1430] Zależność definiuje: [POPRAWNE]
+
+    moment n-tego rzędu dowolnego procesu
+    autokowariancję n-tego rzędu dowolnego procesu
+    dystrybuantę n-tego rzędu dowolnego procesu
+    kumulant n-tego rzędu dowolnego procesu
+
+[id:1431] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem częstotliwości
+    b. z kluczowaniem fazy
+    c. z kluczowaniem amplitudy
+    d. fazy
+    e. amplitudy
+
+[id:1436] W pewnej przestrzeni pyrzjęto następującą definicję normy . Jaka odległość || A - B || wyniknie z przyjętej normy? [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e. 
+
+[id:1437] Zaznacz poprawne formuły opisujące splot w dziedzinie dzęstotliwości. oznaczają odpowiednio dyskretny czas i dyskretną częstotliwość. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g. 
+
+[id:1440] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem amplitudy
+    b. z kluczowaniem cząstotliwości
+    c. z kluczowaniem fazy
+    d. częstotliwości
+    e. fazy
+
+[id:1445] Zależność jest definicją: [POPRAWNE]
+
+    dystrybuanty 2. rzędu
+    rozkładu prawdopodobieństwa 2. rzędu
+    gęstości prawdopodobieństwa 1. rzędu
+    rozkładu prawdopodobieństwa 1. rzędu
+    gęstości prawdopodobieństwa 2. rzędu
+    dystrybuanty 1. rzędu
+
+[id:1446] W wyniku -punktowej DFT powstaje ciąg -elementowy. W ciągu tym liczba niezależnych wyrazów wynosi [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:1447] Funkcja transmitancji filtru cyfrowego ma postać[POPRAWNE]
+
+[id:1477] Iloczyn skalarny dwóch wektorów prawidłowo określają wyrażenia: [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:1491] Zalozmy, ze rozklady hipotezy H0 i H1 sa gaussowskie (normalne) z parametrami odpowiednio m0, s0 oraz m1, s1. Wspolczynnik detekowalnosci klas (separowalnosci) zalezy od |m0-m1|:[POPRAWNE]
+
+    a. wprost proporcjonalnie
+    b. odwrotnie proporcjonalnie
+
+[id:1534] Zależność pomiędzy widmowymi gęstościami mocy na wyjściu i na wyjściu systemu liniowego niezmiennego w czasie ma postać:[POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e. 
+
+[id:1561] Zaznacz pradziwe stwierdzenia dla przestrzeni . [POPRAWNE]
+
+    a. Liczba wektorów bazy równa się 5 a liczba wektorów pozostałych jest nieskończona
+    b. Rozmiar (ilość współrzędnych) wektorów bazy równa się 5 a rozmiar wektorów pozostałych jest nieskończony
+    c. Liczba wektorów bazy jest nieskończona a liczba wektorów pozostałych jest równa 5
+    d. Rozmiar (ilość współrzędnych) wektorów bazy jest nieskończony a liczba wektorów bazy wynosi 5
+
+[id:1562] Najczęściej spotykana definicja normy wektora to: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:1573] W przestrzeni można stworzyć tylko 5 losowo wybranych wektorów, które są permutacją wektorów bazy. [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:1610] Estymator widmowej gęstości mocy procesu można uzyskać z zależności ( oznacza transformację Fouriera) [POPRAWNE]
+
+[id:1616] We wzorze wielkość w jest [POPRAWNE]
+
+    a. szerokością przedziału estymacji
+    b. chwilową wartością sygnału
+    c. chwilową wartością próbki
+    d. oknem czasowym
+
+[id:1619] Jeśli jest poziomem ufności a [a,b] jest przedziałem ufności estymatora \hat A o rozkładzie f(\hat A) , to prawdziwa jest zależność [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:1621] Są dane cztery przebiegi sinusoidalne. Częstotliwość próbkowania jest Hz, liczba próbek N=1000, n=0, 1, 2, \ldots , N-1. Wskaż te przebiegi, dla których w wyniku DFT pojawi się przeciek widma [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:1624] W definicji symbol E oznacza: [POPRAWNE]
+
+    wartość oczekiwaną
+    średnią geometryczną
+    średnią arytmetyczną
+    prawdopodobieństwo
+
+[id:1627] W jakiej metodzie identyfikacji systemu moduł funkcji transmitancji wyznaczany jest z zależności , gdzie S oznacza widmową gęstość mocy [POPRAWNE]
+
+    korelacyjnej
+    widmowej
+    sinusoidalnej
+    impulsowej
+
+[id:1634] Metody parametryczne różnią się od metod nieparametrycznych estymacji widmowej gęstości mocy tym, że[POPRAWNE]
+
+    a. przyjmowany jest model sygnału
+    b. widmowa gęstość mocy zależy od parametrów estymacji
+    c. jesteśmy w stanie wyestymować jedynie pewne parametry widmowej gęstości mocy
+    d. zakładana jest wartość pewnych niezmienników widmowej gęstości mocy
+
+[id:1640] W zależność opisującej sygnał telekomunikacyjny, a_n jest [POPRAWNE]
+
+    a. ciągiem symboli zawierających informację
+    b. ciągiem bitów zawierających informację
+    c. sygnałem dyskretnym przed modulacją
+    d. ciągiem wartości odpowiadających symbolom
+    e. ciągiem wartości odpowiadających bitom
+
+[id:1644] Okno w metodzie okna projektowania filtrów cyfrowych stosowane jest w celu[POPRAWNE]
+
+    a. zwiększenia tłumienia w paśmie zaporowym
+    b. zmniejszenia tłumienia w paśmie przepustowym
+    c. zmniejszenia szerokości pasma przejściowego
+    d. likwidacji przecieku widma
+
+[id:1647] Aby w przestrzeni , o bazie zapisanej w macierzy B (gdzie każda kolumna to wektor bazy od b_1 do b_n ) wpółczynniki reprezentacji wektora (oznaczone jako wektor \alpha ) były takie same jak współczynniki danego wektora w muszą zachodzi warunki (zaznacz wszystkie prawidłowe): [POPRAWNE]
+
+    a. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    b. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    c. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    d. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    e. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    f. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    g. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    h. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N 
+
+[id:1649] Jedyna ortogonalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:1661] W definicji symbol E oznacza: [POPRAWNE]
+
+    wartość oczekiwaną
+    średnią geometryczną
+    średnią arytmetyczną
+    prawdopodobieństwo
+
+[id:1662] Współczynniki filtru FIR (o skończonej odpowiedzi impulsowej) to[POPRAWNE]
+
+    zera i bieguny filtru
+    wartości prążków widma sygnału wejściowego filtru
+    ciąg wartości odpowiedzi impulsowej filtru
+    transformata Fouriera odpowiedzi impulsowej
+
+[id:1663] Jeżeli wiemy, że i wiemy, że z ( n ) = a x ( n ) + b y ( n ) , to: [POPRAWNE]
+
+[id:1665] Jeśli jest poziomem ufności a [a,b] jest przedziałem ufności estymatora \hat A o rozkładzie f(\hat A) , to prawdziwa jest zależność [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:1668] Jeśli na wejście filtru modelujacego podamy sygnał białego szumu (inny niż sygnał błędu filtru innowacyjnego) to na wyjściu filtru modelujacego pojawi się sygnał, który jest zgodny z sygnałem na wejściu filtru innowacyjnego[POPRAWNE]
+
+    "próbka w próbkę"  - czyli identyczny
+    tylko pod względem statystyk drugiego rzędu
+
+[id:1671] Jaka metryka wyniknie z przyjętej normy ?: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:1683] Są dane cztery przebiegi sinusoidalne. Częstotliwość próbkowania jest Hz, liczba próbek N=1000, n=0, 1, 2, \ldots , N-1. Wskaż te przebiegi, dla których w wyniku DFT pojawi się przeciek widma [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:1690] Aby w przestrzeni , o bazie zapisanej w macierzy B (gdzie każda kolumna to wektor bazy od b_1 do b_n ) wpółczynniki reprezentacji wektora (oznaczone jako wektor \alpha ) były takie same jak współczynniki danego wektora w muszą zachodzi warunki (zaznacz wszystkie prawidłowe): [POPRAWNE]
+
+    a. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    b. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    c. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    d. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    e. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    f. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    g. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    h. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N 
+
+[id:1697] Filtr IIR (o nieskończonej odpowiedzi impulsowej) ma 2 zera sprzężone: . Dla jakiej pary sprzężonych biegunów taki filtr będzie stabilny? [POPRAWNE]
+
+[id:1699] Funkcja transmitancji filtru cyfrowego ma postać[POPRAWNE]
+
+[id:1700] Z faktu wynika, że oba wektory: [POPRAWNE]
+
+    a. są liniowo niezależne
+    b. są liniowo zależne
+    c. są liniową kombinacją
+    d. stanowią bazę przestrzeni
+    e. mogą być elemntami bazy 
+
+[id:1705] Zależność jest definicją: [POPRAWNE]
+
+    dystrybuanty 2. rzędu
+    rozkładu prawdopodobieństwa 2. rzędu
+    gęstości prawdopodobieństwa 1. rzędu
+    rozkładu prawdopodobieństwa 1. rzędu
+    gęstości prawdopodobieństwa 2. rzędu
+    dystrybuanty 1. rzędu
+
+[id:1709] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - \sum_{n=2}^{N-1} \sigma ( n - 2 ) e^{-j \frac{2 \pi}{N} k n} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:1719] W wyniku -punktowej DFT powstaje ciąg -elementowy. W ciągu tym liczba niezależnych wyrazów wynosi [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:1748] Definicja jest: [POPRAWNE]
+
+    definicją dystrybuanty I-go rzędu
+    definicją rozkładu prawdopodobieństwa I-go rzędu
+    definicją dystrybuanty II-go rzędu
+    definicję rozkładu prawdopodobieństwa II-go rzędu
+
+[id:1754] Z faktu są liniowo niezależne wynika, że oba wektory: [POPRAWNE]
+
+    a.
+    b. są liniowo ortonormalne
+    c. są liniową kombinacją
+    d. stanowią bazę przestrzeni
+    e. mogą być elemntami bazy 
+
+[id:1756] Jeśli jest poziomem ufności a [a,b] jest przedziałem ufności estymatora \hat A o rozkładzie f(\hat A) , to prawdziwa jest zależność [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:1757] W definicji , P oznacza: [POPRAWNE]
+
+    prawdopodobieństwo
+    pochodną
+    gęstość prawdopodobieństwa
+    funkcję
+
+[id:1759] Estymator widmowej gęstości mocy procesu można uzyskać z zależności ( oznacza transformację Fouriera) [POPRAWNE]
+
+[id:1760] Równoległe połączenie dwóch liniowych układów niezmiennych w czasie, o odpowiedziach impulsowych i h_2 (n ), ma łączną odpowiedź impulsową [POPRAWNE]
+
+[id:1763] Jak objawia się przesunięcie sygnału w czasie w transformacie Fouriera ? [POPRAWNE]
+
+[id:1771] Zaznacz poprawne formuły opisujące splot w dziedzinie dzęstotliwości. oznaczają odpowiednio dyskretny czas i dyskretną częstotliwość. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g. 
+
+[id:1778] Współczynniki filtru, którego moduł transmitancji prezentowany jest na wykresie, zostały w matlab/octave obliczone poleceniem: filtrPP[POPRAWNE]
+
+    a. [b a] = butter (12, [0.3 0.6], 'bandpass')
+    b. [b a] = butter (12, [0.2 0.4], 'bandpass')
+    c. [b a] = butter (12, [0.3 0.6], 'stop')
+    d. [b a] = butter (12, [0.2 0.4], 'stop')
+    e. [b a] = butter (12, 0.3, 'low')
+    f. [b a] = butter (12, 0.3, 'high')
+    g. [b a] = butter (12, [0.3 0.6], 'high')
+
+[id:1789] Aby w przestrzeni , o bazie zapisanej w macierzy B (gdzie każda kolumna to wektor bazy od b_1 do b_n ) wpółczynniki reprezentacji wektora (oznaczone jako wektor \alpha ) były takie same jak współczynniki danego wektora w muszą zachodzi warunki (zaznacz wszystkie prawidłowe): [POPRAWNE]
+
+    a. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    b. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    c. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    d. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    e. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    f. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    g. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    h. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N 
+
+[id:1796] Jeśli jest poziomem ufności a [a,b] jest przedziałem ufności estymatora \hat A o rozkładzie f(\hat A) , to prawdziwa jest zależność [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:1800] Zależność opisuje sygnał telekomunikacyjny [POPRAWNE]
+
+    a. analogowy w paśmie podstawowym
+    b. dyskretny w paśmie podstawowym
+    c. analogowy na częstotliwości pośredniej
+    d. dyskretny na częstotliwości pośredniej
+    e. analogowy na częstotliwości nośnej
+    f. dyskretny na częstotliwości nośnej
+
+[id:1801] Zaznacz poprawne formuły opisujące splot w dziedzinie dzęstotliwości. oznaczają odpowiednio dyskretny czas i dyskretną częstotliwość. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g. 
+
+[id:1802] Zaznacz pradziwe stwierdzenia dla przestrzeni . [POPRAWNE]
+
+    a. Liczba wektorów bazy równa się 5 a liczba wektorów pozostałych jest nieskończona
+    b. Rozmiar (ilość współrzędnych) wektorów bazy równa się 5 a rozmiar wektorów pozostałych jest nieskończony
+    c. Liczba wektorów bazy jest nieskończona a liczba wektorów pozostałych jest równa 5
+    d. Rozmiar (ilość współrzędnych) wektorów bazy jest nieskończony a liczba wektorów bazy wynosi 5
+
+[id:1803] W jakiej metodzie identyfikacji systemu odpowiedź impulsowa wyznaczana jest z zależności [POPRAWNE]
+
+    korelacyjnej
+    widmowej
+    impulsowej
+    sinusoidalnej
+
+[id:1805] Jedyna ortonormalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:1806] Zależność jest definicją: [POPRAWNE]
+
+    dystrybuanty 2. rzędu
+    rozkładu prawdopodobieństwa 2. rzędu
+    gęstości prawdopodobieństwa 1. rzędu
+    rozkładu prawdopodobieństwa 1. rzędu
+    gęstości prawdopodobieństwa 2. rzędu
+    dystrybuanty 1. rzędu
+
+[id:1807] Zależność definiuje: [POPRAWNE]
+
+    funkcję autokorelacji dowolnego procesu
+    funkcję autokorelacji procesu stacjonarnego
+    funkcję autokowariancji procesu stacjonarnego
+    funkcję autokowariancji dowolnego procesu
+
+[id:1817] W definicji , P oznacza: [POPRAWNE]
+
+    prawdopodobieństwo
+    pochodną
+    gęstość prawdopodobieństwa
+    funkcję
+
+[id:1820] Równoległe połączenie dwóch liniowych układów niezmiennych w czasie, o odpowiedziach impulsowych i h_2 (n ), ma łączną odpowiedź impulsową [POPRAWNE]
+
+[id:1824] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - \sum_{n=2}^{N-1} \sigma ( n - 2 ) e^{-j \frac{2 \pi}{N} k N} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:1826] W jakiej metodzie identyfikacji systemu funkcja transmitancji wyznaczana jest z zależności , gdzie S oznacza widmową gęstość mocy [POPRAWNE]
+
+    korelacyjnej
+    widmowej
+    sinusoidalnej
+    impulsowej
+
+[id:1830] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem fazy
+    b. z kluczowaniem amplitudy
+    c. z kluczowaniem częstotliwości
+    d. amplitudy
+    e. częstotliwości
+
+[id:1834] Definicja jest: [POPRAWNE]
+
+    definicją dystrybuanty I-go rzędu
+    definicją rozkładu prawdopodobieństwa I-go rzędu
+    definicją dystrybuanty II-go rzędu
+    definicję rozkładu prawdopodobieństwa II-go rzędu
+
+[id:1835] Zależność definiuje: [POPRAWNE]
+
+    widmową gęstość mocy procesu niestacjonarnego
+    funkcję autokorelacji procesu niestacjonarnego
+    funkcję autokowariancji procesu niestacjonarnego
+    dystrybuantę 2-go rzędu procesu niestacjonarnego
+
+[id:1836] Filtr minimalnofazowy posiada[POPRAWNE]
+
+    wszystkie zera ulokowane wewnątrz okręgu jednostkowego
+    minimalną wartość sumy współczynników odpowiedzi impulsowej
+    wszystkie zera ulokowane na zewnątrz okręgu jednostkowego
+    maksymalnie płaski moduł transmitancji
+    minimalne z możliwych zafalowania modułu transmitancji
+
+[id:1838] Zależność jest słuszna dla procesu: [POPRAWNE]
+
+    stacjonarnego całkowicie
+    słabo stacjonarnego
+    lokalnie stacjonarnego
+    cyklostacjonarnego
+    - alfa stacjonarnego
+    - em stacjonarnego 
+
+[id:1842] Aby w przestrzeni , o bazie zapisanej w macierzy B (gdzie każda kolumna to wektor bazy od b_1 do b_n ) wpółczynniki reprezentacji wektora (oznaczone jako wektor \alpha ) były takie same jak współczynniki danego wektora w muszą zachodzi warunki (zaznacz wszystkie prawidłowe): [POPRAWNE]
+
+    a. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    b. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    c. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    d. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    e. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    f. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    g. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    h. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N 
+
+[id:1844] W jakiej metodzie identyfikacji systemu moduł funkcji transmitancji wyznaczany jest z zależności , gdzie A_x i A_y są amplitudami sygnałów wejściowego i wyjściowego [POPRAWNE]
+
+    sinusoidalnej
+    korelacyjnej
+    widmowej
+    impulsowej
+
+[id:1845] Zależność opisuje sygnał telekomunikacyjny [POPRAWNE]
+
+    a. analogowy w paśmie podstawowym
+    b. dyskretny w paśmie podstawowym
+    c. analogowy na częstotliwości pośredniej
+    d. dyskretny na częstotliwości pośredniej
+    e. analogowy na częstotliwości nośnej
+    f. dyskretny na częstotliwości nośnej
+
+[id:1846] Współczynniki filtru, którego moduł transmitancji prezentowany jest na wykresie, zostały w matlab/octave. obliczone poleceniem:filtrPZ[POPRAWNE]
+
+    a. [b a] = butter (12, [0.3 0.6], 'bandpass')
+    b. [b a] = butter (12, [0.2 0.4], 'bandpass')
+    c. [b a] = butter (12, [0.3 0.6], 'stop')
+    d. [b a] = butter (12, [0.2 0.4], 'stop')
+    e. [b a] = butter (12, 0.3, 'low')
+    f. [b a] = butter (12, 0.3, 'high')
+    g. [b a] = butter (12, [0.3 0.6], 'high')
+
+[id:1861] Najczęściej spotykana definicja normy wektora to: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:1867] Jeżeli w próbkowanym sygnale maksymalna częstotliwość ma wartość , to twierdzenie o próbkowaniu mówi, że minimalna częstotliwość poprawnego próbkowania musi być: [POPRAWNE]
+
+[id:1882] Jeśli jest poziomem ufności a [a,b] jest przedziałem ufności estymatora \hat A o rozkładzie f(\hat A) , to prawdziwa jest zależność [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:1891] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - \sum_{n=2}^{N-1} \sigma ( n - 2 ) e^{-j \frac{2 \pi}{N} k n} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:1904] W wyniku -punktowej DFT powstaje ciąg -elementowy. W ciągu tym liczba niezależnych wyrazów wynosi [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:1905] Z faktu wynika, że oba wektory: [POPRAWNE]
+
+    a. są liniowo niezależne
+    b. są liniowo zależne
+    c. są liniową kombinacją
+    d. stanowią bazę przestrzeni
+    e. mogą być elemntami bazy 
+
+[id:1912] Wskaz prawdziwe własności sygnału okresowego o okresie , gdzie \mathbb{R}, \mathbb{Z} oznaczają odpowiednio zbiór licz rzeczywistych i zbiór liczb całkowitych. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:1922] W przestrzeni można stworzyć tylko 5 losowo wybranych wektorów, które są permutacją wektorów bazy. [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:1936] We wzorze wielkość w jest [POPRAWNE]
+
+    a. szerokością przedziału estymacji
+    b. chwilową wartością sygnału
+    c. chwilową wartością próbki
+    d. oknem czasowym
+
+[id:1952] Który z poniższych wzorów, określa prosta adaptacyjną formułę wyznaczania wartości średniej sygnału ? [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g. 
+
+[id:1973] Są dane cztery przebiegi sinusoidalne. Częstotliwość próbkowania jest Hz, liczba próbek N=1000, n=0, 1, 2, \ldots , N-1. Wskaż te przebiegi, dla których w wyniku DFT pojawi się przeciek widma [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:1984] Definicja jest: [POPRAWNE]
+
+    definicją dystrybuanty I-go rzędu
+    definicją rozkładu prawdopodobieństwa I-go rzędu
+    definicją dystrybuanty II-go rzędu
+    definicję rozkładu prawdopodobieństwa II-go rzędu
+
+[id:1993] Zależność definiuje: [POPRAWNE]
+
+    moment n-tego rzędu dowolnego procesu
+    autokowariancję n-tego rzędu dowolnego procesu
+    dystrybuantę n-tego rzędu dowolnego procesu
+    kumulant n-tego rzędu dowolnego procesu
+
+[id:1998] Jeżeli ciągi czasowe i x_{2}[n] mają transformaty Fouriera (DFT), odpowiednio, X_1(m) i X_2(m), to dla x_{sum}[n]=x_1[n]+x_2[n] właściwość liniowości DTF można zapisać jako [POPRAWNE]
+
+    a. (splot)
+    b. (iloraz)
+    c. (iloczyn)
+    d. (suma) 
+
+[id:2000] W przestrzeni można stworzyć tylko 5 losowo wybranych wektorów, które są permutacją wektorów bazy. [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:2004] Dyskretna transformata Fouriera w przód zdefiniowana jest zależnością[POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:2006] Które z poniższych zależności są poprawne, jeśli dotyczy sygnału wejściowego, y dotyczy sygnału wyjściowego, S jest oznaczeniem widmowej gęstości mocy zaś H(f) oznacza funkcję transmitancji systemu liniowego inercyjnego niezmiennego w czasie [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e. 
+
+[id:2008] We wzorze wielkość w jest [POPRAWNE]
+
+    a. szerokością przedziału estymacji
+    b. chwilową wartością sygnału
+    c. chwilową wartością próbki
+    d. oknem czasowym
+
+[id:2009] W definicji symbol E oznacza: [POPRAWNE]
+
+    wartość oczekiwaną
+    średnią geometryczną
+    średnią arytmetyczną
+    prawdopodobieństwo
+
+[id:2011] Jak objawia się przesunięcie sygnału w czasie w transformacie Fouriera ? [POPRAWNE]
+
+[id:2015] Jedyna ortonormalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:2023] Zależność definiuje: [POPRAWNE]
+
+    widmową gęstość mocy procesu niestacjonarnego
+    funkcję autokorelacji procesu niestacjonarnego
+    funkcję autokowariancji procesu niestacjonarnego
+    dystrybuantę 2-go rzędu procesu niestacjonarnego
+
+[id:2027] Wskaz prawdziwe własności sygnału okresowego o okresie , gdzie \mathbb{R}, \mathbb{Z} oznaczają odpowiednio zbiór licz rzeczywistych i zbiór liczb całkowitych. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:2028] Filtracja optymalna (znana też jako filtracja innowacyjna) zawdzięcza swoją nazwę[POPRAWNE]
+
+    innowacyjnemu, nowatorskiemu i optymalnemu traktowaniu próbek sygnału jako współczynniki filtru
+    innowacyjnemu, nowatorskiemu i optymalnemu traktowaniu próbek sygnału jako estymatory współczynników filtru
+    optymalizacji innowacyjnej liczonej z estymatora współczynnikow filtru
+    minimalizacji błędu średniokwadratowego estymacji bieżącej próbki sygnału
+
+[id:2042] Jeśli częstotliwość próbkowania sygnału wynosi 2400Hz, to widmo amplitudowe prezentowane na wykresie może być widmem sygnału sinusoidalnego częstotliwościach: widmo.png[POPRAWNE]
+
+    500Hz
+    700Hz
+    800Hz
+    1900Hz
+    1000Hz
+
+[id:2048] W jakiej metodzie identyfikacji systemu funkcja transmitancji wyznaczana jest z zależności , gdzie S oznacza widmową gęstość mocy [POPRAWNE]
+
+    korelacyjnej
+    widmowej
+    sinusoidalnej
+    impulsowej
+
+[id:2052] Jeśli oznacza czas dyskretny, to definicja transformaty Z ma postać [POPRAWNE]
+
+[id:2061] Zaznacz zależności, które świadczą o okresowości transformaty Fouriera sygnału . [POPRAWNE]
+
+    a. gdzie k to dyskretne częstotliwości.
+    b. gdzie k to dyskretne częstotliwości.
+    c. gdzie k to dyskretne częstotliwości.
+    d. gdzie k to dyskretne częstotliwości. 
+
+[id:2068] W definicji symbol \mathcal FT oznacza: [POPRAWNE]
+
+    dwuwymiarową transformację Fouriera
+    dystrybuantę 1-go rzędu
+    dystrybuantę 2-go rzędu
+    transformację falkową
+
+[id:2069] W zależność opisującej sygnał telekomunikacyjny, a_n jest [POPRAWNE]
+
+    a. ciągiem symboli zawierających informację
+    b. ciągiem bitów zawierających informację
+    c. sygnałem dyskretnym przed modulacją
+    d. ciągiem wartości odpowiadających symbolom
+    e. ciągiem wartości odpowiadających bitom
+
+[id:2071] Zależność definiuje: [POPRAWNE]
+
+    widmową gęstość mocy procesu niestacjonarnego
+    funkcję autokorelacji procesu niestacjonarnego
+    funkcję autokowariancji procesu niestacjonarnego
+    dystrybuantę 2-go rzędu procesu niestacjonarnego
+
+[id:2072] Zaznacz poprawne formuły opisujące splot w dziedzinie czasu. oznaczają odpowiednio dyskretny czas i dyskretną częstotliwość. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:2076] Okno w metodach estymacji widma stosowane jest w celu [POPRAWNE]
+
+    a. zmniejszenia wariancji estymatora wgm
+    b. wycięcia fragmentu sygnału
+    c. wygładzenia sygnału
+    d. zmniejszenia przecieku widma
+    e. zmniejszenia szerokości pasma przejściowego
+
+[id:2081] Jaka jest rozdzielczość widma (odległość pomiędzy dwoma sąsiednimi prążkami widma) ( -- liczba próbek sygnału poddawanego DFT, f_s -- częstotliwość próbkowania) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:2101] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem częstotliwości
+    b. z kluczowaniem fazy
+    c. z kluczowaniem amplitudy
+    d. fazy
+    e. amplitudy
+
+[id:2107] Zaznacz pradziwe stwierdzenia dla przestrzeni . [POPRAWNE]
+
+    a. Liczba wektorów bazy równa się 5 a liczba wektorów pozostałych jest nieskończona
+    b. Rozmiar (ilość współrzędnych) wektorów bazy równa się 5 a rozmiar wektorów pozostałych jest nieskończony
+    c. Liczba wektorów bazy jest nieskończona a liczba wektorów pozostałych jest równa 5
+    d. Rozmiar (ilość współrzędnych) wektorów bazy jest nieskończony a liczba wektorów bazy wynosi 5
+
+[id:2108] Jaka metryka wyniknie z przyjętej normy ?: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:2112] Współczynniki filtru, którego moduł transmitancji prezentowany jest na wykresie, zostały w matlab/octave. obliczone poleceniem:filtrPZ[POPRAWNE]
+
+    a. [b a] = butter (12, [0.3 0.6], 'bandpass')
+    b. [b a] = butter (12, [0.2 0.4], 'bandpass')
+    c. [b a] = butter (12, [0.3 0.6], 'stop')
+    d. [b a] = butter (12, [0.2 0.4], 'stop')
+    e. [b a] = butter (12, 0.3, 'low')
+    f. [b a] = butter (12, 0.3, 'high')
+    g. [b a] = butter (12, [0.3 0.6], 'high')
+
+[id:2113] We wzorze wielkość w jest [POPRAWNE]
+
+    a. szerokością przedziału estymacji
+    b. chwilową wartością sygnału
+    c. chwilową wartością próbki
+    d. oknem czasowym
+
+[id:2114] Które z poniższych zależności są poprawne, jeśli dotyczy sygnału wejściowego, y dotyczy sygnału wyjściowego, S jest oznaczeniem widmowej gęstości mocy zaś H(f) oznacza funkcję transmitancji systemu liniowego inercyjnego niezmiennego w czasie [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e. 
+
+[id:2118] Oznaczenia: - sygnał wejściowy, h ( n ) - odpowiedź impulsowa układu, y ( n ) - sygnał wyjściowy. Dla układu dyskretnego niezmiennego w czasie prawdziwy jest/są poniższe formuły: [POPRAWNE]
+
+    (splot)
+    (splot)
+
+[id:2121] W zależność opisującej sygnał telekomunikacyjny, T jest [POPRAWNE]
+
+    a. czasem trwania symbolu
+    b. czasem trwania bitu informacji
+    c. czasem trwania próbki
+    d. okresem drgań nośnej
+    e. odstępem pomiędzy próbkami
+
+[id:2126] Gęstość prawdopodobieństwa jest definiowana jako: [POPRAWNE]
+
+    a. druga pochodna cząstkowa dystrybuanty 2-go rzędu
+    b. pochodna cząstkowa dystrybuanty 2-go rzędu
+    c. pochodna dystrybuanty 1-go rzędu
+    d. druga pochodna cząstkowa dystrybuanty 1-go rzędu
+
+[id:2130] W przestrzeni można stworzyć tylko 5 losowo wybranych wektorów, które są permutacją wektorów bazy. [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:2139] Współczynniki filtru, którego moduł transmitancji prezentowany jest na wykresie, zostały w matlab/octave. obliczone poleceniem:filtrPZ[POPRAWNE]
+
+    a. [b a] = butter (12, [0.3 0.6], 'bandpass')
+    b. [b a] = butter (12, [0.2 0.4], 'bandpass')
+    c. [b a] = butter (12, [0.3 0.6], 'stop')
+    d. [b a] = butter (12, [0.2 0.4], 'stop')
+    e. [b a] = butter (12, 0.3, 'low')
+    f. [b a] = butter (12, 0.3, 'high')
+    g. [b a] = butter (12, [0.3 0.6], 'high')
+
+[id:2140] Współczynniki filtru, którego moduł transmitancji prezentowany jest na wykresie, zostały wmatlab/octave obliczone poleceniem: a[POPRAWNE]
+
+    a. [b a] = cheby1 (8, 2, 0.4, 'high')
+    b. [b a] = cheby1 (8, 2, [0.3 0.5], 'bandpass')
+    c. [b a] = cheby1 (8, 2, 0.3, 'high')
+    d. [b a] = cheby1 (8, 2, [0.2 0.4], 'stop')
+    e. [b a] = cheby1 (8, 2, 0.4, 'low')
+    f. [b a] = cheby1 (8, 2, 0.2, 'low')
+    g. [b a] = cheby1 (8, 2, [0.3 0.6], 'high')
+
+[id:2141] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - \sum_{n=2}^{N-1} \sigma ( n - 2 ) e^{-j \frac{2 \pi}{N} k n} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:2142] Zależność : [POPRAWNE]
+
+    definiuje kowariancję wzajemna procesów stacjonarnych
+    definiuje korelację wzajemna procesów stacjonarnych
+    definiuje kowariancję wzajemna dowolnych procesów
+    definiuje korelację wzajemna dowolnych procesów
+
+[id:2149] Jak objawia się przesunięcie sygnału w czasie w transformacie Fouriera ? [POPRAWNE]
+
+[id:2156] Zaznacz poprawne formuły opisujące splot w dziedzinie dzęstotliwości. oznaczają odpowiednio dyskretny czas i dyskretną częstotliwość. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g. 
+
+[id:2157] Z faktu wynika, że oba wektory: [POPRAWNE]
+
+    a. są liniowo niezależne
+    b. są liniowo zależne
+    c. są liniową kombinacją
+    d. stanowią bazę przestrzeni
+    e. mogą być elemntami bazy 
+
+[id:2159] Najczęściej spotykana definicja normy wektora to: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:2162] Dwa wektory : [POPRAWNE]
+
+    a. należą do innych przestrzeni
+    b. są ortogonalne
+    c. są ortonormalne
+    d. są ortogonalne i ortonormalne
+    e. są dwoma wektorami bazy przestrzeni 
+
+[id:2167] Zależność definiuje [POPRAWNE]
+
+    wariancję procesu stochastycznego
+    wartość średnią procesu stochastycznego
+    rozkład prawdopodobieństwa procesu stochastycznego
+    funkcje autokowariancji procesu stochastycznego
+    wartość średniokwadratową procesu stochastycznego
+
+[id:2182] Który z poniższych wzorów, określa prosta adaptacyjną formułę wyznaczania wartości średniej sygnału ? [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g. 
+
+[id:2204] Jedyna ortonormalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:2210] Jedyna ortogonalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:2219] W jakiej metodzie identyfikacji systemu moduł funkcji transmitancji wyznaczany jest z zależności , gdzie S oznacza widmową gęstość mocy [POPRAWNE]
+
+    korelacyjnej
+    widmowej
+    sinusoidalnej
+    impulsowej
+
+[id:2230] W definicji , P oznacza: [POPRAWNE]
+
+    prawdopodobieństwo
+    pochodną
+    gęstość prawdopodobieństwa
+    funkcję
+
+[id:2239] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - \sum_{n=2}^{N-1} \sigma ( n - 2 ) e^{-j \frac{2 \pi}{N} k n} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:2245] Najczęściej spotykana definicja normy wektora to: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:2246] Dwa wektory : [POPRAWNE]
+
+    a. należą do innych przestrzeni
+    b. są ortogonalne
+    c. są ortonormalne
+    d. są ortogonalne i ortonormalne
+    e. są dwoma wektorami bazy przestrzeni 
+
+[id:2249] Który z poniższych wzorów, określa prosta adaptacyjną formułę wyznaczania wartości średniej sygnału ? [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g. 
+
+[id:2257] Wzór określa: [POPRAWNE]
+
+    a. całkowitą energię sygnału.
+    b. całkowita moc sygnału
+    c. całkowitą wariancję sygnału
+    d. chwilową wartość średnią sygnału
+
+[id:2259] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem fazy
+    b. z kluczowaniem amplitudy
+    c. z kluczowaniem częstotliwości
+    d. amplitudy
+    e. częstotliwości
+
+[id:2264] Definicja jest: [POPRAWNE]
+
+    definicją dystrybuanty I-go rzędu
+    definicją rozkładu prawdopodobieństwa I-go rzędu
+    definicją dystrybuanty II-go rzędu
+    definicję rozkładu prawdopodobieństwa II-go rzędu
+
+[id:2266] Filtr IIR (o nieskończonej odpowiedzi impulsowej) ma 2 zera sprzężone: . Dla jakiej pary sprzężonych biegunów taki filtr będzie stabilny? [POPRAWNE]
+
+[id:2271] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - 2\sum_{n=2}^{N-1} \sigma ( n ) e^{-j \frac{2 \pi}{N} k n} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:2277] Które z poniższych warunków spełnia poziom ufności estymatora [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:2283] We wzorze wielkość w jest [POPRAWNE]
+
+    a. szerokością przedziału estymacji
+    b. chwilową wartością sygnału
+    c. chwilową wartością próbki
+    d. oknem czasowym
+
+[id:2285] Najczęściej spotykana definicja normy wektora to: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:2302] Jeśli jest poziomem ufności a [a,b] jest przedziałem ufności estymatora \hat A o rozkładzie f(\hat A) , to prawdziwa jest zależność [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:2328] W przestrzeni można stworzyć tylko 5 losowo wybranych wektorów, które są permutacją wektorów bazy. [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:2352] Wskaz prawdziwe własności sygnału okresowego o okresie , gdzie \mathbb{R}, \mathbb{Z} oznaczają odpowiednio zbiór licz rzeczywistych i zbiór liczb całkowitych. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:2362] Które z poniższych warunków spełnia poziom ufności estymatora [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:2364] Zaznacz zależności, które świadczą o okresowości transformaty Fouriera sygnału . [POPRAWNE]
+
+    a. gdzie k to dyskretne częstotliwości.
+    b. gdzie k to dyskretne częstotliwości.
+    c. gdzie k to dyskretne częstotliwości.
+    d. gdzie k to dyskretne częstotliwości. 
+
+[id:2365] Jaka jest rozdzielczość widma (odległość pomiędzy dwoma sąsiednimi prążkami widma) ( -- liczba próbek sygnału poddawanego DFT, f_s -- częstotliwość próbkowania) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:2372] Zależność jest definicją: [POPRAWNE]
+
+    dystrybuanty 2. rzędu
+    rozkładu prawdopodobieństwa 2. rzędu
+    gęstości prawdopodobieństwa 1. rzędu
+    rozkładu prawdopodobieństwa 1. rzędu
+    gęstości prawdopodobieństwa 2. rzędu
+    dystrybuanty 1. rzędu
+
+[id:2384] Najczęściej spotykana definicja normy wektora to: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:2385] Jeżeli wiemy, że transformata Fouriera sygnału jest "przesunięta" o częstotliwość k_0, \, k_0 \in (-1,1) czyli X ( k ) = Y ( k+k_0 ) to możemy łatwo wyznaczyć postać czasową sygnału w nastepujący sposób: [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:2387] Jak objawia się przesunięcie sygnału w czasie w transformacie Fouriera ? [POPRAWNE]
+
+[id:2394] Zależność : [POPRAWNE]
+
+    definiuje kowariancję wzajemna procesów stacjonarnych
+    definiuje korelację wzajemna procesów stacjonarnych
+    definiuje kowariancję wzajemna dowolnych procesów
+    definiuje korelację wzajemna dowolnych procesów
+
+[id:2397] Dwa wektory : [POPRAWNE]
+
+    a. należą do innych przestrzeni
+    b. są ortogonalne
+    c. są ortonormalne
+    d. są ortogonalne i ortonormalne
+    e. są dwoma wektorami bazy przestrzeni 
+
+[id:2402] Jaką przestrzeń rozpinają wektory v ( n ) = e^{-j \frac{2 \pi}{N} n k} ? Gdzie N \in \mathbb{N}, \,\, k,n = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b. przestrzeń wektorów o rozmiarze o wartościach zespolonych
+    c. przestrzeń wektorów o rozmiarze o wartościach rzeczywistych
+    d.
+    e.
+    f.
+    g.
+    h.
+    i.
+    j.
+    k. nie rozpinają żadnej przestrzeni
+    l. nie spełniają warunków na bazę przestrzeni
+
+[id:2408] W zależność opisującej sygnał telekomunikacyjny, a_n jest [POPRAWNE]
+
+    a. ciągiem symboli zawierających informację
+    b. ciągiem bitów zawierających informację
+    c. sygnałem dyskretnym przed modulacją
+    d. ciągiem wartości odpowiadających symbolom
+    e. ciągiem wartości odpowiadających bitom
+
+[id:2411] Wskaz prawdziwe własności sygnału okresowego o okresie , gdzie \mathbb{R}, \mathbb{Z} oznaczają odpowiednio zbiór licz rzeczywistych i zbiór liczb całkowitych. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:2414] We wzorze wielkość w jest [POPRAWNE]
+
+    a. szerokością przedziału estymacji
+    b. chwilową wartością sygnału
+    c. chwilową wartością próbki
+    d. oknem czasowym
+
+[id:2418] Jeżeli jest procesem stochastycznym, a m_X = E \ oznacza wartość średnią (rzeczywistą) procesu oraz zachodzi: E \{ X (n, \xi ) \}_{n=const} = E \{ X ( n, \xi ) \}_{\xi=const} to dla dowolnego n_0 nie zachodzi: \lim_ { N \rightarrow \infty } 1/N \sum_{n_0}^{n_0 + N -1} X ( n ) _{ \xi=const } = m_X [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:2419] Zależność opisuje sygnał telekomunikacyjny [POPRAWNE]
+
+    a. analogowy w paśmie podstawowym
+    b. dyskretny w paśmie podstawowym
+    c. analogowy na częstotliwości pośredniej
+    d. dyskretny na częstotliwości pośredniej
+    e. analogowy na częstotliwości nośnej
+    f. dyskretny na częstotliwości nośnej
+
+[id:2423] W wyniku -punktowej DFT powstaje ciąg -elementowy. W ciągu tym liczba niezależnych wyrazów wynosi [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:2433] Najczęściej spotykana definicja normy wektora to: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:2440] Które z poniższych warunków spełnia poziom ufności estymatora [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:2450] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem fazy
+    b. z kluczowaniem amplitudy
+    c. z kluczowaniem częstotliwości
+    d. amplitudy
+    e. częstotliwości
+
+[id:2451] Wzór określa: [POPRAWNE]
+
+    a. całkowitą energię sygnału.
+    b. całkowita moc sygnału
+    c. całkowitą wariancję sygnału
+    d. chwilową wartość średnią sygnału
+
+[id:2466] Oznaczenia: - sygnał wejściowy, h ( n ) - odpowiedź impulsowa układu, y ( n ) - sygnał wyjściowy. Dla układu dyskretnego niezmiennego w czasie prawdziwy jest/są poniższe formuły: [POPRAWNE]
+
+    (splot)
+    (splot)
+
+[id:2507] W zależność opisującej sygnał telekomunikacyjny, T jest [POPRAWNE]
+
+    a. czasem trwania symbolu
+    b. czasem trwania bitu informacji
+    c. czasem trwania próbki
+    d. okresem drgań nośnej
+    e. odstępem pomiędzy próbkami
+
+[id:2514] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem fazy
+    b. z kluczowaniem amplitudy
+    c. z kluczowaniem częstotliwości
+    d. amplitudy
+    e. częstotliwości
+
+[id:2515] Jedyna ortonormalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:2516] Zależność : [POPRAWNE]
+
+    definiuje kowariancję wzajemna procesów stacjonarnych
+    definiuje korelację wzajemna procesów stacjonarnych
+    definiuje kowariancję wzajemna dowolnych procesów
+    definiuje korelację wzajemna dowolnych procesów
+
+[id:2518] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - \sum_{n=2}^{N-1} \sigma ( n - 2 ) e^{-j \frac{2 \pi}{N} k n} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:2519] Z faktu są liniowo niezależne wynika, że oba wektory: [POPRAWNE]
+
+    a.
+    b. są liniowo ortonormalne
+    c. są liniową kombinacją
+    d. stanowią bazę przestrzeni
+    e. mogą być elemntami bazy 
+
+[id:2521] Zależność definiuje [POPRAWNE]
+
+    wartość średnią procesu stochastycznego
+    wartość średniokwadratową procesu stochastycznego
+    funkcję autokorelacji procesu stochastycznego
+    rozkład prawdopodobieństwa procesu stochastycznego
+    wariancję procesu stochastycznego
+
+[id:2523] W przestrzeni można stworzyć tylko 5 losowo wybranych wektorów, które są permutacją wektorów bazy. [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:2526] Które z poniższych warunków spełnia poziom ufności estymatora [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:2530] Zależność definiuje: [POPRAWNE]
+
+    moment n-tego rzędu dowolnego procesu
+    autokowariancję n-tego rzędu dowolnego procesu
+    dystrybuantę n-tego rzędu dowolnego procesu
+    kumulant n-tego rzędu dowolnego procesu
+
+[id:2532] Który z poniższych wzorów, określa prosta adaptacyjną formułę wyznaczania wartości średniej sygnału ? [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g. 
+
+[id:2533] Zależność definiuje: [POPRAWNE]
+
+    funkcję autokorelacji dowolnego procesu
+    funkcję autokorelacji procesu stacjonarnego
+    funkcję autokowariancji procesu stacjonarnego
+    funkcję autokowariancji dowolnego procesu
+
+[id:2537] Iloczyn skalarny dwóch wektorów prawidłowo określają wyrażenia: [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:2538] Jedyna ortogonalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:2544] Estymator widmowej gęstości mocy procesu można uzyskać z zależności ( oznacza transformację Fouriera) [POPRAWNE]
+
+[id:2552] Jak objawia się przesunięcie sygnału w czasie w transformacie Fouriera ? [POPRAWNE]
+
+[id:2557] Zaznacz poprawne formuły opisujące splot w dziedzinie dzęstotliwości. oznaczają odpowiednio dyskretny czas i dyskretną częstotliwość. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g. 
+
+[id:2558] Zależność opisuje sygnał telekomunikacyjny [POPRAWNE]
+
+    a. analogowy w paśmie podstawowym
+    b. dyskretny w paśmie podstawowym
+    c. analogowy na częstotliwości pośredniej
+    d. dyskretny na częstotliwości pośredniej
+    e. analogowy na częstotliwości nośnej
+    f. dyskretny na częstotliwości nośnej
+
+[id:2562] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem amplitudy
+    b. z kluczowaniem cząstotliwości
+    c. z kluczowaniem fazy
+    d. częstotliwości
+    e. fazy
+
+[id:2564] Jeśli jest poziomem ufności a [a,b] jest przedziałem ufności estymatora \hat A o rozkładzie f(\hat A) , to prawdziwa jest zależność [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:2567] W jakiej metodzie identyfikacji systemu funkcja transmitancji wyznaczana jest z zależności , gdzie S oznacza widmową gęstość mocy [POPRAWNE]
+
+    korelacyjnej
+    widmowej
+    sinusoidalnej
+    impulsowej
+
+[id:2568] Zaznacz zależności, które świadczą o okresowości transformaty Fouriera sygnału . [POPRAWNE]
+
+    a. gdzie k to dyskretne częstotliwości.
+    b. gdzie k to dyskretne częstotliwości.
+    c. gdzie k to dyskretne częstotliwości.
+    d. gdzie k to dyskretne częstotliwości. 
+
+[id:2570] Współczynniki filtru, którego moduł transmitancji prezentowany jest na wykresie, zostały w MATLAB. obliczone poleceniem:< br/> filtrDP[POPRAWNE]
+
+    a. [b a] = butter (12, 0.2, 'high')
+    b. [b a] = butter (12, [0.2 0.4], 'bandpass')
+    c. [b a] = butter (12, [0.3 0.6], 'stop')
+    d. [b a] = butter (12, [0.2 0.4], 'stop')
+    e. [b a] = butter (12, 0.3, 'low')
+    f. [b a] = butter (12, 0.3, 'high')
+    g. [b a] = butter (12, [0.3 0.6], 'high')
+
+[id:2586] Gęstość prawdopodobieństwa jest definiowana jako: [POPRAWNE]
+
+    a. druga pochodna cząstkowa dystrybuanty 2-go rzędu
+    b. pochodna cząstkowa dystrybuanty 2-go rzędu
+    c. pochodna dystrybuanty 1-go rzędu
+    d. druga pochodna cząstkowa dystrybuanty 1-go rzędu
+
+[id:2587] Jeżeli wiemy, że i wiemy, że z ( n ) = a x ( n ) + b y ( n ) , to: [POPRAWNE]
+
+[id:2588] Najczęściej spotykana definicja normy wektora to: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:2594] Równoległe połączenie dwóch liniowych układów niezmiennych w czasie, o odpowiedziach impulsowych i h_2 (n ), ma łączną odpowiedź impulsową [POPRAWNE]
+
+[id:2595] Zależność definiuje: [POPRAWNE]
+
+    funkcję autokowariancji dowolnego procesu
+    funkcję autokowariancji procesu stacjonarnego
+    funkcję autokorelacji dowolnego procesu
+    funkcję autokorelacji procesu stacjonarnego
+
+[id:2601] Jeśli jest poziomem ufności a [a,b] jest przedziałem ufności estymatora \hat A o rozkładzie f(\hat A) , to prawdziwa jest zależność [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:2609] Jedyna ortogonalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:2617] Jeżeli w próbkowanym sygnale maksymalna częstotliwość ma wartość , to twierdzenie o próbkowaniu mówi, że minimalna częstotliwość poprawnego próbkowania musi być: [POPRAWNE]
+
+[id:2620] Najczęściej spotykana definicja normy wektora to: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:2642] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem fazy
+    b. z kluczowaniem amplitudy
+    c. z kluczowaniem częstotliwości
+    d. amplitudy
+    e. częstotliwości
+
+[id:2681] Jak objawia się przesunięcie sygnału w czasie w transformacie Fouriera ? [POPRAWNE]
+
+[id:2709] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - 2\sum_{n=0}^{N-1} \sigma ( n ) e^{-j \frac{2 \pi}{N} k N} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:2719] Filtr IIR (o nieskończonej odpowiedzi impulsowej) ma 2 zera sprzężone: . Dla jakiej pary sprzężonych biegunów taki filtr będzie stabilny? [POPRAWNE]
+
+[id:2731] Jedyna ortogonalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:2765] Wzór określa: [POPRAWNE]
+
+    a. całkowitą energię sygnału.
+    b. całkowita moc sygnału
+    c. całkowitą wariancję sygnału
+    d. chwilową wartość średnią sygnału
+
+[id:2766] Najczęściej spotykana definicja normy wektora to: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:2781] Jeśli jest poziomem ufności a [a,b] jest przedziałem ufności estymatora \hat A o rozkładzie f(\hat A) , to prawdziwa jest zależność [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:2808] Kaskadowe połączenie dwóch liniowych układów niezmiennych w czasie, o odpowiedziach impulsowych i h_2 (n ), ma łączną odpowiedź impulsową [POPRAWNE]
+
+[id:2810] Oznaczenia: - sygnał wejściowy, h ( n ) - odpowiedź impulsowa układu, y ( n ) - sygnał wyjściowy. Dla układu dyskretnego niezmiennego w czasie prawdziwy jest/są poniższe formuły: [POPRAWNE]
+
+    (splot)
+    (splot)
+
+[id:2812] Zależność : [POPRAWNE]
+
+    definiuje kowariancję wzajemna procesów stacjonarnych
+    definiuje korelację wzajemna procesów stacjonarnych
+    definiuje kowariancję wzajemna dowolnych procesów
+    definiuje korelację wzajemna dowolnych procesów
+
+[id:2817] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem częstotliwości
+    b. z kluczowaniem fazy
+    c. z kluczowaniem amplitudy
+    d. fazy
+    e. amplitudy
+
+[id:2822] W przestrzeni można stworzyć tylko 5 losowo wybranych wektorów, które są permutacją wektorów bazy. [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:2827] W definicji symbol \mathcal FT oznacza: [POPRAWNE]
+
+    dwuwymiarową transformację Fouriera
+    dystrybuantę 1-go rzędu
+    dystrybuantę 2-go rzędu
+    transformację falkową
+
+[id:2836] Definicja jest: [POPRAWNE]
+
+    definicją dystrybuanty I-go rzędu
+    definicją rozkładu prawdopodobieństwa I-go rzędu
+    definicją dystrybuanty II-go rzędu
+    definicję rozkładu prawdopodobieństwa II-go rzędu
+
+[id:2839] Filtr IIR (o nieskończonej odpowiedzi impulsowej) ma 2 zera sprzężone: . Dla jakiej pary sprzężonych biegunów taki filtr będzie stabilny? [POPRAWNE]
+
+[id:2840] W jakiej metodzie identyfikacji systemu moduł funkcji transmitancji wyznaczany jest z zależności , gdzie S oznacza widmową gęstość mocy [POPRAWNE]
+
+    korelacyjnej
+    widmowej
+    sinusoidalnej
+    impulsowej
+
+[id:2843] Zależność definiuje [POPRAWNE]
+
+    wariancję procesu stochastycznego
+    wartość średnią procesu stochastycznego
+    rozkład prawdopodobieństwa procesu stochastycznego
+    funkcje autokowariancji procesu stochastycznego
+    wartość średniokwadratową procesu stochastycznego
+
+[id:2847] Zaznacz poprawne formuły opisujące splot w dziedzinie czasu. oznaczają odpowiednio dyskretny czas i dyskretną częstotliwość. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:2858] W jakiej metodzie identyfikacji systemu odpowiedź impulsowa wyznaczana jest z zależności [POPRAWNE]
+
+    korelacyjnej
+    widmowej
+    impulsowej
+    sinusoidalnej
+
+[id:2868] Zaznacz poprawne formuły opisujące splot w dziedzinie dzęstotliwości. oznaczają odpowiednio dyskretny czas i dyskretną częstotliwość. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g. 
+
+[id:2871] Wzór określa: [POPRAWNE]
+
+    a. całkowitą energię sygnału.
+    b. całkowita moc sygnału
+    c. całkowitą wariancję sygnału
+    d. chwilową wartość średnią sygnału
+
+[id:2875] Zależność : [POPRAWNE]
+
+    definiuje kowariancję wzajemna procesów stacjonarnych
+    definiuje korelację wzajemna procesów stacjonarnych
+    definiuje kowariancję wzajemna dowolnych procesów
+    definiuje korelację wzajemna dowolnych procesów
+
+[id:2885] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem fazy
+    b. z kluczowaniem amplitudy
+    c. z kluczowaniem częstotliwości
+    d. amplitudy
+    e. częstotliwości
+
+[id:2890] Dwa wektory : [POPRAWNE]
+
+    a. należą do innych przestrzeni
+    b. są ortogonalne
+    c. są ortonormalne
+    d. są ortogonalne i ortonormalne
+    e. są dwoma wektorami bazy przestrzeni 
+
+[id:2892] We wzorze wielkość w jest [POPRAWNE]
+
+    a. szerokością przedziału estymacji
+    b. chwilową wartością sygnału
+    c. chwilową wartością próbki
+    d. oknem czasowym
+
+[id:2896] Z faktu wynika, że oba wektory: [POPRAWNE]
+
+    a. są liniowo niezależne
+    b. są liniowo zależne
+    c. są liniową kombinacją
+    d. stanowią bazę przestrzeni
+    e. mogą być elemntami bazy 
+
+[id:2911] W zależność opisującej sygnał telekomunikacyjny, T jest [POPRAWNE]
+
+    a. czasem trwania symbolu
+    b. czasem trwania bitu informacji
+    c. czasem trwania próbki
+    d. okresem drgań nośnej
+    e. odstępem pomiędzy próbkami
+
+[id:2912] Zależność definiuje: [POPRAWNE]
+
+    moment n-tego rzędu dowolnego procesu
+    autokowariancję n-tego rzędu dowolnego procesu
+    dystrybuantę n-tego rzędu dowolnego procesu
+    kumulant n-tego rzędu dowolnego procesu
+
+[id:2914] Które z poniższych warunków spełnia poziom ufności estymatora [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:2918] Zależność definiuje [POPRAWNE]
+
+    wariancję procesu stochastycznego
+    wartość średnią procesu stochastycznego
+    rozkład prawdopodobieństwa procesu stochastycznego
+    funkcje autokowariancji procesu stochastycznego
+    wartość średniokwadratową procesu stochastycznego
+
+[id:2921] Jeżeli w próbkowanym sygnale maksymalna częstotliwość ma wartość , to twierdzenie o próbkowaniu mówi, że minimalna częstotliwość poprawnego próbkowania musi być: [POPRAWNE]
+
+[id:2924] W jakiej metodzie identyfikacji systemu moduł funkcji transmitancji wyznaczany jest z zależności , gdzie A_x i A_y są amplitudami sygnałów wejściowego i wyjściowego [POPRAWNE]
+
+    sinusoidalnej
+    korelacyjnej
+    widmowej
+    impulsowej
+
+[id:2929] W pewnej przestrzeni pyrzjęto następującą definicję normy . Jaka odległość || A - B || wyniknie z przyjętej normy? [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e. 
+
+[id:2930] Zależność jest słuszna dla procesu: [POPRAWNE]
+
+    stacjonarnego całkowicie
+    słabo stacjonarnego
+    lokalnie stacjonarnego
+    cyklostacjonarnego
+    - alfa stacjonarnego
+    - em stacjonarnego 
+
+[id:2931] Jedyna ortonormalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:2984] Jeżeli w próbkowanym sygnale maksymalna częstotliwość ma wartość , to twierdzenie o próbkowaniu mówi, że minimalna częstotliwość poprawnego próbkowania musi być: [POPRAWNE]
+
+[id:2989] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem amplitudy
+    b. z kluczowaniem cząstotliwości
+    c. z kluczowaniem fazy
+    d. częstotliwości
+    e. fazy
+
+[id:2992] Równoległe połączenie dwóch liniowych układów niezmiennych w czasie, o odpowiedziach impulsowych i h_2 (n ), ma łączną odpowiedź impulsową [POPRAWNE]
+
+[id:2994] W zależność opisującej sygnał telekomunikacyjny, a_n jest [POPRAWNE]
+
+    a. ciągiem symboli zawierających informację
+    b. ciągiem bitów zawierających informację
+    c. sygnałem dyskretnym przed modulacją
+    d. ciągiem wartości odpowiadających symbolom
+    e. ciągiem wartości odpowiadających bitom
+
+[id:2996] Jak objawia się przesunięcie sygnału w czasie w transformacie Fouriera ? [POPRAWNE]
+
+[id:2999] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - 2\sum_{n=2}^{N-1} \sigma ( n ) e^{-j \frac{2 \pi}{N} k n} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:3002] Zależność definiuje: [POPRAWNE]
+
+    widmową gęstość mocy procesu niestacjonarnego
+    funkcję autokorelacji procesu niestacjonarnego
+    funkcję autokowariancji procesu niestacjonarnego
+    dystrybuantę 2-go rzędu procesu niestacjonarnego
+
+[id:3003] W pewnej przestrzeni pyrzjęto następującą definicję normy . Jaka odległość || A - B || wyniknie z przyjętej normy? [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e. 
+
+[id:3004] Wzór określa: [POPRAWNE]
+
+    a. całkowitą energię sygnału.
+    b. całkowita moc sygnału
+    c. całkowitą wariancję sygnału
+    d. chwilową wartość średnią sygnału
+
+[id:3005] W wyniku -punktowej DFT powstaje ciąg -elementowy. W ciągu tym liczba niezależnych wyrazów wynosi [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3008] Współczynniki filtru, którego moduł transmitancji prezentowany jest na wykresie, zostały w matlab/octave obliczone poleceniem: filtrPP[POPRAWNE]
+
+    a. [b a] = butter (12, [0.3 0.6], 'bandpass')
+    b. [b a] = butter (12, [0.2 0.4], 'bandpass')
+    c. [b a] = butter (12, [0.3 0.6], 'stop')
+    d. [b a] = butter (12, [0.2 0.4], 'stop')
+    e. [b a] = butter (12, 0.3, 'low')
+    f. [b a] = butter (12, 0.3, 'high')
+    g. [b a] = butter (12, [0.3 0.6], 'high')
+
+[id:3010] Estymator widmowej gęstości mocy procesu można uzyskać z zależności ( oznacza transformację Fouriera) [POPRAWNE]
+
+[id:3013] Najczęściej spotykana definicja normy wektora to: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:3015] W jakiej metodzie identyfikacji systemu funkcja transmitancji wyznaczana jest z zależności , gdzie S oznacza widmową gęstość mocy [POPRAWNE]
+
+    korelacyjnej
+    widmowej
+    sinusoidalnej
+    impulsowej
+
+[id:3017] Kaskadowe połączenie dwóch liniowych układów niezmiennych w czasie, o odpowiedziach impulsowych i h_2 (n ), ma łączną odpowiedź impulsową [POPRAWNE]
+
+[id:3020] W jakiej metodzie identyfikacji systemu moduł funkcji transmitancji wyznaczany jest z zależności , gdzie S oznacza widmową gęstość mocy [POPRAWNE]
+
+    korelacyjnej
+    widmowej
+    sinusoidalnej
+    impulsowej
+
+[id:3021] W definicji , P oznacza: [POPRAWNE]
+
+    prawdopodobieństwo
+    pochodną
+    gęstość prawdopodobieństwa
+    funkcję
+
+[id:3022] Które z poniższych zależności są poprawne, jeśli dotyczy sygnału wejściowego, y dotyczy sygnału wyjściowego, S jest oznaczeniem widmowej gęstości mocy zaś H(f) oznacza funkcję transmitancji systemu liniowego inercyjnego niezmiennego w czasie [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e. 
+
+[id:3023] Definicja jest: [POPRAWNE]
+
+    definicją dystrybuanty I-go rzędu
+    definicją rozkładu prawdopodobieństwa I-go rzędu
+    definicją dystrybuanty II-go rzędu
+    definicję rozkładu prawdopodobieństwa II-go rzędu
+
+[id:3033] Zależność definiuje: [POPRAWNE]
+
+    moment n-tego rzędu dowolnego procesu
+    autokowariancję n-tego rzędu dowolnego procesu
+    dystrybuantę n-tego rzędu dowolnego procesu
+    kumulant n-tego rzędu dowolnego procesu
+
+[id:3035] Jeżeli wiemy, że transformata Fouriera sygnału jest "przesunięta" o częstotliwość k_0, \, k_0 \in (-1,1) czyli X ( k ) = Y ( k+k_0 ) to możemy łatwo wyznaczyć postać czasową sygnału w nastepujący sposób: [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:3042] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem amplitudy
+    b. z kluczowaniem cząstotliwości
+    c. z kluczowaniem fazy
+    d. częstotliwości
+    e. fazy
+
+[id:3048] Z faktu są liniowo niezależne wynika, że oba wektory: [POPRAWNE]
+
+    a.
+    b. są liniowo ortonormalne
+    c. są liniową kombinacją
+    d. stanowią bazę przestrzeni
+    e. mogą być elemntami bazy 
+
+[id:3054] Jaka jest rozdzielczość widma (odległość pomiędzy dwoma sąsiednimi prążkami widma) ( -- liczba próbek sygnału poddawanego DFT, f_s -- częstotliwość próbkowania) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3057] Jedyna ortonormalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:3068] Najczęściej spotykana definicja normy wektora to: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:3073] Są dane cztery przebiegi sinusoidalne. Częstotliwość próbkowania jest Hz, liczba próbek N=1000, n=0, 1, 2, \ldots , N-1. Wskaż te przebiegi, dla których w wyniku DFT pojawi się przeciek widma [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3088] W wyniku -punktowej DFT powstaje ciąg -elementowy. W ciągu tym liczba niezależnych wyrazów wynosi [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3089] Zależność definiuje: [POPRAWNE]
+
+    funkcję autokorelacji dowolnego procesu
+    funkcję autokorelacji procesu stacjonarnego
+    funkcję autokowariancji procesu stacjonarnego
+    funkcję autokowariancji dowolnego procesu
+
+[id:3090] Estymator widmowej gęstości mocy procesu można uzyskać z zależności ( oznacza transformację Fouriera) [POPRAWNE]
+
+[id:3092] Filtr IIR (o nieskończonej odpowiedzi impulsowej) ma 2 zera sprzężone: . Dla jakiej pary sprzężonych biegunów taki filtr będzie stabilny? [POPRAWNE]
+
+[id:3093] Zależność : [POPRAWNE]
+
+    definiuje kowariancję wzajemna procesów stacjonarnych
+    definiuje korelację wzajemna procesów stacjonarnych
+    definiuje kowariancję wzajemna dowolnych procesów
+    definiuje korelację wzajemna dowolnych procesów
+
+[id:3099] Wzór określa: [POPRAWNE]
+
+    a. całkowitą energię sygnału.
+    b. całkowita moc sygnału
+    c. całkowitą wariancję sygnału
+    d. chwilową wartość średnią sygnału
+
+[id:3100] W definicji symbol \mathcal FT oznacza: [POPRAWNE]
+
+    dwuwymiarową transformację Fouriera
+    dystrybuantę 1-go rzędu
+    dystrybuantę 2-go rzędu
+    transformację falkową
+
+[id:3101] Jaka jest częstotliwość -tego prążka widma obliczonego przy pomocy $N$-punktowej DFT (f_s -- częstotliwość próbkowania) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3106] Okno w metodach estymacji widma stosowane jest w celu [POPRAWNE]
+
+    a. zmniejszenia wariancji estymatora wgm
+    b. wycięcia fragmentu sygnału
+    c. wygładzenia sygnału
+    d. zmniejszenia przecieku widma
+    e. zmniejszenia szerokości pasma przejściowego
+
+[id:3118] Iloczyn skalarny dwóch wektorów prawidłowo określają wyrażenia: [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:3119] W definicji transformaty Z  wielkość z oznacza [POPRAWNE]
+
+    liczbę zespoloną
+    liczbę rzeczywistą
+    liczbę urojoną
+    funkcje zespoloną
+    funkcję rzeczywistą
+    funkcję urojoną
+
+[id:3122] Zależność definiuje: [POPRAWNE]
+
+    funkcję autokowariancji dowolnego procesu
+    funkcję autokowariancji procesu stacjonarnego
+    funkcję autokorelacji dowolnego procesu
+    funkcję autokorelacji procesu stacjonarnego
+
+[id:3124] W jakiej metodzie identyfikacji systemu funkcja transmitancji wyznaczana jest z zależności , gdzie S oznacza widmową gęstość mocy [POPRAWNE]
+
+    korelacyjnej
+    widmowej
+    sinusoidalnej
+    impulsowej
+
+[id:3125] Zależność jest definicją: [POPRAWNE]
+
+    dystrybuanty 2. rzędu
+    rozkładu prawdopodobieństwa 2. rzędu
+    gęstości prawdopodobieństwa 1. rzędu
+    rozkładu prawdopodobieństwa 1. rzędu
+    gęstości prawdopodobieństwa 2. rzędu
+    dystrybuanty 1. rzędu
+
+[id:3126] W jakiej metodzie identyfikacji systemu moduł funkcji transmitancji wyznaczany jest z zależności , gdzie S oznacza widmową gęstość mocy [POPRAWNE]
+
+    korelacyjnej
+    widmowej
+    sinusoidalnej
+    impulsowej
+
+[id:3128] W definicji , P oznacza: [POPRAWNE]
+
+    prawdopodobieństwo
+    pochodną
+    gęstość prawdopodobieństwa
+    funkcję
+
+[id:3138] Równoległe połączenie dwóch liniowych układów niezmiennych w czasie, o odpowiedziach impulsowych i h_2 (n ), ma łączną odpowiedź impulsową [POPRAWNE]
+
+[id:3145] Wskaz prawdziwe własności sygnału okresowego o okresie , gdzie \mathbb{R}, \mathbb{Z} oznaczają odpowiednio zbiór licz rzeczywistych i zbiór liczb całkowitych. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3146] Zależność definiuje [POPRAWNE]
+
+    wariancję procesu stochastycznego
+    wartość średnią procesu stochastycznego
+    rozkład prawdopodobieństwa procesu stochastycznego
+    funkcje autokowariancji procesu stochastycznego
+    wartość średniokwadratową procesu stochastycznego
+
+[id:3148] Zaznacz zależności, które świadczą o okresowości transformaty Fouriera sygnału . [POPRAWNE]
+
+    a. gdzie k to dyskretne częstotliwości.
+    b. gdzie k to dyskretne częstotliwości.
+    c. gdzie k to dyskretne częstotliwości.
+    d. gdzie k to dyskretne częstotliwości. 
+
+[id:3150] Jeżeli wiemy, że i wiemy, że z ( n ) = a x ( n ) + b y ( n ) , to: [POPRAWNE]
+
+[id:3155] Oznaczenia: - sygnał wejściowy, h ( n ) - odpowiedź impulsowa układu, y ( n ) - sygnał wyjściowy. Dla układu dyskretnego niezmiennego w czasie prawdziwy jest/są poniższe formuły: [POPRAWNE]
+
+    (splot)
+    (splot)
+
+[id:3162] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem amplitudy
+    b. z kluczowaniem cząstotliwości
+    c. z kluczowaniem fazy
+    d. częstotliwości
+    e. fazy
+
+[id:3165] Jaka jest rozdzielczość widma (odległość pomiędzy dwoma sąsiednimi prążkami widma) ( -- liczba próbek sygnału poddawanego DFT, f_s -- częstotliwość próbkowania) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3168] Jeżeli w próbkowanym sygnale maksymalna częstotliwość ma wartość , to twierdzenie o próbkowaniu mówi, że minimalna częstotliwość poprawnego próbkowania musi być: [POPRAWNE]
+
+[id:3171] Jeśli jest poziomem ufności a [a,b] jest przedziałem ufności estymatora \hat A o rozkładzie f(\hat A) , to prawdziwa jest zależność [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3176] Najczęściej spotykana definicja normy wektora to: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:3182] Dwa wektory : [POPRAWNE]
+
+    a. należą do innych przestrzeni
+    b. są ortogonalne
+    c. są ortonormalne
+    d. są ortogonalne i ortonormalne
+    e. są dwoma wektorami bazy przestrzeni 
+
+[id:3184] Wzór określa: [POPRAWNE]
+
+    a. całkowitą energię sygnału.
+    b. całkowita moc sygnału
+    c. całkowitą wariancję sygnału
+    d. chwilową wartość średnią sygnału
+
+[id:3189] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem fazy
+    b. z kluczowaniem amplitudy
+    c. z kluczowaniem częstotliwości
+    d. amplitudy
+    e. częstotliwości
+
+[id:3196] W wyniku -punktowej DFT powstaje ciąg -elementowy. W ciągu tym liczba niezależnych wyrazów wynosi [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3203] Filtr IIR (o nieskończonej odpowiedzi impulsowej) ma 2 zera sprzężone: . Dla jakiej pary sprzężonych biegunów taki filtr będzie stabilny? [POPRAWNE]
+
+[id:3207] Wskaz prawdziwe własności sygnału okresowego o okresie , gdzie \mathbb{R}, \mathbb{Z} oznaczają odpowiednio zbiór licz rzeczywistych i zbiór liczb całkowitych. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3214] We wzorze wielkość w jest [POPRAWNE]
+
+    a. szerokością przedziału estymacji
+    b. chwilową wartością sygnału
+    c. chwilową wartością próbki
+    d. oknem czasowym
+
+[id:3216] Są dane cztery przebiegi sinusoidalne. Częstotliwość próbkowania jest Hz, liczba próbek N=1000, n=0, 1, 2, \ldots , N-1. Wskaż te przebiegi, dla których w wyniku DFT pojawi się przeciek widma [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3222] Zaznacz pradziwe stwierdzenia dla przestrzeni . [POPRAWNE]
+
+    a. Liczba wektorów bazy równa się 5 a liczba wektorów pozostałych jest nieskończona
+    b. Rozmiar (ilość współrzędnych) wektorów bazy równa się 5 a rozmiar wektorów pozostałych jest nieskończony
+    c. Liczba wektorów bazy jest nieskończona a liczba wektorów pozostałych jest równa 5
+    d. Rozmiar (ilość współrzędnych) wektorów bazy jest nieskończony a liczba wektorów bazy wynosi 5
+
+[id:3226] Jeżeli ciągi czasowe i x_{2}[n] mają transformaty Fouriera (DFT), odpowiednio, X_1(m) i X_2(m), to dla x_{sum}[n]=x_1[n]+x_2[n] właściwość liniowości DTF można zapisać jako [POPRAWNE]
+
+    a. (splot)
+    b. (iloraz)
+    c. (iloczyn)
+    d. (suma) 
+
+[id:3236] Wskaz prawdziwe własności sygnału okresowego o okresie , gdzie \mathbb{R}, \mathbb{Z} oznaczają odpowiednio zbiór licz rzeczywistych i zbiór liczb całkowitych. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3247] Filtr IIR (o nieskończonej odpowiedzi impulsowej) ma 2 zera sprzężone: . Dla jakiej pary sprzężonych biegunów taki filtr będzie stabilny? [POPRAWNE]
+
+[id:3249] Zależność definiuje: [POPRAWNE]
+
+    moment n-tego rzędu dowolnego procesu
+    autokowariancję n-tego rzędu dowolnego procesu
+    dystrybuantę n-tego rzędu dowolnego procesu
+    kumulant n-tego rzędu dowolnego procesu
+
+[id:3253] W pewnej przestrzeni pyrzjęto następującą definicję normy . Jaka odległość || A - B || wyniknie z przyjętej normy? [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e. 
+
+[id:3256] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - 2\sum_{n=0}^{N-1} \sigma ( n ) e^{-j \frac{2 \pi}{N} k N} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:3257] W wyniku -punktowej DFT powstaje ciąg -elementowy. W ciągu tym liczba niezależnych wyrazów wynosi [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3264] W zależność opisującej sygnał telekomunikacyjny, T jest [POPRAWNE]
+
+    a. czasem trwania symbolu
+    b. czasem trwania bitu informacji
+    c. czasem trwania próbki
+    d. okresem drgań nośnej
+    e. odstępem pomiędzy próbkami
+
+[id:3268] Jeśli oznacza czas dyskretny, to definicja transformaty Z ma postać [POPRAWNE]
+
+[id:3284] Jedyna ortogonalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:3310] Jaką przestrzeń rozpinają wektory v ( n ) = e^{-j \frac{2 \pi}{N} n k} ? Gdzie N \in \mathbb{N}, \,\, k,n = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b. przestrzeń wektorów o rozmiarze o wartościach zespolonych
+    c. przestrzeń wektorów o rozmiarze o wartościach rzeczywistych
+    d.
+    e.
+    f.
+    g.
+    h.
+    i.
+    j.
+    k. nie rozpinają żadnej przestrzeni
+    l. nie spełniają warunków na bazę przestrzeni
+
+[id:3311] Jeżeli w próbkowanym sygnale maksymalna częstotliwość ma wartość , to twierdzenie o próbkowaniu mówi, że minimalna częstotliwość poprawnego próbkowania musi być: [POPRAWNE]
+
+[id:3320] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - \sum_{n=2}^{N-1} \sigma ( n - 2 ) e^{-j \frac{2 \pi}{N} k n} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:3323] Które z poniższych warunków spełnia poziom ufności estymatora [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:3328] Zależność definiuje: [POPRAWNE]
+
+    moment n-tego rzędu dowolnego procesu
+    autokowariancję n-tego rzędu dowolnego procesu
+    dystrybuantę n-tego rzędu dowolnego procesu
+    kumulant n-tego rzędu dowolnego procesu
+
+[id:3340] Równoległe połączenie dwóch liniowych układów niezmiennych w czasie, o odpowiedziach impulsowych i h_2 (n ), ma łączną odpowiedź impulsową [POPRAWNE]
+
+[id:3343] Na poniższym rysunku przedstawiono wynik wyznaczania średniej metodą adaptacyjną dla dwóch różnych współczynników . Który wykres przedstawia chwilową wartość średnią wyznaczoną przy najmniejszym współczynniku ? średnia adaptacyjna [POPRAWNE]
+
+    niebieski
+    czerwony
+    zielony
+
+[id:3345] Są dane cztery przebiegi sinusoidalne. Częstotliwość próbkowania jest Hz, liczba próbek N=1000, n=0, 1, 2, \ldots , N-1. Wskaż te przebiegi, dla których w wyniku DFT pojawi się przeciek widma [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3347] Zależność definiuje [POPRAWNE]
+
+    wartość średnią procesu stochastycznego
+    wartość średniokwadratową procesu stochastycznego
+    funkcję autokorelacji procesu stochastycznego
+    rozkład prawdopodobieństwa procesu stochastycznego
+    wariancję procesu stochastycznego
+
+[id:3349] W przestrzeni można stworzyć tylko 5 losowo wybranych wektorów, które są permutacją wektorów bazy. [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:3350] Kaskadowe połączenie dwóch liniowych układów niezmiennych w czasie, o odpowiedziach impulsowych i h_2 (n ), ma łączną odpowiedź impulsową [POPRAWNE]
+
+[id:3351] Wzór określa: [POPRAWNE]
+
+    a. całkowitą energię sygnału.
+    b. całkowita moc sygnału
+    c. całkowitą wariancję sygnału
+    d. chwilową wartość średnią sygnału
+
+[id:3353] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - \sum_{n=2}^{N-1} \sigma ( n - 2 ) e^{-j \frac{2 \pi}{N} k n} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:3357] Równoległe połączenie dwóch liniowych układów niezmiennych w czasie, o odpowiedziach impulsowych i h_2 (n ), ma łączną odpowiedź impulsową [POPRAWNE]
+
+[id:3367] Wzór określa: [POPRAWNE]
+
+    a. całkowitą energię sygnału.
+    b. całkowita moc sygnału
+    c. całkowitą wariancję sygnału
+    d. chwilową wartość średnią sygnału
+
+[id:3374] Jaka jest rozdzielczość widma (odległość pomiędzy dwoma sąsiednimi prążkami widma) ( -- liczba próbek sygnału poddawanego DFT, f_s -- częstotliwość próbkowania) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3375] Oznaczenia: - sygnał wejściowy, h ( n ) - odpowiedź impulsowa układu, y ( n ) - sygnał wyjściowy. Dla układu dyskretnego niezmiennego w czasie prawdziwy jest/są poniższe formuły: [POPRAWNE]
+
+    (splot)
+    (splot)
+
+[id:3377] Na poniższym rysunku przedstawiono wynik wyznaczania średniej metodą adaptacyjną dla dwóch różnych współczynników . Który wykres przedstawia chwilową wartość średnią wyznaczoną przy najmniejszym współczynniku ? średnia adaptacyjna [POPRAWNE]
+
+    niebieski
+    czerwony
+    zielony
+
+[id:3378] We wzorze wielkość w jest [POPRAWNE]
+
+    a. szerokością przedziału estymacji
+    b. chwilową wartością sygnału
+    c. chwilową wartością próbki
+    d. oknem czasowym
+
+[id:3384] Na poniższym rysunku przedstawiono wynik wyznaczania średniej metodą adaptacyjną dla dwóch różnych współczynników . Który wykres przedstawia chwilową wartość średnią wyznaczoną przy największym współczynniku ? średnia adaptacyjna [POPRAWNE]
+
+    niebieski
+    czerwony
+    zielony
+
+[id:3385] Jeśli oznacza czas dyskretny, to definicja transformaty Z ma postać [POPRAWNE]
+
+[id:3386] Jaką przestrzeń rozpinają wektory v ( n ) = e^{-j \frac{2 \pi}{N} n k} ? Gdzie N \in \mathbb{N}, \,\, k,n = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b. przestrzeń wektorów o rozmiarze o wartościach zespolonych
+    c. przestrzeń wektorów o rozmiarze o wartościach rzeczywistych
+    d.
+    e.
+    f.
+    g.
+    h.
+    i.
+    j.
+    k. nie rozpinają żadnej przestrzeni
+    l. nie spełniają warunków na bazę przestrzeni
+
+[id:3389] Okno w metodach estymacji widma stosowane jest w celu [POPRAWNE]
+
+    a. zmniejszenia wariancji estymatora wgm
+    b. wycięcia fragmentu sygnału
+    c. wygładzenia sygnału
+    d. zmniejszenia przecieku widma
+    e. zmniejszenia szerokości pasma przejściowego
+
+[id:3392] Zależność jest słuszna dla procesu: [POPRAWNE]
+
+    stacjonarnego całkowicie
+    słabo stacjonarnego
+    lokalnie stacjonarnego
+    cyklostacjonarnego
+    - alfa stacjonarnego
+    - em stacjonarnego 
+
+[id:3395] Jeżeli w próbkowanym sygnale maksymalna częstotliwość ma wartość , to twierdzenie o próbkowaniu mówi, że minimalna częstotliwość poprawnego próbkowania musi być: [POPRAWNE]
+
+[id:3396] Zależność definiuje: [POPRAWNE]
+
+    funkcję autokowariancji dowolnego procesu
+    funkcję autokowariancji procesu stacjonarnego
+    funkcję autokorelacji dowolnego procesu
+    funkcję autokorelacji procesu stacjonarnego
+
+[id:3398] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - \sum_{n=2}^{N-1} \sigma ( n - 2 ) e^{-j \frac{2 \pi}{N} k n} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:3402] Równoległe połączenie dwóch liniowych układów niezmiennych w czasie, o odpowiedziach impulsowych i h_2 (n ), ma łączną odpowiedź impulsową [POPRAWNE]
+
+[id:3412] Wzór określa: [POPRAWNE]
+
+    a. całkowitą energię sygnału.
+    b. całkowita moc sygnału
+    c. całkowitą wariancję sygnału
+    d. chwilową wartość średnią sygnału
+
+[id:3419] Jaka jest rozdzielczość widma (odległość pomiędzy dwoma sąsiednimi prążkami widma) ( -- liczba próbek sygnału poddawanego DFT, f_s -- częstotliwość próbkowania) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3420] Oznaczenia: - sygnał wejściowy, h ( n ) - odpowiedź impulsowa układu, y ( n ) - sygnał wyjściowy. Dla układu dyskretnego niezmiennego w czasie prawdziwy jest/są poniższe formuły: [POPRAWNE]
+
+    (splot)
+    (splot)
+
+[id:3422] Na poniższym rysunku przedstawiono wynik wyznaczania średniej metodą adaptacyjną dla dwóch różnych współczynników . Który wykres przedstawia chwilową wartość średnią wyznaczoną przy najmniejszym współczynniku ? średnia adaptacyjna [POPRAWNE]
+
+    niebieski
+    czerwony
+    zielony
+
+[id:3423] We wzorze wielkość w jest [POPRAWNE]
+
+    a. szerokością przedziału estymacji
+    b. chwilową wartością sygnału
+    c. chwilową wartością próbki
+    d. oknem czasowym
+
+[id:3429] Na poniższym rysunku przedstawiono wynik wyznaczania średniej metodą adaptacyjną dla dwóch różnych współczynników . Który wykres przedstawia chwilową wartość średnią wyznaczoną przy największym współczynniku ? średnia adaptacyjna [POPRAWNE]
+
+    niebieski
+    czerwony
+    zielony
+
+[id:3430] Jeśli oznacza czas dyskretny, to definicja transformaty Z ma postać [POPRAWNE]
+
+[id:3431] Jaką przestrzeń rozpinają wektory v ( n ) = e^{-j \frac{2 \pi}{N} n k} ? Gdzie N \in \mathbb{N}, \,\, k,n = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b. przestrzeń wektorów o rozmiarze o wartościach zespolonych
+    c. przestrzeń wektorów o rozmiarze o wartościach rzeczywistych
+    d.
+    e.
+    f.
+    g.
+    h.
+    i.
+    j.
+    k. nie rozpinają żadnej przestrzeni
+    l. nie spełniają warunków na bazę przestrzeni
+
+[id:3434] Okno w metodach estymacji widma stosowane jest w celu [POPRAWNE]
+
+    a. zmniejszenia wariancji estymatora wgm
+    b. wycięcia fragmentu sygnału
+    c. wygładzenia sygnału
+    d. zmniejszenia przecieku widma
+    e. zmniejszenia szerokości pasma przejściowego
+
+[id:3437] Zależność jest słuszna dla procesu: [POPRAWNE]
+
+    stacjonarnego całkowicie
+    słabo stacjonarnego
+    lokalnie stacjonarnego
+    cyklostacjonarnego
+    - alfa stacjonarnego
+    - em stacjonarnego 
+
+[id:3440] Jeżeli w próbkowanym sygnale maksymalna częstotliwość ma wartość , to twierdzenie o próbkowaniu mówi, że minimalna częstotliwość poprawnego próbkowania musi być: [POPRAWNE]
+
+[id:3441] Zależność definiuje: [POPRAWNE]
+
+    funkcję autokowariancji dowolnego procesu
+    funkcję autokowariancji procesu stacjonarnego
+    funkcję autokorelacji dowolnego procesu
+    funkcję autokorelacji procesu stacjonarnego
+
+[id:3444] Wzór określa: [POPRAWNE]
+
+    a. całkowitą energię sygnału.
+    b. całkowita moc sygnału
+    c. całkowitą wariancję sygnału
+    d. chwilową wartość średnią sygnału
+
+[id:3450] Jeżeli wiemy, że transformata Fouriera sygnału jest "przesunięta" o częstotliwość k_0, \, k_0 \in (-1,1) czyli X ( k ) = Y ( k+k_0 ) to możemy łatwo wyznaczyć postać czasową sygnału w nastepujący sposób: [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:3456] Jeżeli ciągi czasowe i x_{2}[n] mają transformaty Fouriera (DFT), odpowiednio, X_1(m) i X_2(m), to dla x_{sum}[n]=x_1[n]+x_2[n] właściwość liniowości DTF można zapisać jako [POPRAWNE]
+
+    a. (splot)
+    b. (iloraz)
+    c. (iloczyn)
+    d. (suma) 
+
+[id:3462] Wskaz prawdziwe własności sygnału okresowego o okresie , gdzie \mathbb{R}, \mathbb{Z} oznaczają odpowiednio zbiór licz rzeczywistych i zbiór liczb całkowitych. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3464] Równoległe połączenie dwóch liniowych układów niezmiennych w czasie, o odpowiedziach impulsowych i h_2 (n ), ma łączną odpowiedź impulsową [POPRAWNE]
+
+[id:3466] Są dane cztery przebiegi sinusoidalne. Częstotliwość próbkowania jest Hz, liczba próbek N=1000, n=0, 1, 2, \ldots , N-1. Wskaż te przebiegi, dla których w wyniku DFT pojawi się przeciek widma [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3471] Jaka jest częstotliwość -tego prążka widma obliczonego przy pomocy $N$-punktowej DFT (f_s -- częstotliwość próbkowania) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3473] Jaką przestrzeń rozpinają wektory v ( n ) = n e^{-j \frac{2 \pi}{N} k} ? Gdzie N \in \mathbb{N}, \,\, k,n = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b. przestrzeń wektorów o rozmiarze o wartościach zespolonych
+    c. przestrzeń wektorów o rozmiarze o wartościach rzeczywistych
+    d.
+    e.
+    f.
+    g.
+    h.
+    i.
+    j.
+    k. nie rozpinają żadnej przestrzeni
+    l. nie spełniają warunków na bazę przestrzeni
+
+[id:3477] Aby w przestrzeni , o bazie zapisanej w macierzy B (gdzie każda kolumna to wektor bazy od b_1 do b_n ) wpółczynniki reprezentacji wektora (oznaczone jako wektor \alpha ) były takie same jak współczynniki danego wektora w muszą zachodzi warunki (zaznacz wszystkie prawidłowe): [POPRAWNE]
+
+    a. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    b. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    c. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    d. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    e. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    f. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    g. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    h. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N 
+
+[id:3484] Zależność jest definicją: [POPRAWNE]
+
+    dystrybuanty 2. rzędu
+    rozkładu prawdopodobieństwa 2. rzędu
+    gęstości prawdopodobieństwa 1. rzędu
+    rozkładu prawdopodobieństwa 1. rzędu
+    gęstości prawdopodobieństwa 2. rzędu
+    dystrybuanty 1. rzędu
+
+[id:3494] Zależność definiuje: [POPRAWNE]
+
+    moment n-tego rzędu dowolnego procesu
+    autokowariancję n-tego rzędu dowolnego procesu
+    dystrybuantę n-tego rzędu dowolnego procesu
+    kumulant n-tego rzędu dowolnego procesu
+
+[id:3495] W jakiej metodzie identyfikacji systemu moduł funkcji transmitancji wyznaczany jest z zależności , gdzie A_x i A_y są amplitudami sygnałów wejściowego i wyjściowego [POPRAWNE]
+
+    sinusoidalnej
+    korelacyjnej
+    widmowej
+    impulsowej
+
+[id:3505] Jedyna ortogonalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:3526] W wyniku -punktowej DFT powstaje ciąg -elementowy. W ciągu tym liczba niezależnych wyrazów wynosi [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3537] Jeśli jest poziomem ufności a [a,b] jest przedziałem ufności estymatora \hat A o rozkładzie f(\hat A) , to prawdziwa jest zależność [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3541] Najczęściej spotykana definicja normy wektora to: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:3562] Zależność opisuje sygnał telekomunikacyjny [POPRAWNE]
+
+    a. analogowy w paśmie podstawowym
+    b. dyskretny w paśmie podstawowym
+    c. analogowy na częstotliwości pośredniej
+    d. dyskretny na częstotliwości pośredniej
+    e. analogowy na częstotliwości nośnej
+    f. dyskretny na częstotliwości nośnej
+
+[id:3566] Jaka jest rozdzielczość widma (odległość pomiędzy dwoma sąsiednimi prążkami widma) ( -- liczba próbek sygnału poddawanego DFT, f_s -- częstotliwość próbkowania) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3575] Jak objawia się przesunięcie sygnału w czasie w transformacie Fouriera ? [POPRAWNE]
+
+[id:3579] Zaznacz poprawne formuły opisujące splot w dziedzinie czasu. oznaczają odpowiednio dyskretny czas i dyskretną częstotliwość. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:3583] Zależność definiuje: [POPRAWNE]
+
+    moment n-tego rzędu dowolnego procesu
+    autokowariancję n-tego rzędu dowolnego procesu
+    dystrybuantę n-tego rzędu dowolnego procesu
+    kumulant n-tego rzędu dowolnego procesu
+
+[id:3584] W przestrzeni można stworzyć tylko 5 losowo wybranych wektorów, które są permutacją wektorów bazy. [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:3585] W zależność opisującej sygnał telekomunikacyjny, a_n jest [POPRAWNE]
+
+    a. ciągiem symboli zawierających informację
+    b. ciągiem bitów zawierających informację
+    c. sygnałem dyskretnym przed modulacją
+    d. ciągiem wartości odpowiadających symbolom
+    e. ciągiem wartości odpowiadających bitom
+
+[id:3597] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem fazy
+    b. z kluczowaniem amplitudy
+    c. z kluczowaniem częstotliwości
+    d. amplitudy
+    e. częstotliwości
+
+[id:3604] Zaznacz poprawne formuły opisujące splot w dziedzinie czasu. oznaczają odpowiednio dyskretny czas i dyskretną częstotliwość. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:3610] Zależność definiuje [POPRAWNE]
+
+    wartość średnią procesu stochastycznego
+    wartość średniokwadratową procesu stochastycznego
+    funkcję autokorelacji procesu stochastycznego
+    rozkład prawdopodobieństwa procesu stochastycznego
+    wariancję procesu stochastycznego
+
+[id:3623] Wzór określa: [POPRAWNE]
+
+    a. całkowitą energię sygnału.
+    b. całkowita moc sygnału
+    c. całkowitą wariancję sygnału
+    d. chwilową wartość średnią sygnału
+
+[id:3631] Jak objawia się przesunięcie sygnału w czasie w transformacie Fouriera ? [POPRAWNE]
+
+[id:3635] Jeżeli jest procesem stochastycznym, a m_X = E \ oznacza wartość średnią (rzeczywistą) procesu oraz zachodzi: E \{ X (n, \xi ) \}_{n=const} = E \{ X ( n, \xi ) \}_{\xi=const} to dla dowolnego n_0 nie zachodzi: \lim_ { N \rightarrow \infty } 1/N \sum_{n_0}^{n_0 + N -1} X ( n ) _{ \xi=const } = m_X [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:3636] Jaka jest rozdzielczość widma (odległość pomiędzy dwoma sąsiednimi prążkami widma) ( -- liczba próbek sygnału poddawanego DFT, f_s -- częstotliwość próbkowania) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3644] Zaznacz pradziwe stwierdzenia dla przestrzeni . [POPRAWNE]
+
+    a. Liczba wektorów bazy równa się 5 a liczba wektorów pozostałych jest nieskończona
+    b. Rozmiar (ilość współrzędnych) wektorów bazy równa się 5 a rozmiar wektorów pozostałych jest nieskończony
+    c. Liczba wektorów bazy jest nieskończona a liczba wektorów pozostałych jest równa 5
+    d. Rozmiar (ilość współrzędnych) wektorów bazy jest nieskończony a liczba wektorów bazy wynosi 5
+
+[id:3645] W definicji symbol \mathcal FT oznacza: [POPRAWNE]
+
+    dwuwymiarową transformację Fouriera
+    dystrybuantę 1-go rzędu
+    dystrybuantę 2-go rzędu
+    transformację falkową
+
+[id:3649] Kaskadowe połączenie dwóch liniowych układów niezmiennych w czasie, o odpowiedziach impulsowych i h_2 (n ), ma łączną odpowiedź impulsową [POPRAWNE]
+
+[id:3652] Dwa wektory : [POPRAWNE]
+
+    a. należą do innych przestrzeni
+    b. są ortogonalne
+    c. są ortonormalne
+    d. są ortogonalne i ortonormalne
+    e. są dwoma wektorami bazy przestrzeni 
+
+[id:3653] Równoległe połączenie dwóch liniowych układów niezmiennych w czasie, o odpowiedziach impulsowych i h_2 (n ), ma łączną odpowiedź impulsową [POPRAWNE]
+
+[id:3660] Filtr IIR (o nieskończonej odpowiedzi impulsowej) ma 2 zera sprzężone: . Dla jakiej pary sprzężonych biegunów taki filtr będzie stabilny? [POPRAWNE]
+
+[id:3663] Okno w metodach estymacji widma stosowane jest w celu [POPRAWNE]
+
+    a. zmniejszenia wariancji estymatora wgm
+    b. wycięcia fragmentu sygnału
+    c. wygładzenia sygnału
+    d. zmniejszenia przecieku widma
+    e. zmniejszenia szerokości pasma przejściowego
+
+[id:3664] W jakiej metodzie identyfikacji systemu odpowiedź impulsowa wyznaczana jest z zależności [POPRAWNE]
+
+    korelacyjnej
+    widmowej
+    impulsowej
+    sinusoidalnej
+
+[id:3667] Zależność definiuje: [POPRAWNE]
+
+    widmową gęstość mocy procesu niestacjonarnego
+    funkcję autokorelacji procesu niestacjonarnego
+    funkcję autokowariancji procesu niestacjonarnego
+    dystrybuantę 2-go rzędu procesu niestacjonarnego
+
+[id:3672] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem częstotliwości
+    b. z kluczowaniem fazy
+    c. z kluczowaniem amplitudy
+    d. fazy
+    e. amplitudy
+
+[id:3674] Które z poniższych warunków spełnia poziom ufności estymatora [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:3675] Najczęściej spotykana definicja normy wektora to: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:3683] Zależność opisuje sygnał telekomunikacyjny [POPRAWNE]
+
+    a. analogowy w paśmie podstawowym
+    b. dyskretny w paśmie podstawowym
+    c. analogowy na częstotliwości pośredniej
+    d. dyskretny na częstotliwości pośredniej
+    e. analogowy na częstotliwości nośnej
+    f. dyskretny na częstotliwości nośnej
+
+[id:3690] Które z poniższych zależności są poprawne, jeśli dotyczy sygnału wejściowego, y dotyczy sygnału wyjściowego, S jest oznaczeniem widmowej gęstości mocy zaś H(f) oznacza funkcję transmitancji systemu liniowego inercyjnego niezmiennego w czasie [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e. 
+
+[id:3693] Jaką przestrzeń rozpinają wektory v ( n ) = e^{-j \frac{2 \pi}{N} n k} ? Gdzie N \in \mathbb{N}, \,\, k,n = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b. przestrzeń wektorów o rozmiarze o wartościach zespolonych
+    c. przestrzeń wektorów o rozmiarze o wartościach rzeczywistych
+    d.
+    e.
+    f.
+    g.
+    h.
+    i.
+    j.
+    k. nie rozpinają żadnej przestrzeni
+    l. nie spełniają warunków na bazę przestrzeni
+
+[id:3695] Jedyna ortonormalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:3696] Aby w przestrzeni , o bazie zapisanej w macierzy B (gdzie każda kolumna to wektor bazy od b_1 do b_n ) wpółczynniki reprezentacji wektora (oznaczone jako wektor \alpha ) były takie same jak współczynniki danego wektora w muszą zachodzi warunki (zaznacz wszystkie prawidłowe): [POPRAWNE]
+
+    a. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    b. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    c. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    d. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    e. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    f. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    g. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    h. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N 
+
+[id:3702] Równoległe połączenie dwóch liniowych układów niezmiennych w czasie, o odpowiedziach impulsowych i h_2 (n ), ma łączną odpowiedź impulsową [POPRAWNE]
+
+[id:3706] Zależność definiuje: [POPRAWNE]
+
+    funkcję autokowariancji dowolnego procesu
+    funkcję autokowariancji procesu stacjonarnego
+    funkcję autokorelacji dowolnego procesu
+    funkcję autokorelacji procesu stacjonarnego
+
+[id:3715] Z faktu wynika, że oba wektory: [POPRAWNE]
+
+    a. są liniowo niezależne
+    b. są liniowo zależne
+    c. są liniową kombinacją
+    d. stanowią bazę przestrzeni
+    e. mogą być elemntami bazy 
+
+[id:3719] Dwa wektory : [POPRAWNE]
+
+    a. należą do innych przestrzeni
+    b. są ortogonalne
+    c. są ortonormalne
+    d. są ortogonalne i ortonormalne
+    e. są dwoma wektorami bazy przestrzeni 
+
+[id:3730] Zależność opisuje sygnał telekomunikacyjny [POPRAWNE]
+
+    a. analogowy w paśmie podstawowym
+    b. dyskretny w paśmie podstawowym
+    c. analogowy na częstotliwości pośredniej
+    d. dyskretny na częstotliwości pośredniej
+    e. analogowy na częstotliwości nośnej
+    f. dyskretny na częstotliwości nośnej
+
+[id:3737] Które z poniższych zależności są poprawne, jeśli dotyczy sygnału wejściowego, y dotyczy sygnału wyjściowego, S jest oznaczeniem widmowej gęstości mocy zaś H(f) oznacza funkcję transmitancji systemu liniowego inercyjnego niezmiennego w czasie [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e. 
+
+[id:3740] Jaką przestrzeń rozpinają wektory v ( n ) = e^{-j \frac{2 \pi}{N} n k} ? Gdzie N \in \mathbb{N}, \,\, k,n = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b. przestrzeń wektorów o rozmiarze o wartościach zespolonych
+    c. przestrzeń wektorów o rozmiarze o wartościach rzeczywistych
+    d.
+    e.
+    f.
+    g.
+    h.
+    i.
+    j.
+    k. nie rozpinają żadnej przestrzeni
+    l. nie spełniają warunków na bazę przestrzeni
+
+[id:3742] Jedyna ortonormalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:3743] Aby w przestrzeni , o bazie zapisanej w macierzy B (gdzie każda kolumna to wektor bazy od b_1 do b_n ) wpółczynniki reprezentacji wektora (oznaczone jako wektor \alpha ) były takie same jak współczynniki danego wektora w muszą zachodzi warunki (zaznacz wszystkie prawidłowe): [POPRAWNE]
+
+    a. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    b. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    c. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    d. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    e. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    f. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    g. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    h. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N 
+
+[id:3749] Równoległe połączenie dwóch liniowych układów niezmiennych w czasie, o odpowiedziach impulsowych i h_2 (n ), ma łączną odpowiedź impulsową [POPRAWNE]
+
+[id:3753] Zależność definiuje: [POPRAWNE]
+
+    funkcję autokowariancji dowolnego procesu
+    funkcję autokowariancji procesu stacjonarnego
+    funkcję autokorelacji dowolnego procesu
+    funkcję autokorelacji procesu stacjonarnego
+
+[id:3762] Z faktu wynika, że oba wektory: [POPRAWNE]
+
+    a. są liniowo niezależne
+    b. są liniowo zależne
+    c. są liniową kombinacją
+    d. stanowią bazę przestrzeni
+    e. mogą być elemntami bazy 
+
+[id:3766] Dwa wektory : [POPRAWNE]
+
+    a. należą do innych przestrzeni
+    b. są ortogonalne
+    c. są ortonormalne
+    d. są ortogonalne i ortonormalne
+    e. są dwoma wektorami bazy przestrzeni 
+
+[id:3772] We wzorze wielkość w jest [POPRAWNE]
+
+    a. szerokością przedziału estymacji
+    b. chwilową wartością sygnału
+    c. chwilową wartością próbki
+    d. oknem czasowym
+
+[id:3779] Definicja jest: [POPRAWNE]
+
+    definicją dystrybuanty I-go rzędu
+    definicją rozkładu prawdopodobieństwa I-go rzędu
+    definicją dystrybuanty II-go rzędu
+    definicję rozkładu prawdopodobieństwa II-go rzędu
+
+[id:3782] Jeżeli w próbkowanym sygnale maksymalna częstotliwość ma wartość , to twierdzenie o próbkowaniu mówi, że minimalna częstotliwość poprawnego próbkowania musi być: [POPRAWNE]
+
+[id:3784] Zależność definiuje [POPRAWNE]
+
+    wariancję procesu stochastycznego
+    wartość średnią procesu stochastycznego
+    rozkład prawdopodobieństwa procesu stochastycznego
+    funkcje autokowariancji procesu stochastycznego
+    wartość średniokwadratową procesu stochastycznego
+
+[id:3789] Wskaz prawdziwe własności sygnału okresowego o okresie , gdzie \mathbb{R}, \mathbb{Z} oznaczają odpowiednio zbiór licz rzeczywistych i zbiór liczb całkowitych. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3790] Kaskadowe połączenie dwóch liniowych układów niezmiennych w czasie, o odpowiedziach impulsowych i h_2 (n ), ma łączną odpowiedź impulsową [POPRAWNE]
+
+[id:3797] Na poniższym rysunku przedstawiono wynik wyznaczania średniej metodą adaptacyjną dla dwóch różnych współczynników . Który wykres przedstawia chwilową wartość średnią wyznaczoną przy największym współczynniku ? średnia adaptacyjna [POPRAWNE]
+
+    niebieski
+    czerwony
+    zielony
+
+[id:3802] W zależność opisującej sygnał telekomunikacyjny, a_n jest [POPRAWNE]
+
+    a. ciągiem symboli zawierających informację
+    b. ciągiem bitów zawierających informację
+    c. sygnałem dyskretnym przed modulacją
+    d. ciągiem wartości odpowiadających symbolom
+    e. ciągiem wartości odpowiadających bitom
+
+[id:3805] Jedyna ortonormalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:3806] Zależność definiuje: [POPRAWNE]
+
+    dystrubuantę 1-go rzędu
+    gęstość prawdopodobieństwa 1-go rzędu
+    histogram
+    prawdopodobieństwo wystąpienia wartości sygnału 
+
+[id:3810] Jeśli jest poziomem ufności a [a,b] jest przedziałem ufności estymatora \hat A o rozkładzie f(\hat A) , to prawdziwa jest zależność [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3812] Zależność : [POPRAWNE]
+
+    definiuje kowariancję wzajemna procesów stacjonarnych
+    definiuje korelację wzajemna procesów stacjonarnych
+    definiuje kowariancję wzajemna dowolnych procesów
+    definiuje korelację wzajemna dowolnych procesów
+
+[id:3813] Zależność opisuje sygnał telekomunikacyjny [POPRAWNE]
+
+    a. analogowy w paśmie podstawowym
+    b. dyskretny w paśmie podstawowym
+    c. analogowy na częstotliwości pośredniej
+    d. dyskretny na częstotliwości pośredniej
+    e. analogowy na częstotliwości nośnej
+    f. dyskretny na częstotliwości nośnej
+
+[id:3814] Oznaczenia: - sygnał wejściowy, h ( n ) - odpowiedź impulsowa układu, y ( n ) - sygnał wyjściowy. Dla układu dyskretnego niezmiennego w czasie prawdziwy jest/są poniższe formuły: [POPRAWNE]
+
+    (splot)
+    (splot)
+
+[id:3816] W definicji symbol E oznacza: [POPRAWNE]
+
+    wartość oczekiwaną
+    średnią geometryczną
+    średnią arytmetyczną
+    prawdopodobieństwo
+
+[id:3817] W definicji , P oznacza: [POPRAWNE]
+
+    prawdopodobieństwo
+    pochodną
+    gęstość prawdopodobieństwa
+    funkcję
+
+[id:3818] Gęstość prawdopodobieństwa jest definiowana jako: [POPRAWNE]
+
+    a. druga pochodna cząstkowa dystrybuanty 2-go rzędu
+    b. pochodna cząstkowa dystrybuanty 2-go rzędu
+    c. pochodna dystrybuanty 1-go rzędu
+    d. druga pochodna cząstkowa dystrybuanty 1-go rzędu
+
+[id:3826] Na poniższym rysunku przedstawiono wynik wyznaczania średniej metodą adaptacyjną dla dwóch różnych współczynników . Który wykres przedstawia chwilową wartość średnią wyznaczoną przy największym współczynniku ? średnia adaptacyjna [POPRAWNE]
+
+    niebieski
+    czerwony
+    zielony
+
+[id:3831] Gęstość prawdopodobieństwa jest definiowana jako: [POPRAWNE]
+
+    a. druga pochodna cząstkowa dystrybuanty 2-go rzędu
+    b. pochodna cząstkowa dystrybuanty 2-go rzędu
+    c. pochodna dystrybuanty 1-go rzędu
+    d. druga pochodna cząstkowa dystrybuanty 1-go rzędu
+
+[id:3833] Jeżeli jest procesem stochastycznym, a m_X = E \ oznacza wartość średnią (rzeczywistą) procesu oraz zachodzi: E \{ X (n, \xi ) \}_{n=const} = E \{ X ( n, \xi ) \}_{\xi=const} to dla dowolnego n_0 nie zachodzi: \lim_ { N \rightarrow \infty } 1/N \sum_{n_0}^{n_0 + N -1} X ( n ) _{ \xi=const } = m_X [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:3838] Zależność jest słuszna dla procesu: [POPRAWNE]
+
+    stacjonarnego całkowicie
+    słabo stacjonarnego
+    lokalnie stacjonarnego
+    cyklostacjonarnego
+    - alfa stacjonarnego
+    - em stacjonarnego 
+
+[id:3847] Jeśli jest poziomem ufności a [a,b] jest przedziałem ufności estymatora \hat A o rozkładzie f(\hat A) , to prawdziwa jest zależność [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:3864] Który z poniższych wzorów, określa prosta adaptacyjną formułę wyznaczania wartości średniej sygnału ? [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g. 
+
+[id:3868] Które z poniższych warunków spełnia poziom ufności estymatora [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:3909] W zależność opisującej sygnał telekomunikacyjny, a_n jest [POPRAWNE]
+
+    a. ciągiem symboli zawierających informację
+    b. ciągiem bitów zawierających informację
+    c. sygnałem dyskretnym przed modulacją
+    d. ciągiem wartości odpowiadających symbolom
+    e. ciągiem wartości odpowiadających bitom
+
+[id:3910] Zaznacz pradziwe stwierdzenia dla przestrzeni . [POPRAWNE]
+
+    a. Liczba wektorów bazy równa się 5 a liczba wektorów pozostałych jest nieskończona
+    b. Rozmiar (ilość współrzędnych) wektorów bazy równa się 5 a rozmiar wektorów pozostałych jest nieskończony
+    c. Liczba wektorów bazy jest nieskończona a liczba wektorów pozostałych jest równa 5
+    d. Rozmiar (ilość współrzędnych) wektorów bazy jest nieskończony a liczba wektorów bazy wynosi 5
+
+[id:3977] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem częstotliwości
+    b. z kluczowaniem fazy
+    c. z kluczowaniem amplitudy
+    d. fazy
+    e. amplitudy
+
+[id:3987] Zależność definiuje [POPRAWNE]
+
+    wartość średnią procesu stochastycznego
+    wartość średniokwadratową procesu stochastycznego
+    funkcję autokorelacji procesu stochastycznego
+    rozkład prawdopodobieństwa procesu stochastycznego
+    wariancję procesu stochastycznego
+
+[id:3988] Zaznacz pradziwe stwierdzenia dla przestrzeni . [POPRAWNE]
+
+    a. Liczba wektorów bazy równa się 5 a liczba wektorów pozostałych jest nieskończona
+    b. Rozmiar (ilość współrzędnych) wektorów bazy równa się 5 a rozmiar wektorów pozostałych jest nieskończony
+    c. Liczba wektorów bazy jest nieskończona a liczba wektorów pozostałych jest równa 5
+    d. Rozmiar (ilość współrzędnych) wektorów bazy jest nieskończony a liczba wektorów bazy wynosi 5
+
+[id:3993] Oznaczenia: - sygnał wejściowy, h ( n ) - odpowiedź impulsowa układu, y ( n ) - sygnał wyjściowy. Dla układu dyskretnego niezmiennego w czasie prawdziwy jest/są poniższe formuły: [POPRAWNE]
+
+    (splot)
+    (splot)
+
+[id:4025] Jeżeli w próbkowanym sygnale maksymalna częstotliwość ma wartość , to twierdzenie o próbkowaniu mówi, że minimalna częstotliwość poprawnego próbkowania musi być: [POPRAWNE]
+
+[id:4105] Jeśli jest poziomem ufności a [a,b] jest przedziałem ufności estymatora \hat A o rozkładzie f(\hat A) , to prawdziwa jest zależność [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:4113] Jedyna ortogonalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:4124] Najczęściej spotykana definicja normy wektora to: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:4146] Zależność jest zapisem matematycznym cyfrowej modulacji [POPRAWNE]
+
+    a. z kluczowaniem fazy
+    b. z kluczowaniem amplitudy
+    c. z kluczowaniem częstotliwości
+    d. amplitudy
+    e. częstotliwości
+
+[id:4153] Wskaz prawdziwe własności sygnału okresowego o okresie , gdzie \mathbb{R}, \mathbb{Z} oznaczają odpowiednio zbiór licz rzeczywistych i zbiór liczb całkowitych. [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:4154] Dwa wektory : [POPRAWNE]
+
+    a. należą do innych przestrzeni
+    b. są ortogonalne
+    c. są ortonormalne
+    d. są ortogonalne i ortonormalne
+    e. są dwoma wektorami bazy przestrzeni 
+
+[id:4161] W definicji symbol \mathcal FT oznacza: [POPRAWNE]
+
+    dwuwymiarową transformację Fouriera
+    dystrybuantę 1-go rzędu
+    dystrybuantę 2-go rzędu
+    transformację falkową
+
+[id:4165] We wzorze wielkość w jest [POPRAWNE]
+
+    a. szerokością przedziału estymacji
+    b. chwilową wartością sygnału
+    c. chwilową wartością próbki
+    d. oknem czasowym
+
+[id:4167] W zależność opisującej sygnał telekomunikacyjny, T jest [POPRAWNE]
+
+    a. czasem trwania symbolu
+    b. czasem trwania bitu informacji
+    c. czasem trwania próbki
+    d. okresem drgań nośnej
+    e. odstępem pomiędzy próbkami
+
+[id:4198] Jeżeli ciągi czasowe i x_{2}[n] mają transformaty Fouriera (DFT), odpowiednio, X_1(m) i X_2(m), to dla x_{sum}[n]=x_1[n]+x_2[n] właściwość liniowości DTF można zapisać jako [POPRAWNE]
+
+    a. (splot)
+    b. (iloraz)
+    c. (iloczyn)
+    d. (suma) 
+
+[id:4199] W definicji transformaty Z  wielkość z oznacza [POPRAWNE]
+
+    liczbę zespoloną
+    liczbę rzeczywistą
+    liczbę urojoną
+    funkcje zespoloną
+    funkcję rzeczywistą
+    funkcję urojoną
+
+[id:4200] W pewnej przestrzeni pyrzjęto następującą definicję normy . Jaka odległość || A - B || wyniknie z przyjętej normy? [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e. 
+
+[id:4207] W wyniku -punktowej DFT powstaje ciąg -elementowy. W ciągu tym liczba niezależnych wyrazów wynosi [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:4209] Aby w przestrzeni , o bazie zapisanej w macierzy B (gdzie każda kolumna to wektor bazy od b_1 do b_n ) wpółczynniki reprezentacji wektora (oznaczone jako wektor \alpha ) były takie same jak współczynniki danego wektora w muszą zachodzi warunki (zaznacz wszystkie prawidłowe): [POPRAWNE]
+
+    a. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    b. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    c. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    d. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    e. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    f. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru \infty
+    g. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N
+    h. , gdzie \mathbf{I} to macierz jednostkowa rozmiaru N 
+
+[id:4227] Zależność opisuje sygnał telekomunikacyjny [POPRAWNE]
+
+    a. analogowy w paśmie podstawowym
+    b. dyskretny w paśmie podstawowym
+    c. analogowy na częstotliwości pośredniej
+    d. dyskretny na częstotliwości pośredniej
+    e. analogowy na częstotliwości nośnej
+    f. dyskretny na częstotliwości nośnej
+
+[id:4233] Jedyna ortonormalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:4234] W definicji , P oznacza: [POPRAWNE]
+
+    prawdopodobieństwo
+    pochodną
+    gęstość prawdopodobieństwa
+    funkcję
+
+[id:4242] Jeśli jest poziomem ufności a [a,b] jest przedziałem ufności estymatora \hat A o rozkładzie f(\hat A) , to prawdziwa jest zależność [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:4250] Na poniższym rysunku przedstawiono wynik wyznaczania średniej metodą adaptacyjną dla dwóch różnych współczynników . Który wykres przedstawia chwilową wartość średnią wyznaczoną przy największym współczynniku ? średnia adaptacyjna [POPRAWNE]
+
+    niebieski
+    czerwony
+    zielony
+
+[id:4255] Gęstość prawdopodobieństwa jest definiowana jako: [POPRAWNE]
+
+    a. druga pochodna cząstkowa dystrybuanty 2-go rzędu
+    b. pochodna cząstkowa dystrybuanty 2-go rzędu
+    c. pochodna dystrybuanty 1-go rzędu
+    d. druga pochodna cząstkowa dystrybuanty 1-go rzędu
+
+[id:4257] Jeżeli jest procesem stochastycznym, a m_X = E \ oznacza wartość średnią (rzeczywistą) procesu oraz zachodzi: E \{ X (n, \xi ) \}_{n=const} = E \{ X ( n, \xi ) \}_{\xi=const} to dla dowolnego n_0 nie zachodzi: \lim_ { N \rightarrow \infty } 1/N \sum_{n_0}^{n_0 + N -1} X ( n ) _{ \xi=const } = m_X [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:4262] Zależność jest słuszna dla procesu: [POPRAWNE]
+
+    stacjonarnego całkowicie
+    słabo stacjonarnego
+    lokalnie stacjonarnego
+    cyklostacjonarnego
+    - alfa stacjonarnego
+    - em stacjonarnego 
+
+[id:4271] Jeśli jest poziomem ufności a [a,b] jest przedziałem ufności estymatora \hat A o rozkładzie f(\hat A) , to prawdziwa jest zależność [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:4288] Który z poniższych wzorów, określa prosta adaptacyjną formułę wyznaczania wartości średniej sygnału ? [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g. 
+
+[id:4294] Jeśli jest poziomem ufności a [a,b] jest przedziałem ufności estymatora \hat A o rozkładzie f(\hat A) , to prawdziwa jest zależność [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:4297] Jedyna ortonormalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:4314] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - \sum_{n=2}^{N-1} \sigma ( n - 2 ) e^{-j \frac{2 \pi}{N} k n} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:4316] Współczynniki filtru, którego moduł transmitancji prezentowany jest na wykresie, zostały w MATLAB. obliczone poleceniem:< br/> filtrDP[POPRAWNE]
+
+    a. [b a] = butter (12, 0.2, 'high')
+    b. [b a] = butter (12, [0.2 0.4], 'bandpass')
+    c. [b a] = butter (12, [0.3 0.6], 'stop')
+    d. [b a] = butter (12, [0.2 0.4], 'stop')
+    e. [b a] = butter (12, 0.3, 'low')
+    f. [b a] = butter (12, 0.3, 'high')
+    g. [b a] = butter (12, [0.3 0.6], 'high')
+
+[id:4326] Z faktu są liniowo niezależne wynika, że oba wektory: [POPRAWNE]
+
+    a.
+    b. są liniowo ortonormalne
+    c. są liniową kombinacją
+    d. stanowią bazę przestrzeni
+    e. mogą być elemntami bazy 
+
+[id:4375] Wzór określa: [POPRAWNE]
+
+    a. całkowitą energię sygnału.
+    b. całkowita moc sygnału
+    c. całkowitą wariancję sygnału
+    d. chwilową wartość średnią sygnału
+
+[id:4383] Gęstość prawdopodobieństwa jest definiowana jako: [POPRAWNE]
+
+    a. druga pochodna cząstkowa dystrybuanty 2-go rzędu
+    b. pochodna cząstkowa dystrybuanty 2-go rzędu
+    c. pochodna dystrybuanty 1-go rzędu
+    d. druga pochodna cząstkowa dystrybuanty 1-go rzędu
+
+[id:4386] W wyniku -punktowej DFT powstaje ciąg -elementowy. W ciągu tym liczba niezależnych wyrazów wynosi [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:4407] Wzór określa: [POPRAWNE]
+
+    a. całkowitą energię sygnału.
+    b. całkowita moc sygnału
+    c. całkowitą wariancję sygnału
+    d. chwilową wartość średnią sygnału
+
+[id:4408] Najczęściej spotykana definicja normy wektora to: [POPRAWNE]
+
+    a.
+    b.
+    c. 
+
+[id:4423] Jeśli jest poziomem ufności a [a,b] jest przedziałem ufności estymatora \hat A o rozkładzie f(\hat A) , to prawdziwa jest zależność [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d. 
+
+[id:4436] Które z poniższych warunków spełnia poziom ufności estymatora [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:4477] W zależność opisującej sygnał telekomunikacyjny, a_n jest [POPRAWNE]
+
+    a. ciągiem symboli zawierających informację
+    b. ciągiem bitów zawierających informację
+    c. sygnałem dyskretnym przed modulacją
+    d. ciągiem wartości odpowiadających symbolom
+    e. ciągiem wartości odpowiadających bitom
+
+[id:4478] Zaznacz pradziwe stwierdzenia dla przestrzeni . [POPRAWNE]
+
+    a. Liczba wektorów bazy równa się 5 a liczba wektorów pozostałych jest nieskończona
+    b. Rozmiar (ilość współrzędnych) wektorów bazy równa się 5 a rozmiar wektorów pozostałych jest nieskończony
+    c. Liczba wektorów bazy jest nieskończona a liczba wektorów pozostałych jest równa 5
+    d. Rozmiar (ilość współrzędnych) wektorów bazy jest nieskończony a liczba wektorów bazy wynosi 5
+
+[id:4487] Jedyna ortonormalna baza przestrzeni to wektory e_1=(1,0), e_2=(0,1) . [POPRAWNE]
+
+    Prawda
+    Fałsz
+
+[id:4490] W jakiej metodzie identyfikacji systemu moduł funkcji transmitancji wyznaczany jest z zależności , gdzie S oznacza widmową gęstość mocy [POPRAWNE]
+
+    korelacyjnej
+    widmowej
+    sinusoidalnej
+    impulsowej
+
+[id:4503] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - \sum_{n=2}^{N-1} \sigma ( n - 2 ) e^{-j \frac{2 \pi}{N} k N} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:4515] Jeśli oznacza czas dyskretny, to definicja transformaty Z ma postać [POPRAWNE]
+
+[id:4543] Jeśli oznacza czas dyskretny, to definicja transformaty Z ma postać [POPRAWNE]
+
+[id:4547] Jeżeli wiemy, że transformata Fouriera sygnału jest "przesunięta" o częstotliwość k_0, \, k_0 \in (-1,1) czyli X ( k ) = Y ( k+k_0 ) to możemy łatwo wyznaczyć postać czasową sygnału w nastepujący sposób: [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f. 
+
+[id:4550] Jeżeli oznacza impuls Kroneckera to ile wyniesie X ( k ) = - 2\sum_{n=2}^{N-1} \sigma ( n ) e^{-j \frac{2 \pi}{N} k n} \, = ? ,\,\, k = ( 0,...,N-1 ) [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e.
+    f.
+    g.
+    h.
+    i. 
+
+[id:4558] Na poniższym rysunku przedstawiono wynik wyznaczania średniej metodą adaptacyjną dla dwóch różnych współczynników . Który wykres przedstawia chwilową wartość średnią wyznaczoną przy największym współczynniku ? średnia adaptacyjna [POPRAWNE]
+
+    niebieski
+    czerwony
+    zielony
+
+[id:4560] Dwa wektory : [POPRAWNE]
+
+    a. należą do innych przestrzeni
+    b. są ortogonalne
+    c. są ortonormalne
+    d. są ortogonalne i ortonormalne
+    e. są dwoma wektorami bazy przestrzeni 
+
+[id:4586] Na poniższym rysunku przedstawiono wynik wyznaczania średniej metodą adaptacyjną dla dwóch różnych współczynników . Który wykres przedstawia chwilową wartość średnią wyznaczoną przy największym współczynniku ? średnia adaptacyjna [POPRAWNE]
+
+    niebieski
+    czerwony
+    zielony
+
+[id:4612] W pewnej przestrzeni pyrzjęto następującą definicję normy . Jaka odległość || A - B || wyniknie z przyjętej normy? [POPRAWNE]
+
+    a.
+    b.
+    c.
+    d.
+    e. 
+
+[id:4614] Zaznacz pradziwe stwierdzenia dla przestrzeni . [POPRAWNE]
+
+    a. Liczba wektorów bazy równa się 5 a liczba wektorów pozostałych jest nieskończona
+    b. Rozmiar (ilość współrzędnych) wektorów bazy równa się 5 a rozmiar wektorów pozostałych jest nieskończony
+    c. Liczba wektorów bazy jest nieskończona a liczba wektorów pozostałych jest równa 5
+    d. Rozmiar (ilość współrzędnych) wektorów bazy jest nieskończony a liczba wektorów bazy wynosi 5
+
+[id:4617] We wzorze wielkość w jest [POPRAWNE]
+
+    a. szerokością przedziału estymacji
+    b. chwilową wartością sygnału
+    c. chwilową wartością próbki
+    d. oknem czasowym
+
+[id:4646] We wzorze wielkość w jest [POPRAWNE]
+
+    a. szerokością przedziału estymacji
+    b. chwilową wartością sygnału
+    c. chwilową wartością próbki
+    d. oknem czasowym
+
+[id:4647] Gęstość prawdopodobieństwa jest definiowana jako: [POPRAWNE]
+
+    a. druga pochodna cząstkowa dystrybuanty 2-go rzędu
+    b. pochodna cząstkowa dystrybuanty 2-go rzędu
+    c. pochodna dystrybuanty 1-go rzędu
+    d. druga pochodna cząstkowa dystrybuanty 1-go rzędu
+
+[id:4667] Na poniższym rysunku przedstawiono wynik wyznaczania średniej metodą adaptacyjną dla dwóch różnych współczynników . Który wykres przedstawia chwilową wartość średnią wyznaczoną przy największym współczynniku ? średnia adaptacyjna [POPRAWNE]
+
+    niebieski
+    czerwony
+    zielony
+
+[id:4684] Jak objawia się przesunięcie sygnału w czasie w transformacie Fouriera ? [POPRAWNE]
+
+[id:4689] W zależność opisującej sygnał telekomunikacyjny, T jest [POPRAWNE]
+
+    a. czasem trwania symbolu
+    b. czasem trwania bitu informacji
+    c. czasem trwania próbki
+    d. okresem drgań nośnej
+    e. odstępem pomiędzy próbkami
+
+[id:4708] Wzór określa: [POPRAWNE]
+
+    a. całkowitą energię sygnału.
+    b. całkowita moc sygnału
+    c. całkowitą wariancję sygnału
+    d. chwilową wartość średnią sygnału
+
+
