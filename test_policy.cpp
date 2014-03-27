@@ -7,6 +7,9 @@ class New_creator
 {
    public:
        static T* create() { return new T(10); }
+
+   protected:
+       ~New_creator() {}
 };
 
 class New_creator1
@@ -17,6 +20,9 @@ class New_creator1
       {
          return new T(10);
       }
+
+   protected:
+      ~New_creator1() {}
 };
 
 template<class Creator>
