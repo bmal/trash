@@ -24,11 +24,11 @@ class lock_free_stack
 
       static void delete_nodes(node* nodes)
       {
-         std::cout << "CZYSZCZENIE\n";
-         int i = 0;
+//         std::cout << "CZYSZCZENIE\n";
+//         int i = 0;
          while(nodes)
          {
-            std::cout << i++ << std::endl;
+//            std::cout << i++ << std::endl;
             node* next = nodes->next;
             delete nodes;
             nodes = next;
@@ -37,7 +37,7 @@ class lock_free_stack
 
       void try_reclaim(node* old_head)
       {
-         std::cout << threads_in_pop.load() << std::endl;
+//         std::cout << threads_in_pop.load() << std::endl;
          if(threads_in_pop == 1)
          {
             node* nodes_to_delete = to_be_deleted.exchange(nullptr);
@@ -100,6 +100,8 @@ class lock_free_stack
       }
 };
 
+/*
+
 bool stop = 1;
 
 void push(lock_free_stack<int>& s)
@@ -134,3 +136,5 @@ int main()
    t_pop3.join();
    t_pop4.join();
 }
+
+*/
