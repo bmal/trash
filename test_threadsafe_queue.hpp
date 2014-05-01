@@ -143,7 +143,7 @@ template<typename T>
 bool threadsafe_queue<T>::try_pop(T& value)
 {
    const std::unique_ptr<node> old_head = try_pop_head(value);
-   return old_head;
+   return static_cast<bool>(old_head);
 }
 
 template<typename T>
