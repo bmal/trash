@@ -110,10 +110,4 @@ public:
    (SUPERSUBCLASS(T, U) && \
     !Conversion<const T*, const U*>::same_type)
 
-//#####################################################
-
-class Null_type {};
-
-struct Empty_type {};
-
 #endif
