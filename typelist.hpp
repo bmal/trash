@@ -1,11 +1,12 @@
-#ifndef TECHNIQUES_HPP
-#define TECHNIQUES_HPP
+#ifndef TYPELIST_HPP
+#define TYPELIST_HPP
 
 #ifdef _MSC_VER
 #pragma once
 #endif
 
 #include "null_type.h"
+#include "techniques.hpp"
 
 template<class T, class U>
 struct Typelist
@@ -17,14 +18,14 @@ struct Typelist
 namespace TL
 {
 #define TYPELIST_1(T1) Typelist<T1, Null_type>
-#define Typelist_2(T1, T2) Typelist<T1, TYPELIST_1(T2)>
-#define Typelist_3(T1, T2, T3) Typelist<T1, TYPELIST_2(T2, T3)>
-#define Typelist_4(T1, T2, T3, T4) Typelist<T1, TYPELIST_3(T2, T3, T4)>
-#define Typelist_5(T1, T2, T3, T4, T5) Typelist<T1, TYPELIST_4(T2, T3, T4, T5)>
-#define Typelist_6(T1, T2, T3, T4, T5, T6) Typelist<T1, TYPELIST_5(T2, T3, T4, T5, T6)>
-#define Typelist_7(T1, T2, T3, T4, T5, T6, T7) Typelist<T1, TYPELIST_6(T2, T3, T4, T5, T6, T7)>
-#define Typelist_8(T1, T2, T3, T4, T5, T6, T7, T8) Typelist<T1, TYPELIST_7(T2, T3, T4, T5, T6, T7, T8)>
-#define Typelist_9(T1, T2, T3, T4, T5, T6, T7, T8, T9) Typelist<T1, TYPELIST_8(T2, T3, T4, T5, T6, T7, T8, T9)>
+#define TYPELIST_2(T1, T2) Typelist<T1, TYPELIST_1(T2)>
+#define TYPELIST_3(T1, T2, T3) Typelist<T1, TYPELIST_2(T2, T3)>
+#define TYPELIST_4(T1, T2, T3, T4) Typelist<T1, TYPELIST_3(T2, T3, T4)>
+#define TYPELIST_5(T1, T2, T3, T4, T5) Typelist<T1, TYPELIST_4(T2, T3, T4, T5)>
+#define TYPELIST_6(T1, T2, T3, T4, T5, T6) Typelist<T1, TYPELIST_5(T2, T3, T4, T5, T6)>
+#define TYPELIST_7(T1, T2, T3, T4, T5, T6, T7) Typelist<T1, TYPELIST_6(T2, T3, T4, T5, T6, T7)>
+#define TYPELIST_8(T1, T2, T3, T4, T5, T6, T7, T8) Typelist<T1, TYPELIST_7(T2, T3, T4, T5, T6, T7, T8)>
+#define TYPELIST_9(T1, T2, T3, T4, T5, T6, T7, T8, T9) Typelist<T1, TYPELIST_8(T2, T3, T4, T5, T6, T7, T8, T9)>
 
 //#####################################################
 
@@ -227,6 +228,47 @@ namespace TL
    {
       typedef Typelist<Head, typename Replace_all<Tail, T, U>::Result> Result;
    };
+
+   //####################################################
+
+   template<class TList, class T>
+   struct Most_derived;
+
+   template<class T>
+   struct Most_derived<Null_type, T>
+   {
+      typedef T Result;
+   };
+
+   template<class Head, class Tail, class T>
+   struct Most_derived<Typelist<Head, Tail>, T>
+   {
+      private:
+         typedef typename Most_derived<Tail, T>::Result Candidate;
+      public:
+         typedef typename Select<SUPERSUBCLASS(Candidate, Head), Head, Candidate>::Result Result;
+   };
+
+   template<class T>
+   struct Dericer_to_front;
+
+   template<>
+   struct Dericer_to_front<Null_type>
+   {
+      typedef Null_type Result;
+   };
+
+   template<class Head, class Tail>
+   struct Dericer_to_front<Typelist<Head, Tail> >
+   {
+      private:
+         typedef typename Most_derived<Tail, Head>::Result The_most_derived;
+         typedef typename Replace<Tail, The_most_derived, Head>::Result Tmp;
+         typedef typename Dericer_to_front<Tmp>::Result L;
+      public:
+         typedef Typelist<The_most_derived, L> Result;
+   };
+
 }
 
 #endif
