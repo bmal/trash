@@ -63,6 +63,28 @@ namespace TL
 
 //#####################################################
 
+   template <class TList, unsigned int index,
+      typename DefaultType = Null_type>
+   struct Type_at_non_strict
+   {
+      typedef DefaultType Result;
+   };
+
+   template <class Head, class Tail, typename DefaultType>
+   struct Type_at_non_strict<Typelist<Head, Tail>, 0, DefaultType>
+   {
+      typedef Head Result;
+   };
+
+   template <class Head, class Tail, unsigned int i, typename DefaultType>
+   struct Type_at_non_strict<Typelist<Head, Tail>, i, DefaultType>
+   {
+      typedef typename 
+         Type_at_non_strict<Tail, i - 1, DefaultType>::Result Result;
+   };
+
+//#####################################################
+
    template<class TList, class T>
    struct Index_of;
 
