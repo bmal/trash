@@ -4,6 +4,7 @@
 #include "boost/mpl/equal_to.hpp"
 #include "boost/mpl/int.hpp"
 #include <type_traits>
+#include <iostream>
 
 typedef tiny<int, bool> tiny_ib;
 typedef tiny<int, bool, double> tiny_ibd;

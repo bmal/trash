@@ -12,6 +12,7 @@
 #include "boost/mpl/push_back.hpp"
 #include "boost/mpl/plus.hpp"
 #include "boost/mpl/minus.hpp"
+#include "boost/static_assert.hpp"
 
 struct none
 {};
@@ -113,6 +114,26 @@ struct tiny_push_back<Tiny, T, 1>
 template<class Tiny, class T>
 struct tiny_push_back<Tiny, T, 2>
 : tiny<typename Tiny::t0, typename Tiny::t1, T>
+{};
+
+//#############################################################
+
+template<class Tiny, class T, int N>
+struct tiny_push_front;
+
+template<class Tiny, class T>
+struct tiny_push_front<Tiny, T, 0>
+: tiny<T, none, none>
+{};
+
+template<class Tiny, class T>
+struct tiny_push_front<Tiny, T, 1>
+: tiny<T, typename Tiny::t0, none>
+{};
+
+template<class Tiny, class T>
+struct tiny_push_front<Tiny, T, 2>
+: tiny<T, typename Tiny::t0, typename Tiny::t1>
 {};
 
 //#############################################################
@@ -225,7 +246,7 @@ namespace boost
       {
          template<class Tiny, class T>
          struct apply
-         : tiny<T, typename Tiny::t0, typename Tiny::t1>
+         : tiny_push_front<Tiny, T, size<Tiny>::value>
          {};
       };
 
