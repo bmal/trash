@@ -120,3 +120,28 @@ BOOST_STATIC_ASSERT((
                >::type,
                boost::mpl::int_<0>>
             ::value));
+
+//insert
+BOOST_STATIC_ASSERT((
+            boost::mpl::equal<
+               tiny_ibd,
+               boost::mpl::insert<
+                  tiny_ib,
+                  double,
+                  boost::mpl::end<tiny_ib>::type
+               >::type
+            >::value));
+
+//pop_back
+BOOST_STATIC_ASSERT((
+            boost::mpl::equal<
+               boost::mpl::pop_back<tiny_ibd>::type,
+               tiny_ib
+            >::value));
+
+//pop_back
+BOOST_STATIC_ASSERT((
+            boost::mpl::equal<
+               boost::mpl::pop_front<tiny_ibd>::type,
+               tiny<bool, double>
+            >::value));

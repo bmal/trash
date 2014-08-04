@@ -12,6 +12,10 @@
 #include "boost/mpl/push_back.hpp"
 #include "boost/mpl/plus.hpp"
 #include "boost/mpl/minus.hpp"
+#include "boost/mpl/equal_to.hpp"
+#include "boost/mpl/insert.hpp"
+#include "boost/mpl/pop_front.hpp"
+#include "boost/mpl/pop_back.hpp"
 #include "boost/static_assert.hpp"
 
 struct none
@@ -96,7 +100,7 @@ struct tiny_size<none, none, none>
 : boost::mpl::int_<0>
 {};
 
-//#############################################################
+/*#############################################################
 
 template<class Tiny, class T, int N>
 struct tiny_push_back;
@@ -116,7 +120,27 @@ struct tiny_push_back<Tiny, T, 2>
 : tiny<typename Tiny::t0, typename Tiny::t1, T>
 {};
 
-//#############################################################
+//#############################################################*/
+
+template<class Tiny, int size>
+struct tiny_pop_back;
+
+template<class Tiny>
+struct tiny_pop_back<Tiny, 1>
+: tiny<>
+{};
+
+template<class Tiny>
+struct tiny_pop_back<Tiny, 2>
+: tiny<typename Tiny::t0>
+{};
+
+template<class Tiny>
+struct tiny_pop_back<Tiny, 3>
+: tiny<typename Tiny::t0, typename Tiny::t1>
+{};
+
+//#############################################################*/
 
 template<class Tiny, class T, int N>
 struct tiny_push_front;
@@ -134,6 +158,26 @@ struct tiny_push_front<Tiny, T, 1>
 template<class Tiny, class T>
 struct tiny_push_front<Tiny, T, 2>
 : tiny<T, typename Tiny::t0, typename Tiny::t1>
+{};
+
+//#############################################################
+
+template<class Tiny, class T, class Pos, bool Is_full>
+struct tiny_insert;
+
+template<class Tiny, class T> 
+struct tiny_insert<Tiny, T, tiny_iterator<Tiny, boost::mpl::int_<0>>, false>
+: tiny<T, typename Tiny::t0, typename Tiny::t1>
+{};
+
+template<class Tiny, class T>
+struct tiny_insert<Tiny, T, tiny_iterator<Tiny, boost::mpl::int_<1>>, false> 
+: tiny<typename Tiny::t0, T, typename Tiny::t1>
+{};
+
+template<class Tiny, class T>
+struct tiny_insert<Tiny, T, tiny_iterator<Tiny, boost::mpl::int_<2>>, false>
+: tiny<typename Tiny::t0, typename Tiny::t1, T>
 {};
 
 //#############################################################
@@ -255,7 +299,39 @@ namespace boost
       {
          template<class Tiny, class T>
          struct apply
-         : tiny_push_back<Tiny, T, size<Tiny>::value>
+         : boost::mpl::insert<Tiny, T, typename end<Tiny>::type>
+         {};
+      };
+
+      template<>
+      struct insert_impl<tiny_tag>
+      {
+         template<class Tiny, class T, class Iter>
+         struct apply
+         : tiny_insert<Tiny, T, Iter,
+            equal_to<
+               typename size<Tiny>::type,
+               int_<3>
+            >::value
+           >
+         {};
+      };
+
+      template<>
+      struct pop_front_impl<tiny_tag>
+      {
+         template<class Tiny>
+         struct apply
+         : tiny<typename Tiny::t1, typename Tiny::t2, none>
+         {}; 
+      };
+
+      template<>
+      struct pop_back_impl<tiny_tag>
+      {
+         template<class Tiny>
+         struct apply
+         : tiny_pop_back<Tiny, size<Tiny>::type::value>
          {};
       };
    }
