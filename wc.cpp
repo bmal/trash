@@ -96,6 +96,11 @@ void set_options(const string& token, Flags& flag)
    }
 }
 
+void set_default(Flags& flag)
+{
+   flag.state.set(Flags::lines).set(Flags::words).set(Flags::chars);
+}
+
 int print_and_return(const string& file_name, function<int(const string&)> fun)
 {
    int value = fun(file_name);
@@ -104,7 +109,7 @@ int print_and_return(const string& file_name, function<int(const string&)> fun)
 }
 
 template<class Container>
-void print_custom_and_sum(Container& counter, const Flags& flag, const string& file_name)
+void print_and_sum(Container& counter, const Flags& flag, const string& file_name)
 {
    if(flag.state[Flags::bytes])
       counter[Flags::bytes] += print_and_return(file_name, bytes);
@@ -115,19 +120,11 @@ void print_custom_and_sum(Container& counter, const Flags& flag, const string& f
    if(flag.state[Flags::max_line_length])
       counter[Flags::max_line_length] += print_and_return(file_name, max_line_length);
 
-   if(flag.state[Flags::chars])
-      counter[Flags::chars] += print_and_return(file_name, chars);
-
    if(flag.state[Flags::words])
       counter[Flags::words] += print_and_return(file_name, words);
-}
 
-template<class Container>
-void print_default_and_sum(Container& counter, const Flags& flag, const string& file_name)
-{
-   counter[Flags::lines] += print_and_return(file_name, lines);
-   counter[Flags::words] += print_and_return(file_name, words);
-   counter[Flags::chars] += print_and_return(file_name, chars);
+   if(flag.state[Flags::chars])
+      counter[Flags::chars] += print_and_return(file_name, chars);
 }
 
 template<class Container>
@@ -142,11 +139,11 @@ void print_summary(const Container& counter, const Flags& flag)
    if(flag.state[Flags::max_line_length])
       cout << setw(4) << counter[Flags::max_line_length] << ' ';
 
-   if(flag.state[Flags::chars])
-      cout << setw(4) << counter[Flags::chars] << ' ';
-
    if(flag.state[Flags::words])
       cout << setw(4) << counter[Flags::words] << ' ';
+
+   if(flag.state[Flags::chars])
+      cout << setw(4) << counter[Flags::chars] << ' ';
 
    cout << "razem" << endl;
 }
@@ -165,11 +162,10 @@ int main(int argc, char *argv[])
          set_options(token, flag);
       else
       {
-         if(flag.state.any())
-            print_custom_and_sum(counter, flag, token);
-         else
-            print_default_and_sum(counter, flag, token);
+         if(flag.state.none())
+            set_default(flag);
 
+         print_and_sum(counter, flag, token);
          cout << token << endl;
          ++files_counter;
       }
