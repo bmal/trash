@@ -96,6 +96,16 @@ class threadsafe_stack
          return tmp;
       }
 
+      bool try_pop(T& val)
+      {
+         lock_guard<mutex> lk(mutex_);
+         if(internal_stack_.empty())
+            return false;
+         val = internal_stack_.top();
+         internal_stack_.pop();
+         return true;
+      }
+
       shared_ptr<T> wait_and_pop()
       {
          unique_lock<mutex> lk(mutex_);
@@ -105,7 +115,15 @@ class threadsafe_stack
          return tmp;
       }
 
-      bool empty()
+      void wait_and_pop(T& val)
+      {
+         lock_guard<mutex> lk(mutex_);
+         data_cond.wait(lk, [this]{ return !internal_stack_.empty(); });
+         val = internal_stack_.top();
+         internal_stack_.pop();
+      }
+
+      bool empty() const
       {
          lock_guard<mutex> lk(mutex_);
          return internal_stack_.empty();
