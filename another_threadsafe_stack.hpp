@@ -91,7 +91,7 @@ class threadsafe_stack
          lock_guard<mutex> lk(mutex_);
          if(internal_stack_.empty())
             return shared_ptr<T>();
-         auto tmp = make_shared<T>(internal_stack_.top());
+         auto tmp = make_shared<T>(move(internal_stack_.top()));
          internal_stack_.pop();
          return tmp;
       }
@@ -110,7 +110,7 @@ class threadsafe_stack
       {
          unique_lock<mutex> lk(mutex_);
          data_cond.wait(lk, [this]{ return !internal_stack_.empty(); });
-         auto tmp = make_shared<T>(internal_stack_.top());
+         auto tmp = make_shared<T>(move(internal_stack_.top()));
          internal_stack_.pop();
          return tmp;
       }
