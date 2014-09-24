@@ -1,93 +1,117 @@
 #ifndef FUNCTOR_HPP
-#define FUNCTOR_HPP
+#   define FUNCTOR_HPP
 
-#include "trash/typelist.hpp"
-#include "trash/empty_type.h"
-#include "functor_implementation.hpp"
 #include <memory>
 
-template<typename ResultType, class TList>
-class Functor
+template<class Result, class... Params>
+class Functor_impl
 {
-      typedef Functor_imp<ResultType, TList> Imp;
    public:
-      typedef TList Parametr_list;
-      typedef ResultType Result_type;
+      virtual Result operator() (Params... args) = 0;
+      virtual ~Functor_impl()
+      {}
+};
 
-      typedef typename TL::Type_at_non_strict<TList, 0, Empty_type>::Result Parametr_1;
-      typedef typename TL::Type_at_non_strict<TList, 1, Empty_type>::Result Parametr_2;
-      typedef typename TL::Type_at_non_strict<TList, 2, Empty_type>::Result Parametr_3;
-      typedef typename TL::Type_at_non_strict<TList, 3, Empty_type>::Result Parametr_4;
-      typedef typename TL::Type_at_non_strict<TList, 4, Empty_type>::Result Parametr_5;
-      typedef typename TL::Type_at_non_strict<TList, 5, Empty_type>::Result Parametr_6;
-      typedef typename TL::Type_at_non_strict<TList, 6, Empty_type>::Result Parametr_7;
-      typedef typename TL::Type_at_non_strict<TList, 7, Empty_type>::Result Parametr_8;
+template<typename Function, class Result, class... Params>
+class Functor_handler
+   : public Functor_impl
+     <
+        Result,
+        Params...
+     >
+{
+   public:
+      typedef Result result_type;
 
-      Functor() = default;
-      Functor(const Functor& fun);
-      Functor& operator=(const Functor&);;
-      explicit Functor(std::unique_ptr<Imp> implementation)
-         : implementation_(implementation.release())
+      Functor_handler() = delete;
+      Functor_handler(const Functor_handler&) = default;
+      Functor_handler& operator= (const Functor_handler&) = default;
+
+      Functor_handler(const Function& fun)
+         : function_(fun)
       {}
 
-      template<class Fun>
-      Functor(const Fun& fun)
-      : implementation_(new Functor_handler<Functor, Fun>(fun))
-      {}
-
-      Result_type operator()()
+      result_type operator() (Params... args)
       {
-         return (*implementation_)();
-      }
-
-      Result_type operator()(Parametr_1 p1)
-      {
-         return (*implementation_)(p1);
-      }
-
-      Result_type operator()(Parametr_1 p1, Parametr_2 p2)
-      {
-         return (*implementation_)(p1, p2);
-      }
-
-      Result_type operator()(Parametr_1 p1, Parametr_2 p2, Parametr_3 p3)
-      {
-         return (*implementation_)(p1, p2, p3);
-      }
-
-      Result_type operator()(Parametr_1 p1, Parametr_2 p2, Parametr_3 p3,
-            Parametr_4 p4)
-      {
-         return (*implementation_)(p1, p2, p3, p4);
-      }
-
-      Result_type operator()(Parametr_1 p1, Parametr_2 p2, Parametr_3 p3,
-            Parametr_4 p4, Parametr_5 p5)
-      {
-         return (*implementation_)(p1, p2, p3, p4, p5);
-      }
-      
-      Result_type operator()(Parametr_1 p1, Parametr_2 p2, Parametr_3 p3,
-            Parametr_4 p4, Parametr_5 p5, Parametr_6 p6)
-      {
-         return (*implementation_)(p1, p2, p3, p4, p5, p6);
-      }
-      
-      Result_type operator()(Parametr_1 p1, Parametr_2 p2, Parametr_3 p3,
-            Parametr_4 p4, Parametr_5 p5, Parametr_6 p6, Parametr_7 p7)
-      {
-         return (*implementation_)(p1, p2, p3, p4, p5, p6, p7);
-      }
-
-      Result_type operator()(Parametr_1 p1, Parametr_2 p2, Parametr_3 p3,
-            Parametr_4 p4, Parametr_5 p5, Parametr_6 p6, Parametr_7 p7,
-            Parametr_8 p8)
-      {
-         return (*implementation_)(p1, p2, p3, p4, p5, p6, p7, p8);
+         return function_(args...);
       }
 
    private:
-      std::unique_ptr<Imp> implementation_;
+      Function function_;
+};
+
+template<typename Method_ptr, class Object, class Result, class... Params>
+class Mem_fun_handler
+   : public Functor_impl
+     <
+        Result,
+        Params...
+     >
+{
+   public:
+      typedef Result result_type;
+
+      Mem_fun_handler() = delete;
+      Mem_fun_handler(const Mem_fun_handler&) = default;
+      Mem_fun_handler& operator= (const Mem_fun_handler&) = default;
+
+      Mem_fun_handler(Method_ptr method, const Object& obj)
+         : method_(method), object_(obj)
+      {}
+
+      result_type operator() (Params... args)
+      {
+         return (object_.*method_)(args...);
+      }
+
+   private:
+      Method_ptr method_;
+      Object object_;
+};
+
+template<class Result, class... Params>
+class Functor;
+
+template<class Result, class... Params>
+class Functor<Result(Params...)>
+{
+   typedef Functor_impl<Result, Params...> Impl;
+
+   public:
+      typedef Result result_type;
+
+      Functor() = default;
+
+      template<class Function>
+      Functor(Function fun)
+         : impl_(new Functor_handler<Function, Result, Params...>(fun))
+      {}
+
+      template<typename Method_ptr, class Object>
+      Functor(Method_ptr method, const Object& obj)
+         : impl_(new Mem_fun_handler<Method_ptr, Object, Result, Params...>(method, obj))
+      {}
+
+      Functor(const Functor& other)
+      {
+         impl_ = std::move(other);
+      };
+
+      Functor& operator= (Functor&& other)
+      {
+         if(this == &other)
+            return *this;
+
+         impl_ = std::move(other.impl_);
+      }
+
+      Result operator() (Params... args)
+      {
+         return (*impl_)(args...);
+      }
+
+   private:
+      std::unique_ptr<Impl> impl_;
 };
 
 #endif
