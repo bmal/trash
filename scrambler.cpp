@@ -104,7 +104,7 @@ int main()
    std::cout << "Wpisz haslo:\n\t>> ";
    std::cin >> password;
 
-   Scrambler<false> scrambler;
+   Scrambler<true> scrambler;
    scrambler.set_random_number(random_number);
    scrambler.set_password(password);
 
